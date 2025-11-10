@@ -1,78 +1,212 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import { GeminiModel } from '@chat/clients/gemini/gemini.enums';
+import { OpenRouterModel } from '@chat/clients/openrouter/openrouter.enums';
+import { Glass } from '@chat/components/Glass';
+import { Message, Messages } from '@chat/components/Messages';
+import { APP_NAME } from '@chat/constants/app';
+import { MODELS } from '@chat/constants/models';
+import { groupBy } from '@chat/utils/group-by';
+import { scrollToBottom } from '@chat/utils/scroll';
+import { trpcClient } from '@chat/utils/trpc';
+import { tryCatch } from '@chat/utils/try-catch';
+import { NextPage } from 'next';
+import Link from 'next/link';
+import { ChangeEvent, FormEvent, useRef, useState } from 'react';
+import { PiPaperclipBold, PiPaperPlaneRightFill } from 'react-icons/pi';
+import Tesseract from 'tesseract.js';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const HomePage: NextPage = () => {
+	const textareaRef = useRef<HTMLTextAreaElement>(null);
+	const onInputPaste = () => {
+		const ta = textareaRef.current!;
+		ta.style.height = 'auto';
+		ta.style.height = ta.scrollHeight + 'px';
+	};
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+	const [
+		{
+			message = 'Explain GenAI in a few words',
+			messages = [],
+			model = OpenRouterModel.Deepseek_R1,
+		},
+		setState,
+	] = useState<{
+		message: string;
+		messages: Message[];
+		model: GeminiModel | OpenRouterModel;
+	}>({
+		message: 'Explain GenAI in a few words',
+		messages: [],
+		model: OpenRouterModel.Deepseek_R1,
+	});
 
-export default function Home() {
-  return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
-    >
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the index.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs/pages/getting-started?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
-}
+	const onSubmit = async (event: FormEvent) => {
+		event.preventDefault();
+		if (loading) return;
+		if (!message) return;
+		const oldMessages = [
+			...messages,
+			{ text: message, role: 'user', loading: false },
+		]
+			.filter(({ loading }) => !loading)
+			.map(({ role, text }) => ({ role: role as 'user' | 'ai', text }));
+		setState((previous) => {
+			const newUserMessage: Message = {
+				text: previous.message,
+				role: 'user',
+				loading: false,
+				model,
+			};
+			const newAiMessage: Message = {
+				text: '',
+				role: 'ai',
+				loading: true,
+				model,
+			};
+			const newMessages = [...previous.messages, newUserMessage, newAiMessage];
+			return { ...previous, message: '', messages: newMessages };
+		});
+		const { data, error } = await tryCatch(
+			trpcClient.genai.generate.mutate({ messages: oldMessages, model }),
+		);
+		let text = '';
+		if (error) {
+			console.error('Error generating content:', error, data);
+			text = 'An error occurred while generating content.';
+		}
+		if (!data) {
+			console.error('No data returned from the server.');
+			text = 'No response generated.';
+		}
+		const { text: newText = '' } = data!;
+		text = newText;
+
+		setState((previous) => {
+			const newMessages = previous.messages.map((message) => {
+				if (message.role === 'ai' && message.loading) {
+					return { ...message, text, loading: false };
+				}
+				return message;
+			});
+			return { ...previous, messages: newMessages };
+		});
+	};
+
+	const loading: boolean = messages.some((message) => message.loading);
+
+	return (
+		<div className="h-screen w-screen bg-neutral-900 text-neutral-100">
+			<div className="container mx-auto flex h-full flex-col space-y-4 p-4 md:p-8">
+				<div className="flex items-center justify-between">
+					<Link href="/">
+						<h1 className="text-xl font-black">{APP_NAME}</h1>
+					</Link>
+					<div className="flex items-center justify-between gap-x-2 md:gap-x-4">
+						{messages.length > 0 && (
+							<Glass.Button
+								type="button"
+								onClick={() => {
+									setState((previous) => ({
+										...previous,
+										message: '',
+										messages: [],
+									}));
+									scrollToBottom('messages');
+								}}>
+								New Chat
+							</Glass.Button>
+						)}
+					</div>
+				</div>
+				<Messages messages={messages} />
+				<form
+					onSubmit={onSubmit}
+					className="flex flex-col items-center rounded-2xl bg-neutral-800 p-2">
+					<textarea
+						autoComplete="off"
+						id="message"
+						name="message"
+						placeholder="Ask anything ..."
+						className="w-full resize-none overflow-hidden p-2 focus:outline-none"
+						ref={textareaRef}
+						onInput={onInputPaste}
+						onPaste={onInputPaste}
+						rows={1}
+						value={message}
+						onChange={(event: ChangeEvent<HTMLTextAreaElement>) => {
+							const message: string = event.target.value;
+							setState((previous) => ({ ...previous, message }));
+						}}></textarea>
+					<div className="flex w-full items-center justify-between gap-x-2 p-2">
+						<div className="w-full max-w-sm truncate overflow-hidden">
+							<select
+								id="model"
+								name="model"
+								className="w-full appearance-none font-black focus:outline-none"
+								value={model}
+								onChange={(event: ChangeEvent<HTMLSelectElement>) => {
+									setState((previous) => ({
+										...previous,
+										model: event.target.value as GeminiModel,
+									}));
+								}}>
+								{Object.entries(groupBy(MODELS, 'company')).map(
+									([company, models]) => {
+										return (
+											<optgroup key={company} label={company}>
+												{models.map(({ label, value }) => {
+													return (
+														<option key={value} value={value}>
+															{label}
+														</option>
+													);
+												})}
+											</optgroup>
+										);
+									},
+								)}
+							</select>
+						</div>
+						<div className="flex items-center gap-x-2 md:gap-x-4">
+							<label
+								htmlFor="file-upload"
+								className="cursor-pointer rounded-full text-neutral-100">
+								<input
+									type="file"
+									id="file-upload"
+									className="hidden"
+									disabled={loading}
+									onChange={async (event) => {
+										const file = event.target.files?.[0];
+										if (file) {
+											// Run OCR with Tesseract
+											const {
+												data: { text },
+											} = await Tesseract.recognize(
+												file, // file or URL or blob
+												'eng', // language
+												{
+													logger: (m) => console.log(m), // progress logs
+												},
+											); // Handle upload logic here
+											setState((previous) => ({ ...previous, message: text }));
+											onInputPaste();
+										}
+									}}
+								/>
+								<PiPaperclipBold className="text-xl" />
+							</label>
+							<button
+								type="submit"
+								className="cursor-pointer rounded-full bg-neutral-100 p-2 text-neutral-900"
+								disabled={loading}>
+								<PiPaperPlaneRightFill />
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	);
+};
+
+export default HomePage;
