@@ -65,8 +65,8 @@ func Post(url string, options Options) ([]byte, error) {
 		return nil, requestError
 	}
 	// Set Headers
-	request.Header = options.Header
-	// request.Header.Set(CONTENT_TYPE_HEADER, CONTENT_TYPE_APPLICATION_JSON)
+	// request.Header = options.Header
+	request.Header.Set("Content-Type", "application/json")
 	// Send request
 	client := &http.Client{}
 	response, responseError := client.Do(request)
@@ -94,6 +94,7 @@ func Put(url string, options Options) ([]byte, error) {
 	if jsonMarshalError != nil {
 		return nil, jsonMarshalError
 	}
+	fmt.Println(requestData)
 
 	// Create request
 	request, requestError := http.NewRequest("PUT", url, bytes.NewBuffer(requestData))

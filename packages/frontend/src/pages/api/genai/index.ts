@@ -91,6 +91,7 @@ const handler = async (
 		response.setHeader('Allow', ['POST']);
 		return response.status(405).end(`Method ${method} Not Allowed`);
 	}
+
 	const { messages = [], model = '' } = request.body;
 	log.info(`model=${model}`);
 	log.info(`message=${messages.at(0).text ?? 'empty'}`);
