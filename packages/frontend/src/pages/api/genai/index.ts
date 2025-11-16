@@ -2,6 +2,7 @@ import { GeminiModel } from '@chat/clients/gemini/gemini.enums';
 import { OpenRouterModel } from '@chat/clients/openrouter/openrouter.enums';
 import rateLimitMiddleware from '@chat/middlewares/rate-limit';
 import { generate } from '@chat/services/genai.service';
+import { log } from '@chat/utils/log';
 import { tryCatch } from '@chat/utils/try-catch';
 import { NextApiRequest, NextApiResponse } from 'next';
 
@@ -90,13 +91,16 @@ const handler = async (
 		response.setHeader('Allow', ['POST']);
 		return response.status(405).end(`Method ${method} Not Allowed`);
 	}
-	const { messages = [], model } = request.body;
+	const { messages = [], model = '' } = request.body;
+	log.info(`model=${model}`);
+	log.info(`message=${messages.at(0).text ?? 'empty'}`);
+
 	if (!validateModel(model)) {
 		return response.status(400).json({ output: 'Invalid model specified.' });
 	}
 	const { data, error } = await tryCatch(generate({ messages, model }));
 	if (error) {
-		console.error('Error generating content:', error);
+		log.error(`Error generating content error=${error}`);
 		return response
 			.status(500)
 			.json({ output: 'An error occurred while generating content.' });

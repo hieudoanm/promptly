@@ -1,7 +1,7 @@
 package genai
 
 import (
-	http "chat-cli/utils"
+	http "chat-cli/utils/http"
 	"encoding/json"
 	"fmt"
 )
