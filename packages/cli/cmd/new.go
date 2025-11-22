@@ -143,12 +143,21 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		return m, cmd
 
 	// ----------------------
-	// 4. Show Output
+	// 4. Show Output + ability to start new prompt
 	// ----------------------
 	case stateShowOutput:
 		switch msg := msg.(type) {
 		case tea.KeyMsg:
-			if msg.String() == "q" || msg.String() == "esc" {
+			switch msg.String() {
+			case "n": // new prompt
+				m.textInput.SetValue("")
+				m.textInput.CursorStart()
+				m.prompt = ""
+				m.response = ""
+				m.err = nil
+				m.state = stateEnterPrompt
+				return m, textinput.Blink
+			case "q", "esc":
 				return m, tea.Quit
 			}
 		}
@@ -166,7 +175,7 @@ func (m model) View() string {
 
 	case stateEnterPrompt:
 		return fmt.Sprintf(
-			"Model: %s\n\nEnter prompt:\n%s\n\n(press Enter to submit)",
+			"Model: %s\n\nEnter prompt:\n%s\n\n(press Enter to submit, q to quit)",
 			m.modelChoice,
 			m.textInput.View(),
 		)
@@ -179,10 +188,16 @@ func (m model) View() string {
 
 	case stateShowOutput:
 		if m.err != nil {
-			return fmt.Sprintf("Error: %v\n\nPress q to quit.", m.err)
+			return fmt.Sprintf(
+				"Error: %v\n\nPress n for new prompt, q to quit.",
+				m.err,
+			)
 		}
 		rendered := markdown.Render(m.response, 80, 6)
-		return fmt.Sprintf("%s\n\nPress q to quit.", string(rendered))
+		return fmt.Sprintf(
+			"%s\n\nPress n for new prompt, q to quit.",
+			string(rendered),
+		)
 	}
 
 	return ""
