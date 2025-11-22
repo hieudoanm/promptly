@@ -11,8 +11,6 @@ import (
 const CONTENT_TYPE_HEADER = "Content-Type"
 const CONTENT_TYPE_APPLICATION_JSON = "application/json"
 const RESPONSE_ERROR = "Response Error"
-const RESPONSE_STATUS = "Response Status"
-const RESPONSE_BODY = "Response Body"
 
 // Options
 type Options struct {
@@ -44,9 +42,6 @@ func Get(url string, options Options) ([]byte, error) {
 		fmt.Println(RESPONSE_ERROR, ":", bodyError)
 		return nil, bodyError
 	}
-	fmt.Println(RESPONSE_STATUS, ":", response.Status)
-	fmt.Println(RESPONSE_BODY, ":", string(body))
-
 	// Return response body
 	return body, nil
 }
@@ -81,8 +76,6 @@ func Post(url string, options Options) ([]byte, error) {
 		fmt.Println(RESPONSE_ERROR, ":", bodyError)
 		return nil, bodyError
 	}
-	fmt.Println(RESPONSE_STATUS, ":", response.Status)
-	fmt.Println(RESPONSE_BODY, ":", string(body))
 	// Return response body
 	return body, nil
 }
@@ -94,7 +87,6 @@ func Put(url string, options Options) ([]byte, error) {
 	if jsonMarshalError != nil {
 		return nil, jsonMarshalError
 	}
-	fmt.Println(requestData)
 
 	// Create request
 	request, requestError := http.NewRequest("PUT", url, bytes.NewBuffer(requestData))
@@ -108,7 +100,7 @@ func Put(url string, options Options) ([]byte, error) {
 	client := &http.Client{}
 	response, responseError := client.Do(request)
 	if responseError != nil {
-		fmt.Println("Request error:", responseError)
+		fmt.Println(RESPONSE_ERROR, responseError)
 		return nil, responseError
 	}
 	defer response.Body.Close()
@@ -118,8 +110,6 @@ func Put(url string, options Options) ([]byte, error) {
 		fmt.Println(RESPONSE_ERROR, ":", bodyError)
 		return nil, bodyError
 	}
-	fmt.Println(RESPONSE_STATUS, ":", response.Status)
-	fmt.Println(RESPONSE_BODY, ":", string(body))
 	// Return response body
 	return body, nil
 }
@@ -154,8 +144,6 @@ func Delete(url string, options Options) ([]byte, error) {
 		fmt.Println(RESPONSE_ERROR, ":", bodyError)
 		return nil, bodyError
 	}
-	fmt.Println(RESPONSE_STATUS, ":", response.Status)
-	fmt.Println(RESPONSE_BODY, ":", string(body))
 	// Return response body
 	return body, nil
 }
