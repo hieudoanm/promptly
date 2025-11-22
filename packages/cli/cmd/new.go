@@ -16,6 +16,7 @@ import (
 	"github.com/charmbracelet/bubbles/textarea"
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 	"github.com/spf13/cobra"
 )
 
@@ -41,26 +42,36 @@ type resultMsg struct {
 type model struct {
 	state state
 
-	// Model picker
 	list        list.Model
 	modelChoice string
 
-	// Chat UI
 	history  viewport.Model
 	messages []string
 
-	// Input
 	input textarea.Model
 
-	// Spinner
 	spin spinner.Model
 
-	// Error / response
 	err error
 }
 
+// ---------------------------
+// Lipgloss Styles
+// ---------------------------
+
+var (
+	historyStyle = lipgloss.NewStyle().
+			Border(lipgloss.RoundedBorder()).
+			Padding(1, 1).
+			Width(82)
+
+	inputStyle = lipgloss.NewStyle().
+			Border(lipgloss.RoundedBorder()).
+			Padding(0, 1).
+			Width(82)
+)
+
 func initialModel() model {
-	// Build list of models
 	items := make([]list.Item, len(data.Models))
 	for i, m := range data.Models {
 		items[i] = item(m)
@@ -70,18 +81,15 @@ func initialModel() model {
 	l.Title = "Choose a model"
 	l.SetShowHelp(false)
 
-	// Chat input box
 	ti := textarea.New()
 	ti.Placeholder = "Type a message..."
 	ti.Focus()
 	ti.CharLimit = 5000
 	ti.SetHeight(3)
 
-	// Chat history viewport
 	vp := viewport.New(80, 20)
 	vp.SetContent("")
 
-	// Spinner
 	sp := spinner.New()
 	sp.Spinner = spinner.Dot
 
@@ -101,9 +109,8 @@ func (m model) Init() tea.Cmd {
 func (m *model) appendMessage(role, msg string) {
 	rendered := markdown.Render(msg, 80, 6)
 	entry := fmt.Sprintf("[%s]\n%s\n", strings.ToUpper(role), string(rendered))
-	m.messages = append(m.messages, entry)
 
-	// Update viewport content
+	m.messages = append(m.messages, entry)
 	m.history.SetContent(strings.Join(m.messages, "\n"))
 	m.history.GotoBottom()
 }
@@ -111,9 +118,6 @@ func (m *model) appendMessage(role, msg string) {
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch m.state {
 
-	// --------------------------
-	// 1. Select Model
-	// --------------------------
 	case stateSelectModel:
 		switch msg := msg.(type) {
 		case tea.KeyMsg:
@@ -131,9 +135,6 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.list, cmd = m.list.Update(msg)
 		return m, cmd
 
-	// --------------------------
-	// 2. Chat Mode
-	// --------------------------
 	case stateChat:
 		switch msg := msg.(type) {
 		case tea.KeyMsg:
@@ -177,9 +178,6 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		return m, tea.Batch(cmds...)
 
-	// --------------------------
-	// 3. Loading State
-	// --------------------------
 	case stateLoading:
 		switch msg := msg.(type) {
 		case resultMsg:
@@ -217,17 +215,13 @@ func (m model) View() string {
 		return fmt.Sprintf(
 			"Model: %s\n\n%s\n\n%s\n\n(Enter to send, Esc to quit)",
 			m.modelChoice,
-			m.history.View(),
-			m.input.View(),
+			historyStyle.Render(m.history.View()),
+			inputStyle.Render(m.input.View()),
 		)
 	}
 
 	return ""
 }
-
-// ----------------------
-// Cobra Wrapper
-// ----------------------
 
 var newCmd = &cobra.Command{
 	Use:   "new",
