@@ -52,7 +52,7 @@ importers:
         version: 16.0.3(@babel/core@7.28.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       openai:
         specifier: 6.9.1
-        version: 6.9.1(zod@4.1.12)
+        version: 6.9.1(zod@4.1.13)
       pino:
         specifier: 10.1.0
         version: 10.1.0
@@ -100,8 +100,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       zod:
-        specifier: 4.1.12
-        version: 4.1.12
+        specifier: 4.1.13
+        version: 4.1.13
 
 packages:
 
@@ -2332,8 +2332,8 @@ packages:
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  zod@4.1.12:
-    resolution: {integrity: sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==}
+  zod@4.1.13:
+    resolution: {integrity: sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig==}
 
 snapshots:
 
@@ -3456,8 +3456,8 @@ snapshots:
       '@babel/parser': 7.28.5
       eslint: 9.39.1(jiti@2.6.1)
       hermes-parser: 0.25.1
-      zod: 4.1.12
-      zod-validation-error: 4.0.2(zod@4.1.12)
+      zod: 4.1.13
+      zod-validation-error: 4.0.2(zod@4.1.13)
     transitivePeerDependencies:
       - supports-color
 
@@ -4086,9 +4086,9 @@ snapshots:
 
   on-exit-leak-free@2.1.2: {}
 
-  openai@6.9.1(zod@4.1.12):
+  openai@6.9.1(zod@4.1.13):
     optionalDependencies:
-      zod: 4.1.12
+      zod: 4.1.13
 
   opencollective-postinstall@2.0.3: {}
 
@@ -4709,8 +4709,8 @@ snapshots:
 
   zlibjs@0.3.1: {}
 
-  zod-validation-error@4.0.2(zod@4.1.12):
+  zod-validation-error@4.0.2(zod@4.1.13):
     dependencies:
-      zod: 4.1.12
+      zod: 4.1.13
 
-  zod@4.1.12: {}
+  zod@4.1.13: {}
