@@ -1,7 +1,23 @@
 {
-	"name": "@chat/frontend",
+	"name": "@chat/app",
 	"version": "0.0.1",
 	"private": true,
+	"description": "Chat",
+	"keywords": [
+		"chat",
+		"llm"
+	],
+	"homepage": "https://github.com/hieudoanm/chat#readme",
+	"bugs": {
+		"url": "https://github.com/hieudoanm/chat/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/hieudoanm/chat.git"
+	},
+	"license": "GPL-3.0",
+	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+	"packageManager": "pnpm@10.24.0",
 	"scripts": {
 		"predev": "kill-port 3000",
 		"dev": "next dev",
