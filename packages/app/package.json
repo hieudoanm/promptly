@@ -46,7 +46,7 @@
 	},
 	"devDependencies": {
 		"@capacitor/cli": "8.0.0",
-		"@tailwindcss/postcss": "4.1.17",
+		"@tailwindcss/postcss": "4.1.18",
 		"@tauri-apps/cli": "2.9.6",
 		"@trpc/server": "11.7.2",
 		"@types/node": "25.0.0",
@@ -55,7 +55,7 @@
 		"babel-plugin-react-compiler": "1.0.0",
 		"eslint": "9.39.1",
 		"eslint-config-next": "16.0.8",
-		"tailwindcss": "4.1.17",
+		"tailwindcss": "4.1.18",
 		"typescript": "5.9.3",
 		"zod": "4.1.13"
 	}
