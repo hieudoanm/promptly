@@ -37,7 +37,7 @@
 		"@trpc/next": "11.7.2",
 		"@trpc/react-query": "11.7.2",
 		"marked": "17.0.1",
-		"next": "16.0.9",
+		"next": "16.0.10",
 		"openai": "6.10.0",
 		"pino": "10.1.0",
 		"react": "19.2.1",
@@ -55,7 +55,7 @@
 		"@types/react-dom": "19.2.3",
 		"babel-plugin-react-compiler": "1.0.0",
 		"eslint": "9.39.1",
-		"eslint-config-next": "16.0.8",
+		"eslint-config-next": "16.0.10",
 		"tailwindcss": "4.1.18",
 		"typescript": "5.9.3",
 		"zod": "4.1.13"
