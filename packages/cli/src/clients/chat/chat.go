@@ -1,7 +1,7 @@
 package chat
 
 import (
-	"chat-cli/utils/http"
+	"chat-cli/src/utils/http"
 	"encoding/json"
 	"fmt"
 )

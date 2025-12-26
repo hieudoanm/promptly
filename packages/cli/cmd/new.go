@@ -4,8 +4,8 @@ Copyright © 2025
 package cmd
 
 import (
-	"chat-cli/clients/chat"
-	"chat-cli/data"
+	"chat-cli/src/clients/chat"
+	"chat-cli/src/data"
 	"fmt"
 	"log"
 	"strings"
