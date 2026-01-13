@@ -2,6 +2,10 @@
 	"name": "@chat/docs",
 	"version": "0.0.1",
 	"private": true,
+	"packageManager": "pnpm@10.28.0",
+	"engines": {
+		"node": "24.13.0"
+	},
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
@@ -50,8 +54,5 @@
 			"last 3 firefox version",
 			"last 5 safari version"
 		]
-	},
-	"engines": {
-		"node": ">=20.0"
 	}
 }

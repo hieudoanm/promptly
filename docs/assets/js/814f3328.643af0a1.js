@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_chat_docs=globalThis.webpackChunk_chat_docs||[]).push([[7472],{5513(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Prompt Framework","permalink":"/promptly/blog/prompt-framework","unlisted":false,"date":"2026-01-13T00:00:00.000Z"}]}')}}]);
