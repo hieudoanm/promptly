@@ -13,8 +13,8 @@ tags: [hello]
   - [👤 **Who**](#-who)
   - [📌 **What**](#-what)
   - [🎯 **Why**](#-why)
-  - [⏱️ **When** *(optional)*](#️-when-optional)
-  - [🌍 **Where** *(optional)*](#-where-optional)
+  - [⏱️ **When** _(optional)_](#️-when-optional)
+  - [🌍 **Where** _(optional)_](#-where-optional)
   - [⚙️ **How**](#️-how)
 - [✅ Good Prompt vs ❌ Bad Prompt](#-good-prompt-vs--bad-prompt)
   - [❌ Bad Prompt](#-bad-prompt)
@@ -27,7 +27,7 @@ tags: [hello]
 
 ## 🧠✨ Introduction
 
-🧠 Prompting is quickly becoming a **core skill** for developers, designers, and knowledge workers.  
+🧠 Prompting is quickly becoming a **core skill** for developers, designers, and knowledge workers.
 
 ⏳ A good prompt can save hours of work, while a vague one can lead to confusing or unusable results.
 
@@ -35,11 +35,13 @@ tags: [hello]
 
 🚀 This post introduces a **simple, reusable Prompt Framework** that helps you to:
 
-- 🗣️ communicate intent clearly  
-- 🎯 get more consistent results  
-- 🔁 reuse prompts across tools and projects  
+- 🗣️ communicate intent clearly
+- 🎯 get more consistent results
+- 🔁 reuse prompts across tools and projects
 
 ---
+
+<!-- truncate -->
 
 ## 🧩 5W1H
 
@@ -49,11 +51,11 @@ tags: [hello]
 
 👤 Who is the AI supposed to be?
 
-- A senior engineer  
-- A product manager  
-- A teacher explaining to beginners  
+- A senior engineer
+- A product manager
+- A teacher explaining to beginners
 
-> *“Act as a senior backend engineer…”*
+> _“Act as a senior backend engineer…”_
 
 ---
 
@@ -61,11 +63,11 @@ tags: [hello]
 
 📌 What exactly do you want?
 
-- Generate code  
-- Review text  
-- Explain a concept  
+- Generate code
+- Review text
+- Explain a concept
 
-> *“Explain how Kafka consumer groups work…”*
+> _“Explain how Kafka consumer groups work…”_
 
 ---
 
@@ -73,38 +75,38 @@ tags: [hello]
 
 🎯 Why are you asking?
 
-- Learning  
-- Production use  
-- Decision making  
+- Learning
+- Production use
+- Decision making
 
 🧠 This helps the model choose the **right depth and tone**.
 
-> *“…so I can explain it to junior developers.”*
+> _“…so I can explain it to junior developers.”_
 
 ---
 
-### ⏱️ **When** *(optional)*
+### ⏱️ **When** _(optional)_
 
 ⏱️ When are time or context constraints relevant?
 
-- Current trends  
-- Backward compatibility  
-- Version-specific behavior  
+- Current trends
+- Backward compatibility
+- Version-specific behavior
 
-> *“Using Kafka 3.x…”*
+> _“Using Kafka 3.x…”_
 
 ---
 
-### 🌍 **Where** *(optional)*
+### 🌍 **Where** _(optional)_
 
 🌍 Where will this be used?
 
-- Web  
-- Mobile  
-- Backend  
-- React, Spring Boot, FastAPI  
+- Web
+- Mobile
+- Backend
+- React, Spring Boot, FastAPI
 
-> *“…in a Spring Boot application.”*
+> _“…in a Spring Boot application.”_
 
 ---
 
@@ -112,11 +114,11 @@ tags: [hello]
 
 ⚙️ How should the output look?
 
-- Bullet points  
-- Code only  
-- Step-by-step explanation  
+- Bullet points
+- Code only
+- Step-by-step explanation
 
-> *“Use simple examples and diagrams in text.”*
+> _“Use simple examples and diagrams in text.”_
 
 ---
 
@@ -128,11 +130,11 @@ tags: [hello]
 
 🚨 Problems:
 
-- 👤 No role  
-- 🎯 No goal  
-- 🌍 No context  
-- ⚙️ No format  
-- ❌ No example  
+- 👤 No role
+- 🎯 No goal
+- 🌍 No context
+- ⚙️ No format
+- ❌ No example
 
 🤔 The AI must **guess everything**, which often leads to generic or unfocused answers.
 
@@ -146,13 +148,13 @@ tags: [hello]
 
 ✅ Why this works:
 
-- 👤 Clear role  
+- 👤 Clear role
 - 🎯 Clear goal
 - 🌍 Clear context
 - 📐 Clear format
 - 🧩 Clear example
 
-🧠 Examples act as **anchors** — they show the AI *what “good” looks like*, not just what to do.
+🧠 Examples act as **anchors** — they show the AI _what “good” looks like_, not just what to do.
 
 ---
 
@@ -173,8 +175,8 @@ Role + Task + Context + Constraints + Output Format + (Optional) Example
 ```text
 Act as [ROLE].
 
-Your task is to [WHAT].  
-This is for [WHY].  
+Your task is to [WHAT].
+This is for [WHY].
 Context: [WHERE / WHEN].
 
 Output requirements:
@@ -187,10 +189,10 @@ Output requirements:
 
 🔁 You can store these templates and reuse them across:
 
-- ChatGPT  
-- Claude  
-- GitHub Copilot  
-- Internal AI tools  
+- ChatGPT
+- Claude
+- GitHub Copilot
+- Internal AI tools
 
 ---
 
@@ -199,11 +201,11 @@ Output requirements:
 🧠 This framework works because it **separates structure from intent**.
 
 - 🧩 **Who + How → quality control (template-owned)**  
-  🎛️ These define *how* the AI should think and respond.  
+  🎛️ These define _how_ the AI should think and respond.  
   📈 They improve output quality regardless of topic.
 
 - 🎯 **What + Why → intent (user-owned)**  
-  🧠 These define *what matters*.  
+  🧠 These define _what matters_.  
   🙋 Only the user knows the real task and success criteria.
 
 - 🌍 **Where / When → relevance (user-owned, optional)**  
@@ -211,14 +213,14 @@ Output requirements:
 
 🧩 Examples sit at the boundary:
 
-- Optional  
-- User-provided  
-- Extremely powerful when clarity or style matters  
+- Optional
+- User-provided
+- Extremely powerful when clarity or style matters
 
 ⚖️ By keeping:
 
-- 🏗️ structure in the **template**  
-- ✍️ meaning in the **user’s hands**  
+- 🏗️ structure in the **template**
+- ✍️ meaning in the **user’s hands**
 
 🚀 you avoid over-constraining prompts while still getting **consistent, high-quality results**.
 
@@ -233,9 +235,9 @@ Output requirements:
 
 ✅ A good prompt:
 
-- ❄️ reduces ambiguity  
-- 📈 improves output quality  
-- ⏳ saves time  
+- ❄️ reduces ambiguity
+- 📈 improves output quality
+- ⏳ saves time
 
 🚀 Start simple. Use 5W1H.  
 🔁 Then combine and refine as you go.

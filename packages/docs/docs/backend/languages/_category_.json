@@ -1,7 +1,8 @@
 {
-	"label": "Languages",
+	"label": "🧑‍💻 Languages",
 	"position": 1,
 	"link": {
+		"slug": "/languages",
 		"type": "generated-index"
 	}
 }

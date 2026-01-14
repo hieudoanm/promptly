@@ -1,7 +1,8 @@
 {
-	"label": "TypeScript",
+	"label": "🔷 TypeScript",
 	"position": 5,
 	"link": {
+		"slug": "/typescript",
 		"type": "generated-index"
 	}
 }

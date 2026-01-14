@@ -1,7 +1,8 @@
 {
-	"label": "Hybrid",
+	"label": "🔀 Hybrid",
 	"position": 2,
 	"link": {
+		"slug": "/hybrid",
 		"type": "generated-index"
 	}
 }

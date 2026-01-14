@@ -1,7 +1,8 @@
 {
-	"label": "Native",
+	"label": "📱 Native",
 	"position": 1,
 	"link": {
+		"slug": "/native",
 		"type": "generated-index"
 	}
 }

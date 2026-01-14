@@ -5,8 +5,8 @@
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">💬 Promptly | Promptly</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://hieudoanm.github.io/promptly/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://hieudoanm.github.io/promptly/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://hieudoanm.github.io/promptly/docs/intro"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="💬 Promptly | Promptly"><meta data-rh="true" name="description" content="- 💬 Promptly"><meta data-rh="true" property="og:description" content="- 💬 Promptly"><link data-rh="true" rel="icon" href="/promptly/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://hieudoanm.github.io/promptly/docs/intro"><link data-rh="true" rel="alternate" href="https://hieudoanm.github.io/promptly/docs/intro" hreflang="en"><link data-rh="true" rel="alternate" href="https://hieudoanm.github.io/promptly/docs/intro" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"💬 Promptly","item":"https://hieudoanm.github.io/promptly/docs/intro"}]}</script><link rel="alternate" type="application/rss+xml" href="/promptly/blog/rss.xml" title="Promptly RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/promptly/blog/atom.xml" title="Promptly Atom Feed"><link rel="stylesheet" href="/promptly/assets/css/styles.a3bb8f5a.css">
-<script src="/promptly/assets/js/runtime~main.b5cb340a.js" defer="defer"></script>
-<script src="/promptly/assets/js/main.71d3faba.js" defer="defer"></script>
+<script src="/promptly/assets/js/runtime~main.70a6681e.js" defer="defer"></script>
+<script src="/promptly/assets/js/main.e062248f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -16,15 +16,39 @@
 <ul>
 <li class=""><a href="#-promptly" class="">💬 Promptly</a>
 <ul>
-<li class=""><a href="#-who-are-you-role--persona" class="">👤 Who Are You? (Role / Persona)</a></li>
-<li class=""><a href="#-what-are-you-trying-to-do-task--action" class="">📌 What Are You Trying to Do? (Task / Action)</a></li>
-<li class=""><a href="#-where--when-context--situation" class="">📍 Where / When (Context / Situation)</a></li>
-<li class=""><a href="#-why-does-this-matter-intent--goal" class="">🎯 Why Does This Matter? (Intent / Goal)</a></li>
-<li class=""><a href="#%EF%B8%8F-how-you-are-going-to-implement-this-format--constraints--style" class="">🛠️ How You Are Going to Implement This? (Format / Constraints / Style)</a></li>
+<li class=""><a href="#%EF%B8%8F-template-owned" class="">🏗️ Template-owned</a>
+<ul>
+<li class=""><a href="#-who-role--persona" class="">👤 Who (Role / Persona)</a></li>
+<li class=""><a href="#%EF%B8%8F-how-format--constraints--style" class="">🛠️ How (Format / Constraints / Style)</a></li>
+</ul>
+</li>
+<li class=""><a href="#%EF%B8%8F-user-owned" class="">✍️ User-owned</a>
+<ul>
+<li class=""><a href="#-what-task--action" class="">📌 What (Task / Action)</a></li>
+<li class=""><a href="#-why-intent--goal" class="">🎯 Why (Intent / Goal)</a></li>
+<li class=""><a href="#-where-context--situation" class="">📍 Where (Context / Situation)</a></li>
+<li class=""><a href="#-when-time--phase--lifecycle" class="">⏰ When (Time / Phase / Lifecycle)</a></li>
+</ul>
+</li>
+<li class=""><a href="#-final-prompt-template-recommended-order" class="">🔗 Final Prompt Template (Recommended Order)</a></li>
+<li class=""><a href="#-why-this-ordering-works" class="">🧠 Why This Ordering Works</a></li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-who-are-you-role--persona">👤 Who Are You? (Role / Persona)<a href="#-who-are-you-role--persona" class="hash-link" aria-label="Direct link to 👤 Who Are You? (Role / Persona)" title="Direct link to 👤 Who Are You? (Role / Persona)" translate="no">​</a></h2>
+<p>This framework combines <strong>5W1H</strong> with <strong>Good Prompt principles</strong><br>
+<!-- -->(<strong>Clear role · Clear format · Clear goal · Clear context · Clear examples</strong>)<br>
+<!-- -->and clearly separates <strong>template-owned</strong> vs <strong>user-owned</strong> responsibilities.</p>
+<p>The key idea:<br>
+<!-- -->👉 <strong>The template controls quality and consistency</strong><br>
+<!-- -->👉 <strong>The user controls intent, meaning, and context</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="️-template-owned">🏗️ Template-owned<a href="#️-template-owned" class="hash-link" aria-label="Direct link to 🏗️ Template-owned" title="Direct link to 🏗️ Template-owned" translate="no">​</a></h2>
+<blockquote>
+<p>These sections are <strong>owned by the prompt template</strong>.<br>
+<!-- -->They should always exist to guarantee <strong>predictable, high-quality outputs</strong>.</p>
+</blockquote>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-who-role--persona">👤 Who (Role / Persona)<a href="#-who-role--persona" class="hash-link" aria-label="Direct link to 👤 Who (Role / Persona)" title="Direct link to 👤 Who (Role / Persona)" translate="no">​</a></h3>
 <blockquote>
 <p>Who should the AI act as?</p>
 </blockquote>
@@ -34,88 +58,160 @@
 <li class="">“You are an experienced digital strategist”</li>
 <li class="">“Act as a senior backend engineer”</li>
 <li class="">“Think like a hiring manager”</li>
+<li class="">“Respond as a technical architect”</li>
 </ul>
 </li>
 </ul>
-<p>✅ Sets <strong>perspective, expertise, and bias</strong></p>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-what-are-you-trying-to-do-task--action">📌 What Are You Trying to Do? (Task / Action)<a href="#-what-are-you-trying-to-do-task--action" class="hash-link" aria-label="Direct link to 📌 What Are You Trying to Do? (Task / Action)" title="Direct link to 📌 What Are You Trying to Do? (Task / Action)" translate="no">​</a></h2>
+<p>✅ Sets <strong>perspective, expertise, and bias</strong><br>
+<!-- -->✅ Strongly influences reasoning depth and tone<br>
+<!-- -->⚠️ Should always be present (a default can be provided)</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="️-how-format--constraints--style">🛠️ How (Format / Constraints / Style)<a href="#️-how-format--constraints--style" class="hash-link" aria-label="Direct link to 🛠️ How (Format / Constraints / Style)" title="Direct link to 🛠️ How (Format / Constraints / Style)" translate="no">​</a></h3>
+<blockquote>
+<p>How should the response be delivered?</p>
+</blockquote>
+<ul>
+<li class="">Format / Output<!-- -->
+<ul>
+<li class="">Table, bullets, steps, code, checklist</li>
+</ul>
+</li>
+<li class="">Constraints<!-- -->
+<ul>
+<li class="">Word count</li>
+<li class="">Tone (formal, concise, neutral)</li>
+<li class="">Depth (high-level vs detailed)</li>
+</ul>
+</li>
+<li class="">Style<!-- -->
+<ul>
+<li class="">Naming conventions</li>
+<li class="">Explanation level</li>
+<li class="">Use of examples</li>
+</ul>
+</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li class="">“Respond in a table with pros and cons”</li>
+<li class="">“Under 200 words, concise and neutral”</li>
+<li class="">“Include one concrete example”</li>
+</ul>
+<p>✅ Controls <strong>usability, clarity, and consistency</strong><br>
+<!-- -->✅ Makes prompts reusable across users and teams<br>
+<!-- -->📝 Users may override specifics, but the structure remains template-owned</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="️-user-owned">✍️ User-owned<a href="#️-user-owned" class="hash-link" aria-label="Direct link to ✍️ User-owned" title="Direct link to ✍️ User-owned" translate="no">​</a></h2>
+<blockquote>
+<p>These sections must come from the user.<br>
+<!-- -->They represent <strong>intent, goals, and real-world context</strong> that cannot be guessed.</p>
+</blockquote>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-what-task--action">📌 What (Task / Action)<a href="#-what-task--action" class="hash-link" aria-label="Direct link to 📌 What (Task / Action)" title="Direct link to 📌 What (Task / Action)" translate="no">​</a></h3>
 <blockquote>
 <p>What do you want the AI to do?</p>
 </blockquote>
 <ul>
 <li class="">Task / Action<!-- -->
 <ul>
-<li class="">Write Frontend Code</li>
-<li class="">Write Backend Code</li>
+<li class="">Write frontend code</li>
+<li class="">Review backend architecture</li>
+<li class="">Compare technologies</li>
+<li class="">Explain a concept</li>
+<li class="">Generate ideas</li>
 </ul>
 </li>
 </ul>
-<p>✅ Defines the <strong>core action</strong></p>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-where--when-context--situation">📍 Where / When (Context / Situation)<a href="#-where--when-context--situation" class="hash-link" aria-label="Direct link to 📍 Where / When (Context / Situation)" title="Direct link to 📍 Where / When (Context / Situation)" translate="no">​</a></h2>
-<blockquote>
-<p>In what context does this apply?</p>
-</blockquote>
-<ul>
-<li class="">
-<p>Context / Information</p>
-<ul>
-<li class="">Background</li>
-<li class="">Data</li>
-<li class="">Constraints from Environment</li>
-<li class="">Target Audience</li>
-<li class="">Usage Scenario</li>
-</ul>
-</li>
-<li class="">
-<p>Example:</p>
-<ul>
-<li class="">“For a technical design review…”</li>
-<li class="">“In the context of a startup MVP…”</li>
-<li class="">“Given the following API response…”</li>
-</ul>
-</li>
-</ul>
-<p>✅ Grounds the response in <strong>reality</strong></p>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-why-does-this-matter-intent--goal">🎯 Why Does This Matter? (Intent / Goal)<a href="#-why-does-this-matter-intent--goal" class="hash-link" aria-label="Direct link to 🎯 Why Does This Matter? (Intent / Goal)" title="Direct link to 🎯 Why Does This Matter? (Intent / Goal)" translate="no">​</a></h2>
+<p>✅ Defines the <strong>core action</strong><br>
+<!-- -->❌ Cannot be inferred by the template<br>
+<!-- -->👉 Always required from the user</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-why-intent--goal">🎯 Why (Intent / Goal)<a href="#-why-intent--goal" class="hash-link" aria-label="Direct link to 🎯 Why (Intent / Goal)" title="Direct link to 🎯 Why (Intent / Goal)" translate="no">​</a></h3>
 <blockquote>
 <p>Why are you asking? What’s the desired outcome?</p>
 </blockquote>
 <ul>
 <li class="">Purpose</li>
 <li class="">Goal</li>
-<li class="">Success Criteria</li>
-<li class="">Decision Support</li>
+<li class="">Success criteria</li>
+<li class="">Decision support</li>
 </ul>
 <p>Example:</p>
 <ul>
-<li class="">“To help decide between two architectures”</li>
+<li class="">“To decide between two architectures”</li>
 <li class="">“So a non-technical stakeholder can understand”</li>
+<li class="">“To reduce onboarding time”</li>
 </ul>
-<p>✅ Improves <strong>relevance and prioritization</strong></p>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="️-how-you-are-going-to-implement-this-format--constraints--style">🛠️ How You Are Going to Implement This? (Format / Constraints / Style)<a href="#️-how-you-are-going-to-implement-this-format--constraints--style" class="hash-link" aria-label="Direct link to 🛠️ How You Are Going to Implement This? (Format / Constraints / Style)" title="Direct link to 🛠️ How You Are Going to Implement This? (Format / Constraints / Style)" translate="no">​</a></h2>
+<p>✅ Improves <strong>relevance and prioritization</strong><br>
+<!-- -->❌ Only the user knows the true motivation</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-where-context--situation">📍 Where (Context / Situation)<a href="#-where-context--situation" class="hash-link" aria-label="Direct link to 📍 Where (Context / Situation)" title="Direct link to 📍 Where (Context / Situation)" translate="no">​</a></h3>
 <blockquote>
-<p>How should the answer be delivered?</p>
+<p>In what context does this apply?</p>
 </blockquote>
 <ul>
-<li class="">Format / Output<!-- -->
-<ul>
-<li class="">Table, bullets, code, steps</li>
-</ul>
-</li>
-<li class="">Constraints<!-- -->
-<ul>
-<li class="">Word count</li>
-<li class="">Tone</li>
-<li class="">Depth</li>
-<li class="">Style guidelines</li>
-</ul>
-</li>
+<li class="">Background information</li>
+<li class="">Input data</li>
+<li class="">Environmental constraints</li>
+<li class="">Target audience</li>
+<li class="">Usage scenario</li>
 </ul>
 <p>Example:</p>
 <ul>
-<li class="">“In a table with pros/cons”</li>
-<li class="">“Under 200 words, concise and neutral”</li>
+<li class="">“In a startup MVP context…”</li>
+<li class="">“Given the following API response…”</li>
+<li class="">“For a production Kubernetes environment…”</li>
 </ul>
-<p>✅ Controls <strong>usability and clarity</strong></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_wkMR"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_7wxe" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_HjQR"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href="/promptly/docs/frontend"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">🖥️ Frontend</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_tXNB thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-who-are-you-role--persona" class="table-of-contents__link toc-highlight">👤 Who Are You? (Role / Persona)</a></li><li><a href="#-what-are-you-trying-to-do-task--action" class="table-of-contents__link toc-highlight">📌 What Are You Trying to Do? (Task / Action)</a></li><li><a href="#-where--when-context--situation" class="table-of-contents__link toc-highlight">📍 Where / When (Context / Situation)</a></li><li><a href="#-why-does-this-matter-intent--goal" class="table-of-contents__link toc-highlight">🎯 Why Does This Matter? (Intent / Goal)</a></li><li><a href="#️-how-you-are-going-to-implement-this-format--constraints--style" class="table-of-contents__link toc-highlight">🛠️ How You Are Going to Implement This? (Format / Constraints / Style)</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/promptly/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/promptly/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Promptly, Inc. Built with Docusaurus.</div></div></div></footer></div>
+<p>✅ Grounds the response in <strong>real constraints</strong><br>
+<!-- -->⚠️ Optional, but highly impactful</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-when-time--phase--lifecycle">⏰ When (Time / Phase / Lifecycle)<a href="#-when-time--phase--lifecycle" class="hash-link" aria-label="Direct link to ⏰ When (Time / Phase / Lifecycle)" title="Direct link to ⏰ When (Time / Phase / Lifecycle)" translate="no">​</a></h3>
+<blockquote>
+<p>When is this being used or decided?</p>
+</blockquote>
+<ul>
+<li class="">Timeline</li>
+<li class="">Project phase</li>
+<li class="">Urgency</li>
+<li class="">Lifecycle stage</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li class="">“During early design exploration”</li>
+<li class="">“Before a stakeholder presentation”</li>
+<li class="">“For immediate production debugging”</li>
+</ul>
+<p>✅ Helps tune <strong>depth, urgency, and risk tolerance</strong><br>
+<!-- -->⚠️ Optional, but useful for prioritization</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-final-prompt-template-recommended-order">🔗 Final Prompt Template (Recommended Order)<a href="#-final-prompt-template-recommended-order" class="hash-link" aria-label="Direct link to 🔗 Final Prompt Template (Recommended Order)" title="Direct link to 🔗 Final Prompt Template (Recommended Order)" translate="no">​</a></h2>
+<p>```text
+Act as [WHO]. ← 🏗️ Template-owned</p>
+<p>How to respond: ← 🏗️ Template-owned</p>
+<ul>
+<li class="">Format: [FORMAT]</li>
+<li class="">Style: [STYLE]</li>
+<li class="">Constraints: [LIMITS]</li>
+<li class="">Examples: [YES / NO]</li>
+</ul>
+<p>Task: [WHAT]. ← ✍️ User-owned
+Why it matters: [WHY]. ← ✍️ User-owned
+Where this applies: [WHERE]. ← ✍️ User-owned (optional)
+When this is needed: [WHEN]. ← ✍️ User-owned (optional)
+```</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-why-this-ordering-works">🧠 Why This Ordering Works<a href="#-why-this-ordering-works" class="hash-link" aria-label="Direct link to 🧠 Why This Ordering Works" title="Direct link to 🧠 Why This Ordering Works" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Who → How</strong> sets <em>thinking mode</em> and <em>output contract</em></li>
+<li class=""><strong>What → Why</strong> defines intent and direction</li>
+<li class=""><strong>Where → When</strong> fine-tunes relevance and urgency</li>
+</ul>
+<blockquote>
+<p><strong>The template enforces clarity.<br>
+<!-- -->The user provides meaning.<br>
+<!-- -->Context makes the answer useful.</strong></p>
+</blockquote>
+<hr>
+<p>Happy prompting 🚀</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_wkMR"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_7wxe" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_HjQR"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href="/promptly/docs/frontend"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">🖥️ Frontend</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_tXNB thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#️-template-owned" class="table-of-contents__link toc-highlight">🏗️ Template-owned</a><ul><li><a href="#-who-role--persona" class="table-of-contents__link toc-highlight">👤 Who (Role / Persona)</a></li><li><a href="#️-how-format--constraints--style" class="table-of-contents__link toc-highlight">🛠️ How (Format / Constraints / Style)</a></li></ul></li><li><a href="#️-user-owned" class="table-of-contents__link toc-highlight">✍️ User-owned</a><ul><li><a href="#-what-task--action" class="table-of-contents__link toc-highlight">📌 What (Task / Action)</a></li><li><a href="#-why-intent--goal" class="table-of-contents__link toc-highlight">🎯 Why (Intent / Goal)</a></li><li><a href="#-where-context--situation" class="table-of-contents__link toc-highlight">📍 Where (Context / Situation)</a></li><li><a href="#-when-time--phase--lifecycle" class="table-of-contents__link toc-highlight">⏰ When (Time / Phase / Lifecycle)</a></li></ul></li><li><a href="#-final-prompt-template-recommended-order" class="table-of-contents__link toc-highlight">🔗 Final Prompt Template (Recommended Order)</a></li><li><a href="#-why-this-ordering-works" class="table-of-contents__link toc-highlight">🧠 Why This Ordering Works</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/promptly/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/promptly/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Promptly, Inc. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>

@@ -1,7 +1,8 @@
 {
-	"label": "Go",
+	"label": "🐹 Go",
 	"position": 2,
 	"link": {
+		"slug": "/go",
 		"type": "generated-index"
 	}
 }

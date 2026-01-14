@@ -1,7 +1,8 @@
 {
-	"label": "Database",
+	"label": "🗄️ Database",
 	"position": 2,
 	"link": {
+		"slug": "/database",
 		"type": "generated-index"
 	}
 }

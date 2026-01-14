@@ -1,7 +1,8 @@
 {
-	"label": "Backend-for-Frontend (BFF)",
+	"label": "🔀 Backend-for-Frontend (BFF)",
 	"position": 3,
 	"link": {
+		"slug": "/bff",
 		"type": "generated-index"
 	}
 }
