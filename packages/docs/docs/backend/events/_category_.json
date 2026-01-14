@@ -1,0 +1,8 @@
+{
+	"label": "✉️ Events",
+	"position": 3,
+	"link": {
+		"slug": "/events",
+		"type": "generated-index"
+	}
+}

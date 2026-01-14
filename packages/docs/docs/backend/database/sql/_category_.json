@@ -1,0 +1,8 @@
+{
+	"label": "🧮 SQL",
+	"position": 2,
+	"link": {
+		"slug": "/sql",
+		"type": "generated-index"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"label": "🔍 Search",
+	"position": 3,
+	"link": {
+		"slug": "/search",
+		"type": "generated-index"
+	}
+}
