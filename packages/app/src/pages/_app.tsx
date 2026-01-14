@@ -1,7 +1,8 @@
+import { APP_NAME } from '@chat/constants/app';
 import '@chat/styles/globals.css';
 import type { AppProps } from 'next/app';
-import Head from 'next/head';
 import { Geist, Geist_Mono } from 'next/font/google';
+import Head from 'next/head';
 import { FC } from 'react';
 
 const geistSans = Geist({
@@ -18,7 +19,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head>
-				<title>Chat</title>
+				<title>{APP_NAME}</title>
 			</Head>
 			<div className={`${geistSans.className} ${geistMono.className}`}>
 				<Component {...pageProps} />

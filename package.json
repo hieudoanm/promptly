@@ -24,6 +24,7 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "build": "turbo run build",
+    "start": "turbo run start",
     "format": "turbo run format",
     "prepare": "husky || true"
   },

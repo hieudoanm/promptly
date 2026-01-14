@@ -8,7 +8,10 @@ import {
 	OpenRouterRole,
 } from '@chat/clients/openrouter/openrouter.client';
 import { OpenRouterModel } from '@chat/clients/openrouter/openrouter.enums';
+import { models } from '@chat/data/models';
 import { tryCatch } from '@chat/utils/try-catch';
+
+const ids: string[] = models.map(({ id }) => id);
 
 export const generate = async ({
 	messages = [],
@@ -38,9 +41,7 @@ export const generate = async ({
 			data.candidates.at(0)?.content.parts.at(0)?.text ??
 			'No response generated.';
 		return { output, model };
-	} else if (
-		Object.values(OpenRouterModel).includes(model as OpenRouterModel)
-	) {
+	} else if (ids.includes(model)) {
 		const openRouterMessages = messages.map((message) => ({
 			role:
 				message.role === 'user'

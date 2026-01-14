@@ -3,8 +3,7 @@ import { OpenRouterModel } from '@chat/clients/openrouter/openrouter.enums';
 import { Glass } from '@chat/components/Glass';
 import { Message, Messages } from '@chat/components/Messages';
 import { APP_NAME } from '@chat/constants/app';
-import { MODELS } from '@chat/constants/models';
-import { groupBy } from '@chat/utils/group-by';
+import { Model, models } from '@chat/data/models';
 import { scrollToBottom } from '@chat/utils/scroll';
 import { trpcClient } from '@chat/utils/trpc';
 import { tryCatch } from '@chat/utils/try-catch';
@@ -13,6 +12,32 @@ import Link from 'next/link';
 import { ChangeEvent, FormEvent, useRef, useState } from 'react';
 import { PiPaperclipBold, PiPaperPlaneRightFill } from 'react-icons/pi';
 import Tesseract from 'tesseract.js';
+
+const groupModels = (models: Model[]) => {
+	const ids: string[] = models.map(({ id }) => id);
+	ids.sort((a, b) => (a > b ? 1 : -1));
+
+	const groups: string[] = [
+		...new Set(
+			ids
+				.map((id) => id.split('/').at(0) ?? '')
+				.filter((group) => group !== ''),
+		),
+	];
+	groups.sort((a, b) => (a > b ? 1 : -1));
+
+	const modelsByGroups = groups.map((group) => {
+		const modelsByGroup = models.filter(({ id }) => {
+			if (id.includes(group)) {
+				return true;
+			}
+			return false;
+		});
+		modelsByGroup.sort((a, b) => (a.name > b.name ? 1 : -1));
+		return { group, models: modelsByGroup };
+	});
+	return modelsByGroups;
+};
 
 const HomePage: NextPage = () => {
 	const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -149,21 +174,19 @@ const HomePage: NextPage = () => {
 										model: event.target.value as GeminiModel,
 									}));
 								}}>
-								{Object.entries(groupBy(MODELS, 'company')).map(
-									([company, models]) => {
-										return (
-											<optgroup key={company} label={company}>
-												{models.map(({ label, value }) => {
-													return (
-														<option key={value} value={value}>
-															{label}
-														</option>
-													);
-												})}
-											</optgroup>
-										);
-									},
-								)}
+								{groupModels(models).map(({ group, models }) => {
+									return (
+										<optgroup key={group} label={group}>
+											{models.map(({ id, name }) => {
+												return (
+													<option key={id} value={id}>
+														{name}
+													</option>
+												);
+											})}
+										</optgroup>
+									);
+								})}
 							</select>
 						</div>
 						<div className="flex items-center gap-x-2 md:gap-x-4">
