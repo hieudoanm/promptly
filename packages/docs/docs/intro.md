@@ -163,7 +163,7 @@ Example:
 
 ## 🔗 Final Prompt Template (Recommended Order)
 
-\`\`\`text
+```text
 Act as [WHO]. ← 🏗️ Template-owned
 
 How to respond: ← 🏗️ Template-owned
@@ -177,7 +177,7 @@ Task: [WHAT]. ← ✍️ User-owned
 Why it matters: [WHY]. ← ✍️ User-owned
 Where this applies: [WHERE]. ← ✍️ User-owned (optional)
 When this is needed: [WHEN]. ← ✍️ User-owned (optional)
-\`\`\`
+```
 
 ---
 
