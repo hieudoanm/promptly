@@ -1,7 +1,8 @@
 {
-	"label": "Data",
-	"position": 5,
+	"label": "📊 Data",
+	"position": 4,
 	"link": {
+		"slug": "/data",
 		"type": "generated-index"
 	}
 }

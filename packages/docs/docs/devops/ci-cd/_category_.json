@@ -1,7 +1,8 @@
 {
-	"label": "CI/CD",
-	"position": 1,
+	"label": "🚰 CI/CD",
+	"position": 2,
 	"link": {
+		"slug": "/ci-cd",
 		"type": "generated-index"
 	}
 }

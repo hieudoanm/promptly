@@ -1,7 +1,8 @@
 {
-	"label": "DevOps",
-	"position": 6,
+	"label": "🚀 DevOps",
+	"position": 5,
 	"link": {
+		"slug": "/devops",
 		"type": "generated-index"
 	}
 }

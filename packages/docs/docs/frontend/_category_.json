@@ -1,7 +1,8 @@
 {
-	"label": "Frontend",
+	"label": "🖥️ Frontend",
 	"position": 2,
 	"link": {
+		"slug": "/frontend",
 		"type": "generated-index"
 	}
 }

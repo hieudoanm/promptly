@@ -5,126 +5,136 @@ authors: hieudoan
 tags: [hello]
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Introduction 🧠✨](#introduction-)
-- [5W1H 🧩](#5w1h-)
-  - [**Who** 👤](#who-)
-  - [**What** 📌](#what-)
-  - [**Why** 🎯](#why-)
-  - [**When** ⏱️ *(optional)*](#when-️-optional)
-  - [**Where** 🌍 *(optional)*](#where--optional)
-  - [**How** ⚙️](#how-️)
-- [Good Prompt ✅ vs Bad Prompt ❌](#good-prompt--vs-bad-prompt-)
+- [📚 Table of Contents](#-table-of-contents)
+- [🧠✨ Introduction](#-introduction)
+- [🧩 5W1H](#-5w1h)
+  - [👤 **Who**](#-who)
+  - [📌 **What**](#-what)
+  - [🎯 **Why**](#-why)
+  - [⏱️ **When** *(optional)*](#️-when-optional)
+  - [🌍 **Where** *(optional)*](#-where-optional)
+  - [⚙️ **How**](#️-how)
+- [✅ Good Prompt vs ❌ Bad Prompt](#-good-prompt-vs--bad-prompt)
   - [❌ Bad Prompt](#-bad-prompt)
   - [✅ Good Prompt](#-good-prompt)
-- [Combination 🔗](#combination-)
+- [🔗 Combination](#-combination)
   - [🧠 Prompt Formula](#-prompt-formula)
   - [🔁 Reusable Prompt Template](#-reusable-prompt-template)
+  - [4️⃣ Why This Works](#4️⃣-why-this-works)
 - [Final Thoughts 🚀](#final-thoughts-)
 
-## Introduction 🧠✨
+## 🧠✨ Introduction
 
-Prompting is quickly becoming a **core skill** for developers, designers, and knowledge workers.  
-A good prompt can save hours of work, while a vague one can lead to confusing or unusable results.
+🧠 Prompting is quickly becoming a **core skill** for developers, designers, and knowledge workers.  
 
-Think of prompts as **interfaces for thinking** — the clearer your interface, the better the output.
+⏳ A good prompt can save hours of work, while a vague one can lead to confusing or unusable results.
 
-This post introduces a **simple, reusable Prompt Framework** that helps you to:
+🧩 Think of prompts as **interfaces for thinking** — the clearer your interface, the better the output.
 
-- communicate intent clearly 🗣️
-- get more consistent results 🎯
-- reuse prompts across tools and projects 🔁
+🚀 This post introduces a **simple, reusable Prompt Framework** that helps you to:
+
+- 🗣️ communicate intent clearly  
+- 🎯 get more consistent results  
+- 🔁 reuse prompts across tools and projects  
 
 ---
 
-## 5W1H 🧩
+## 🧩 5W1H
 
-One of the easiest ways to structure a strong prompt is by borrowing the classic **5W1H framework**.
+🧠 One of the easiest ways to structure a strong prompt is by borrowing the classic **5W1H framework**.
 
-### **Who** 👤  
+### 👤 **Who**
 
-Who is the AI supposed to be?
+👤 Who is the AI supposed to be?
 
-- A senior engineer
-- A product manager
-- A teacher explaining to beginners
+- A senior engineer  
+- A product manager  
+- A teacher explaining to beginners  
 
 > *“Act as a senior backend engineer…”*
 
 ---
 
-### **What** 📌
+### 📌 **What**
 
-What exactly do you want?
+📌 What exactly do you want?
 
-- Generate code
-- Review text
-- Explain a concept
+- Generate code  
+- Review text  
+- Explain a concept  
 
 > *“Explain how Kafka consumer groups work…”*
 
 ---
 
-### **Why** 🎯
+### 🎯 **Why**
 
-Why are you asking?
+🎯 Why are you asking?
 
-- Learning
-- Production use
-- Decision making
+- Learning  
+- Production use  
+- Decision making  
 
-This helps the model choose the **right depth and tone**.
+🧠 This helps the model choose the **right depth and tone**.
 
 > *“…so I can explain it to junior developers.”*
 
 ---
 
-### **When** ⏱️ *(optional)*
+### ⏱️ **When** *(optional)*
 
-Time or context constraints.
+⏱️ When are time or context constraints relevant?
 
-- Current trends
-- Backward compatibility
-- Version-specific behavior
+- Current trends  
+- Backward compatibility  
+- Version-specific behavior  
 
 > *“Using Kafka 3.x…”*
 
 ---
 
-### **Where** 🌍 *(optional)*
+### 🌍 **Where** *(optional)*
 
-Environment or platform.
+🌍 Where will this be used?
 
-- Web
-- Mobile
-- Backend
-- React, Spring Boot, FastAPI
+- Web  
+- Mobile  
+- Backend  
+- React, Spring Boot, FastAPI  
 
 > *“…in a Spring Boot application.”*
 
 ---
 
-### **How** ⚙️
+### ⚙️ **How**
 
-How should the output look?
+⚙️ How should the output look?
 
-- Bullet points
-- Code only
-- Step-by-step explanation
+- Bullet points  
+- Code only  
+- Step-by-step explanation  
 
 > *“Use simple examples and diagrams in text.”*
 
 ---
 
-## Good Prompt ✅ vs Bad Prompt ❌
+## ✅ Good Prompt vs ❌ Bad Prompt
 
 ### ❌ Bad Prompt
 
 > “Explain Kafka”
 
-Too broad. Too vague. Too much guessing.
+🚨 Problems:
+
+- 👤 No role  
+- 🎯 No goal  
+- 🌍 No context  
+- ⚙️ No format  
+- ❌ No example  
+
+🤔 The AI must **guess everything**, which often leads to generic or unfocused answers.
 
 ---
 
@@ -132,22 +142,28 @@ Too broad. Too vague. Too much guessing.
 
 > “Act as a senior backend engineer.  
 > Explain Kafka consumer groups in simple terms for junior developers, using Kafka 3.x and a Spring Boot context.  
-> Use bullet points and a short example.”
+> Use bullet points and a short example, similar to explaining how HTTP load balancing works.”
 
-Clear role 👤  
-Clear goal 🎯  
-Clear format 📐  
+✅ Why this works:
+
+- 👤 Clear role  
+- 🎯 Clear goal
+- 🌍 Clear context
+- 📐 Clear format
+- 🧩 Clear example
+
+🧠 Examples act as **anchors** — they show the AI *what “good” looks like*, not just what to do.
 
 ---
 
-## Combination 🔗
+## 🔗 Combination
 
-The real power comes from **combining frameworks**.
+🔗 The real power comes from **combining frameworks**.
 
 ### 🧠 Prompt Formula
 
 ```text
-Role + Task + Context + Constraints + Output Format
+Role + Task + Context + Constraints + Output Format + (Optional) Example
 ```
 
 ---
@@ -162,36 +178,68 @@ This is for [WHY].
 Context: [WHERE / WHEN].
 
 Output requirements:
-- [FORMAT]
-- [STYLE]
-- [LENGTH]
+
+- Format: [FORMAT]
+- Style: [STYLE]
+- Length: [LENGTH]
+- Example (optional): [REFERENCE OR SAMPLE]
 ```
 
-You can store these templates and reuse them across:
+🔁 You can store these templates and reuse them across:
 
-- ChatGPT
-- Claude
-- GitHub Copilot
-- Internal AI tools
+- ChatGPT  
+- Claude  
+- GitHub Copilot  
+- Internal AI tools  
+
+---
+
+### 4️⃣ Why This Works
+
+🧠 This framework works because it **separates structure from intent**.
+
+- 🧩 **Who + How → quality control (template-owned)**  
+  🎛️ These define *how* the AI should think and respond.  
+  📈 They improve output quality regardless of topic.
+
+- 🎯 **What + Why → intent (user-owned)**  
+  🧠 These define *what matters*.  
+  🙋 Only the user knows the real task and success criteria.
+
+- 🌍 **Where / When → relevance (user-owned, optional)**  
+  🧭 These ground the response in a real-world context, when needed.
+
+🧩 Examples sit at the boundary:
+
+- Optional  
+- User-provided  
+- Extremely powerful when clarity or style matters  
+
+⚖️ By keeping:
+
+- 🏗️ structure in the **template**  
+- ✍️ meaning in the **user’s hands**  
+
+🚀 you avoid over-constraining prompts while still getting **consistent, high-quality results**.
+
+> ✨ **Template sets clarity. User sets purpose. Examples set direction.**
 
 ---
 
 ## Final Thoughts 🚀
 
-Prompting is not about “talking nicely to AI”.  
-It’s about **thinking clearly and expressing intent**.
+🧠 Prompting is not about “talking nicely to AI”.  
+🎯 It’s about **thinking clearly and expressing intent**.
 
-A good prompt:
+✅ A good prompt:
 
-- reduces ambiguity ❄️
-- improves output quality 📈
-- saves time ⏳
+- ❄️ reduces ambiguity  
+- 📈 improves output quality  
+- ⏳ saves time  
 
-Start simple. Use 5W1H.  
-Then combine and refine as you go.
+🚀 Start simple. Use 5W1H.  
+🔁 Then combine and refine as you go.
 
-> **Clear thinking → Clear prompts → Better results** ✨
+> ✨ **Clear thinking → Clear prompts → Better results**
 
----
-
-Happy prompting! 😄
+😄 Happy prompting!

@@ -13,50 +13,51 @@
             <link>https://hieudoanm.github.io/promptly/blog/prompt-framework</link>
             <guid>https://hieudoanm.github.io/promptly/blog/prompt-framework</guid>
             <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Table of Contents]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="table-of-contents">Table of Contents<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#table-of-contents" class="hash-link" aria-label="Direct link to Table of Contents" title="Direct link to Table of Contents" translate="no">​</a></h2>
+            <description><![CDATA[📚 Table of Contents]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-table-of-contents">📚 Table of Contents<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-table-of-contents" class="hash-link" aria-label="Direct link to 📚 Table of Contents" title="Direct link to 📚 Table of Contents" translate="no">​</a></h2>
 <ul>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#table-of-contents" class="">Table of Contents</a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#introduction-" class="">Introduction 🧠✨</a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#5w1h-" class="">5W1H 🧩</a>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-table-of-contents" class="">📚 Table of Contents</a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-introduction" class="">🧠✨ Introduction</a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-5w1h" class="">🧩 5W1H</a>
 <ul>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#who-" class=""><strong>Who</strong> 👤</a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#what-" class=""><strong>What</strong> 📌</a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#why-" class=""><strong>Why</strong> 🎯</a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#when-%EF%B8%8F-optional" class=""><strong>When</strong> ⏱️ <em>(optional)</em></a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#where--optional" class=""><strong>Where</strong> 🌍 <em>(optional)</em></a></li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#how-%EF%B8%8F" class=""><strong>How</strong> ⚙️</a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-who" class="">👤 <strong>Who</strong></a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-what" class="">📌 <strong>What</strong></a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-why" class="">🎯 <strong>Why</strong></a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#%EF%B8%8F-when-optional" class="">⏱️ <strong>When</strong> <em>(optional)</em></a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-where-optional" class="">🌍 <strong>Where</strong> <em>(optional)</em></a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#%EF%B8%8F-how" class="">⚙️ <strong>How</strong></a></li>
 </ul>
 </li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#good-prompt--vs-bad-prompt-" class="">Good Prompt ✅ vs Bad Prompt ❌</a>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-good-prompt-vs--bad-prompt" class="">✅ Good Prompt vs ❌ Bad Prompt</a>
 <ul>
 <li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-bad-prompt" class="">❌ Bad Prompt</a></li>
 <li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-good-prompt" class="">✅ Good Prompt</a></li>
 </ul>
 </li>
-<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#combination-" class="">Combination 🔗</a>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-combination" class="">🔗 Combination</a>
 <ul>
 <li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-prompt-formula" class="">🧠 Prompt Formula</a></li>
 <li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-reusable-prompt-template" class="">🔁 Reusable Prompt Template</a></li>
+<li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#4%EF%B8%8F%E2%83%A3-why-this-works" class="">4️⃣ Why This Works</a></li>
 </ul>
 </li>
 <li class=""><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#final-thoughts-" class="">Final Thoughts 🚀</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="introduction-">Introduction 🧠✨<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#introduction-" class="hash-link" aria-label="Direct link to Introduction 🧠✨" title="Direct link to Introduction 🧠✨" translate="no">​</a></h2>
-<p>Prompting is quickly becoming a <strong>core skill</strong> for developers, designers, and knowledge workers.<br>
-<!-- -->A good prompt can save hours of work, while a vague one can lead to confusing or unusable results.</p>
-<p>Think of prompts as <strong>interfaces for thinking</strong> — the clearer your interface, the better the output.</p>
-<p>This post introduces a <strong>simple, reusable Prompt Framework</strong> that helps you to:</p>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-introduction">🧠✨ Introduction<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-introduction" class="hash-link" aria-label="Direct link to 🧠✨ Introduction" title="Direct link to 🧠✨ Introduction" translate="no">​</a></h2>
+<p>🧠 Prompting is quickly becoming a <strong>core skill</strong> for developers, designers, and knowledge workers.</p>
+<p>⏳ A good prompt can save hours of work, while a vague one can lead to confusing or unusable results.</p>
+<p>🧩 Think of prompts as <strong>interfaces for thinking</strong> — the clearer your interface, the better the output.</p>
+<p>🚀 This post introduces a <strong>simple, reusable Prompt Framework</strong> that helps you to:</p>
 <ul>
-<li class="">communicate intent clearly 🗣️</li>
-<li class="">get more consistent results 🎯</li>
-<li class="">reuse prompts across tools and projects 🔁</li>
+<li class="">🗣️ communicate intent clearly</li>
+<li class="">🎯 get more consistent results</li>
+<li class="">🔁 reuse prompts across tools and projects</li>
 </ul>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="5w1h-">5W1H 🧩<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#5w1h-" class="hash-link" aria-label="Direct link to 5W1H 🧩" title="Direct link to 5W1H 🧩" translate="no">​</a></h2>
-<p>One of the easiest ways to structure a strong prompt is by borrowing the classic <strong>5W1H framework</strong>.</p>
-<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="who-"><strong>Who</strong> 👤<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#who-" class="hash-link" aria-label="Direct link to who-" title="Direct link to who-" translate="no">​</a></h3>
-<p>Who is the AI supposed to be?</p>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-5w1h">🧩 5W1H<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-5w1h" class="hash-link" aria-label="Direct link to 🧩 5W1H" title="Direct link to 🧩 5W1H" translate="no">​</a></h2>
+<p>🧠 One of the easiest ways to structure a strong prompt is by borrowing the classic <strong>5W1H framework</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-who">👤 <strong>Who</strong><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-who" class="hash-link" aria-label="Direct link to -who" title="Direct link to -who" translate="no">​</a></h3>
+<p>👤 Who is the AI supposed to be?</p>
 <ul>
 <li class="">A senior engineer</li>
 <li class="">A product manager</li>
@@ -66,8 +67,8 @@
 <p><em>“Act as a senior backend engineer…”</em></p>
 </blockquote>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="what-"><strong>What</strong> 📌<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#what-" class="hash-link" aria-label="Direct link to what-" title="Direct link to what-" translate="no">​</a></h3>
-<p>What exactly do you want?</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-what">📌 <strong>What</strong><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-what" class="hash-link" aria-label="Direct link to -what" title="Direct link to -what" translate="no">​</a></h3>
+<p>📌 What exactly do you want?</p>
 <ul>
 <li class="">Generate code</li>
 <li class="">Review text</li>
@@ -77,20 +78,20 @@
 <p><em>“Explain how Kafka consumer groups work…”</em></p>
 </blockquote>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="why-"><strong>Why</strong> 🎯<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#why-" class="hash-link" aria-label="Direct link to why-" title="Direct link to why-" translate="no">​</a></h3>
-<p>Why are you asking?</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-why">🎯 <strong>Why</strong><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-why" class="hash-link" aria-label="Direct link to -why" title="Direct link to -why" translate="no">​</a></h3>
+<p>🎯 Why are you asking?</p>
 <ul>
 <li class="">Learning</li>
 <li class="">Production use</li>
 <li class="">Decision making</li>
 </ul>
-<p>This helps the model choose the <strong>right depth and tone</strong>.</p>
+<p>🧠 This helps the model choose the <strong>right depth and tone</strong>.</p>
 <blockquote>
 <p><em>“…so I can explain it to junior developers.”</em></p>
 </blockquote>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="when-️-optional"><strong>When</strong> ⏱️ <em>(optional)</em><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#when-%EF%B8%8F-optional" class="hash-link" aria-label="Direct link to when-️-optional" title="Direct link to when-️-optional" translate="no">​</a></h3>
-<p>Time or context constraints.</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="️-when-optional">⏱️ <strong>When</strong> <em>(optional)</em><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#%EF%B8%8F-when-optional" class="hash-link" aria-label="Direct link to ️-when-optional" title="Direct link to ️-when-optional" translate="no">​</a></h3>
+<p>⏱️ When are time or context constraints relevant?</p>
 <ul>
 <li class="">Current trends</li>
 <li class="">Backward compatibility</li>
@@ -100,8 +101,8 @@
 <p><em>“Using Kafka 3.x…”</em></p>
 </blockquote>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="where--optional"><strong>Where</strong> 🌍 <em>(optional)</em><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#where--optional" class="hash-link" aria-label="Direct link to where--optional" title="Direct link to where--optional" translate="no">​</a></h3>
-<p>Environment or platform.</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-where-optional">🌍 <strong>Where</strong> <em>(optional)</em><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-where-optional" class="hash-link" aria-label="Direct link to -where-optional" title="Direct link to -where-optional" translate="no">​</a></h3>
+<p>🌍 Where will this be used?</p>
 <ul>
 <li class="">Web</li>
 <li class="">Mobile</li>
@@ -112,8 +113,8 @@
 <p><em>“…in a Spring Boot application.”</em></p>
 </blockquote>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="how-️"><strong>How</strong> ⚙️<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#how-%EF%B8%8F" class="hash-link" aria-label="Direct link to how-️" title="Direct link to how-️" translate="no">​</a></h3>
-<p>How should the output look?</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="️-how">⚙️ <strong>How</strong><a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#%EF%B8%8F-how" class="hash-link" aria-label="Direct link to ️-how" title="Direct link to ️-how" translate="no">​</a></h3>
+<p>⚙️ How should the output look?</p>
 <ul>
 <li class="">Bullet points</li>
 <li class="">Code only</li>
@@ -123,31 +124,45 @@
 <p><em>“Use simple examples and diagrams in text.”</em></p>
 </blockquote>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="good-prompt--vs-bad-prompt-">Good Prompt ✅ vs Bad Prompt ❌<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#good-prompt--vs-bad-prompt-" class="hash-link" aria-label="Direct link to Good Prompt ✅ vs Bad Prompt ❌" title="Direct link to Good Prompt ✅ vs Bad Prompt ❌" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-good-prompt-vs--bad-prompt">✅ Good Prompt vs ❌ Bad Prompt<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-good-prompt-vs--bad-prompt" class="hash-link" aria-label="Direct link to ✅ Good Prompt vs ❌ Bad Prompt" title="Direct link to ✅ Good Prompt vs ❌ Bad Prompt" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-bad-prompt">❌ Bad Prompt<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-bad-prompt" class="hash-link" aria-label="Direct link to ❌ Bad Prompt" title="Direct link to ❌ Bad Prompt" translate="no">​</a></h3>
 <blockquote>
 <p>“Explain Kafka”</p>
 </blockquote>
-<p>Too broad. Too vague. Too much guessing.</p>
+<p>🚨 Problems:</p>
+<ul>
+<li class="">👤 No role</li>
+<li class="">🎯 No goal</li>
+<li class="">🌍 No context</li>
+<li class="">⚙️ No format</li>
+<li class="">❌ No example</li>
+</ul>
+<p>🤔 The AI must <strong>guess everything</strong>, which often leads to generic or unfocused answers.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-good-prompt">✅ Good Prompt<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-good-prompt" class="hash-link" aria-label="Direct link to ✅ Good Prompt" title="Direct link to ✅ Good Prompt" translate="no">​</a></h3>
 <blockquote>
 <p>“Act as a senior backend engineer.<br>
 <!-- -->Explain Kafka consumer groups in simple terms for junior developers, using Kafka 3.x and a Spring Boot context.<br>
-<!-- -->Use bullet points and a short example.”</p>
+<!-- -->Use bullet points and a short example, similar to explaining how HTTP load balancing works.”</p>
 </blockquote>
-<p>Clear role 👤<br>
-<!-- -->Clear goal 🎯<br>
-<!-- -->Clear format 📐</p>
+<p>✅ Why this works:</p>
+<ul>
+<li class="">👤 Clear role</li>
+<li class="">🎯 Clear goal</li>
+<li class="">🌍 Clear context</li>
+<li class="">📐 Clear format</li>
+<li class="">🧩 Clear example</li>
+</ul>
+<p>🧠 Examples act as <strong>anchors</strong> — they show the AI <em>what “good” looks like</em>, not just what to do.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="combination-">Combination 🔗<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#combination-" class="hash-link" aria-label="Direct link to Combination 🔗" title="Direct link to Combination 🔗" translate="no">​</a></h2>
-<p>The real power comes from <strong>combining frameworks</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-combination">🔗 Combination<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-combination" class="hash-link" aria-label="Direct link to 🔗 Combination" title="Direct link to 🔗 Combination" translate="no">​</a></h2>
+<p>🔗 The real power comes from <strong>combining frameworks</strong>.</p>
 <h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-prompt-formula">🧠 Prompt Formula<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-prompt-formula" class="hash-link" aria-label="Direct link to 🧠 Prompt Formula" title="Direct link to 🧠 Prompt Formula" translate="no">​</a></h3>
-<div class="language-text codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-text codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token plain">Role + Task + Context + Constraints + Output Format</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-text codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token plain">Role + Task + Context + Constraints + Output Format + (Optional) Example</span><br></span></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-reusable-prompt-template">🔁 Reusable Prompt Template<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#-reusable-prompt-template" class="hash-link" aria-label="Direct link to 🔁 Reusable Prompt Template" title="Direct link to 🔁 Reusable Prompt Template" translate="no">​</a></h3>
-<div class="language-text codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-text codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token plain">Act as [ROLE].</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Your task is to [WHAT].  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">This is for [WHY].  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Context: [WHERE / WHEN].</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Output requirements:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- [FORMAT]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- [STYLE]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- [LENGTH]</span><br></span></code></pre></div></div>
-<p>You can store these templates and reuse them across:</p>
+<div class="language-text codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-text codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token plain">Act as [ROLE].</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Your task is to [WHAT].  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">This is for [WHY].  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Context: [WHERE / WHEN].</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Output requirements:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- Format: [FORMAT]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- Style: [STYLE]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- Length: [LENGTH]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">- Example (optional): [REFERENCE OR SAMPLE]</span><br></span></code></pre></div></div>
+<p>🔁 You can store these templates and reuse them across:</p>
 <ul>
 <li class="">ChatGPT</li>
 <li class="">Claude</li>
@@ -155,22 +170,55 @@
 <li class="">Internal AI tools</li>
 </ul>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="final-thoughts-">Final Thoughts 🚀<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#final-thoughts-" class="hash-link" aria-label="Direct link to Final Thoughts 🚀" title="Direct link to Final Thoughts 🚀" translate="no">​</a></h2>
-<p>Prompting is not about “talking nicely to AI”.<br>
-<!-- -->It’s about <strong>thinking clearly and expressing intent</strong>.</p>
-<p>A good prompt:</p>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="4️⃣-why-this-works">4️⃣ Why This Works<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#4%EF%B8%8F%E2%83%A3-why-this-works" class="hash-link" aria-label="Direct link to 4️⃣ Why This Works" title="Direct link to 4️⃣ Why This Works" translate="no">​</a></h3>
+<p>🧠 This framework works because it <strong>separates structure from intent</strong>.</p>
 <ul>
-<li class="">reduces ambiguity ❄️</li>
-<li class="">improves output quality 📈</li>
-<li class="">saves time ⏳</li>
+<li class="">
+<p>🧩 <strong>Who + How → quality control (template-owned)</strong><br>
+<!-- -->🎛️ These define <em>how</em> the AI should think and respond.<br>
+<!-- -->📈 They improve output quality regardless of topic.</p>
+</li>
+<li class="">
+<p>🎯 <strong>What + Why → intent (user-owned)</strong><br>
+<!-- -->🧠 These define <em>what matters</em>.<br>
+<!-- -->🙋 Only the user knows the real task and success criteria.</p>
+</li>
+<li class="">
+<p>🌍 <strong>Where / When → relevance (user-owned, optional)</strong><br>
+<!-- -->🧭 These ground the response in a real-world context, when needed.</p>
+</li>
 </ul>
-<p>Start simple. Use 5W1H.<br>
-<!-- -->Then combine and refine as you go.</p>
+<p>🧩 Examples sit at the boundary:</p>
+<ul>
+<li class="">Optional</li>
+<li class="">User-provided</li>
+<li class="">Extremely powerful when clarity or style matters</li>
+</ul>
+<p>⚖️ By keeping:</p>
+<ul>
+<li class="">🏗️ structure in the <strong>template</strong></li>
+<li class="">✍️ meaning in the <strong>user’s hands</strong></li>
+</ul>
+<p>🚀 you avoid over-constraining prompts while still getting <strong>consistent, high-quality results</strong>.</p>
 <blockquote>
-<p><strong>Clear thinking → Clear prompts → Better results</strong> ✨</p>
+<p>✨ <strong>Template sets clarity. User sets purpose. Examples set direction.</strong></p>
 </blockquote>
 <hr>
-<p>Happy prompting! 😄</p>]]></content:encoded>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="final-thoughts-">Final Thoughts 🚀<a href="https://hieudoanm.github.io/promptly/blog/prompt-framework#final-thoughts-" class="hash-link" aria-label="Direct link to Final Thoughts 🚀" title="Direct link to Final Thoughts 🚀" translate="no">​</a></h2>
+<p>🧠 Prompting is not about “talking nicely to AI”.<br>
+<!-- -->🎯 It’s about <strong>thinking clearly and expressing intent</strong>.</p>
+<p>✅ A good prompt:</p>
+<ul>
+<li class="">❄️ reduces ambiguity</li>
+<li class="">📈 improves output quality</li>
+<li class="">⏳ saves time</li>
+</ul>
+<p>🚀 Start simple. Use 5W1H.<br>
+<!-- -->🔁 Then combine and refine as you go.</p>
+<blockquote>
+<p>✨ <strong>Clear thinking → Clear prompts → Better results</strong></p>
+</blockquote>
+<p>😄 Happy prompting!</p>]]></content:encoded>
             <category>Hello</category>
         </item>
     </channel>

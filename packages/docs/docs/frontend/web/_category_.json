@@ -1,0 +1,8 @@
+{
+	"label": "🌐 Web",
+	"position": 1,
+	"link": {
+		"slug": "/web",
+		"type": "generated-index"
+	}
+}

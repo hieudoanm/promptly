@@ -1,7 +1,8 @@
 {
-	"label": "Backend",
-	"position": 4,
+	"label": "⚙️ Backend",
+	"position": 3,
 	"link": {
+		"slug": "/backend",
 		"type": "generated-index"
 	}
 }
