@@ -1,7 +1,22 @@
 {
-	"name": "@chat/docs",
+	"name": "@promptly/docs",
 	"version": "0.0.1",
 	"private": true,
+	"description": "Promptly - Docs",
+	"keywords": [
+		"promptly",
+		"docs"
+	],
+	"homepage": "https://hieudoanm.github.io/promptly",
+	"bugs": {
+		"url": "https://github.com/hieudoanm/promptly/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/hieudoanm/promptly.git"
+	},
+	"license": "GPL-3.0",
+	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
 	"packageManager": "pnpm@10.28.0",
 	"engines": {
 		"node": "24.13.0"

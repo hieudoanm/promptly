@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_promptly_docs=globalThis.webpackChunk_promptly_docs||[]).push([[7921],{8343(o){o.exports=JSON.parse('{"metadata":{"permalink":"/promptly/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

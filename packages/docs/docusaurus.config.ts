@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
 	title: 'Promptly',
-	tagline: 'Prompts for Software Engineer',
+	tagline: 'Prompts for ',
 	favicon: 'img/favicon.ico',
 
 	// Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

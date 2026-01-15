@@ -5,7 +5,7 @@ sidebar_position: 1
 # 💬 Promptly
 
 - [💬 Promptly](#-promptly)
-  - [🏗️ Template-owned](#️-template-owned)
+  - [🏗️ Context-owned](#️-context-owned)
     - [👤 Who (Role / Persona)](#-who-role--persona)
     - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
   - [✍️ User-owned](#️-user-owned)
@@ -18,17 +18,17 @@ sidebar_position: 1
 
 This framework combines **5W1H** with **Good Prompt principles**  
 (**Clear role · Clear format · Clear goal · Clear context · Clear examples**)  
-and clearly separates **template-owned** vs **user-owned** responsibilities.
+and clearly separates **context-owned** vs **user-owned** responsibilities.
 
 The key idea:  
-👉 **The template controls quality and consistency**  
+👉 **The context controls quality and consistency**  
 👉 **The user controls intent, meaning, and context**
 
 ---
 
-## 🏗️ Template-owned
+## 🏗️ Context-owned
 
-> These sections are **owned by the prompt template**.  
+> These sections are **owned by the prompt context**.  
 > They should always exist to guarantee **predictable, high-quality outputs**.
 
 ---
@@ -72,7 +72,7 @@ Example:
 
 ✅ Controls **usability, clarity, and consistency**  
 ✅ Makes prompts reusable across users and teams  
-📝 Users may override specifics, but the structure remains template-owned
+📝 Users may override specifics, but the structure remains context-owned
 
 ---
 
@@ -95,7 +95,7 @@ Example:
   - Generate ideas
 
 ✅ Defines the **core action**  
-❌ Cannot be inferred by the template  
+❌ Cannot be inferred by the context  
 👉 Always required from the user
 
 ---
@@ -164,9 +164,9 @@ Example:
 ## 🔗 Final Prompt Template (Recommended Order)
 
 ```text
-Act as [WHO]. ← 🏗️ Template-owned
+Act as [WHO]. ← 🏗️ Context-owned
 
-How to respond: ← 🏗️ Template-owned
+How to respond: ← 🏗️ Context-owned
 
 - Format: [FORMAT]
 - Style: [STYLE]
