@@ -1,6 +1,6 @@
 {
 	"label": "🧩 Product",
-	"position": 6,
+	"position": 3,
 	"link": {
 		"slug": "/product",
 		"type": "generated-index"
