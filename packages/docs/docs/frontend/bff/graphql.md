@@ -1,6 +1,9 @@
 # 🕸️ GraphQL
 
+## 📚 Table of Contents
+
 - [🕸️ GraphQL](#️-graphql)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
   - [👤 Who (Role / Persona)](#-who-role--persona)
     - [Default Persona (Recommended)](#default-persona-recommended)

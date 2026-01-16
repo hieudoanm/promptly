@@ -1,6 +1,9 @@
 # ⚛️ React Native
 
+## 📚 Table of Contents
+
 - [⚛️ React Native](#️-react-native)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
   - [👤 Who (Role / Persona)](#-who-role--persona)
     - [Default Persona (Recommended)](#default-persona-recommended)

@@ -4,7 +4,10 @@ sidebar_position: 3
 
 # 🧊 Apache Iceberg
 
+## 📚 Table of Contents
+
 - [🧊 Apache Iceberg](#-apache-iceberg)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
     - [👤 Who (Role / Persona)](#-who-role--persona)
       - [Default Persona (Recommended)](#default-persona-recommended)

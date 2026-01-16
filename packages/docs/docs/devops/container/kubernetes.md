@@ -4,7 +4,10 @@ sidebar_position: 2
 
 # ☸️ Kubernetes
 
+## 📚 Table of Contents
+
 - [☸️ Kubernetes](#️-kubernetes)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
     - [👤 Who (Role / Persona)](#-who-role--persona)
       - [Default Persona (Recommended)](#default-persona-recommended)
