@@ -1,8 +1,8 @@
 {
-	"label": "🧑‍💻 Engineer",
+	"label": "🧑‍💻 Engineering",
 	"position": 2,
 	"link": {
-		"slug": "/engineer",
+		"slug": "/engineering",
 		"type": "generated-index"
 	}
 }

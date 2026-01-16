@@ -24,6 +24,7 @@
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
+		"prebuild": "rimraf ../../docs .docusaurus",
 		"build": "docusaurus build --out-dir ../../docs",
 		"postbuild": "touch ../../docs/.nojekyll",
 		"swizzle": "docusaurus swizzle",
