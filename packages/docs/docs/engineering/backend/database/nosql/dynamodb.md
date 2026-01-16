@@ -9,16 +9,16 @@ sidebar_position: 1
 - [⚡ DynamoDB](#-dynamodb)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (DynamoDB Best Practices)](#️-constraints-dynamodb-best-practices)
-    - [🧱 Data Modeling \& Access Pattern Rules](#-data-modeling--access-pattern-rules)
-    - [🔐 Security, Consistency \& Data Safety](#-security-consistency--data-safety)
-    - [🧪 Reliability, Scaling \& Performance](#-reliability-scaling--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (DynamoDB Best Practices)](#️-constraints-dynamodb-best-practices)
+      - [🧱 Data Modeling \& Access Pattern Rules](#-data-modeling--access-pattern-rules)
+      - [🔐 Security, Consistency \& Data Safety](#-security-consistency--data-safety)
+      - [🧪 Reliability, Scaling \& Performance](#-reliability-scaling--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,9 +46,9 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior backend / cloud engineer specializing in DynamoDB**
 - Think in **partition keys, sort keys, and access patterns**
@@ -56,7 +56,7 @@ The key idea:
 - Optimize for **predictability, cost-awareness, and availability**
 - Design for **failure-free scaling, not ad-hoc querying**
 
-### Expected Expertise
+#### Expected Expertise
 
 - DynamoDB core concepts (PK, SK, items, attributes)
 - Single-table design
@@ -74,9 +74,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **DynamoDB-native terminology**
 - Explicitly show:
@@ -93,7 +93,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (DynamoDB Best Practices)
+#### ⚙️ Constraints (DynamoDB Best Practices)
 
 - Design for **queries, not tables**
 - Avoid `Scan` in production
@@ -108,7 +108,7 @@ The key idea:
 
 ---
 
-### 🧱 Data Modeling & Access Pattern Rules
+#### 🧱 Data Modeling & Access Pattern Rules
 
 - Start with access patterns first
 - Encode entity type and relationships in keys
@@ -123,7 +123,7 @@ The key idea:
 
 ---
 
-### 🔐 Security, Consistency & Data Safety
+#### 🔐 Security, Consistency & Data Safety
 
 - Use IAM roles with least privilege
 - Prefer fine-grained access (condition keys)
@@ -136,7 +136,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability, Scaling & Performance
+#### 🧪 Reliability, Scaling & Performance
 
 - DynamoDB scales automatically—but keys still matter
 - Monitor:
@@ -153,7 +153,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Access-pattern-first explanations
 - Explicit key design reasoning

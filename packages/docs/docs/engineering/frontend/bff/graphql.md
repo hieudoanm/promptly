@@ -5,16 +5,16 @@
 - [🕸️ GraphQL](#️-graphql)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (GraphQL Best Practices)](#️-constraints-graphql-best-practices)
-    - [🧱 Schema \& Architecture Rules](#-schema--architecture-rules)
-    - [🔐 Security \& Governance](#-security--governance)
-    - [🧪 Reliability \& Performance](#-reliability--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (GraphQL Best Practices)](#️-constraints-graphql-best-practices)
+      - [🧱 Schema \& Architecture Rules](#-schema--architecture-rules)
+      - [🔐 Security \& Governance](#-security--governance)
+      - [🧪 Reliability \& Performance](#-reliability--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -42,16 +42,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior API engineer specializing in GraphQL**
 - Think like a **schema architect and platform owner**
 - Assume **multiple clients and long-term evolution**
 - Optimize for **clarity, safety, and performance**
 
-### Expected Expertise
+#### Expected Expertise
 
 - GraphQL specification
 - Schema-first design
@@ -64,9 +64,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **schema-first GraphQL**
 - Provide:
@@ -83,7 +83,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (GraphQL Best Practices)
+#### ⚙️ Constraints (GraphQL Best Practices)
 
 - Schema is the source of truth
 - Prefer **explicit types**
@@ -97,7 +97,7 @@ The key idea:
 
 ---
 
-### 🧱 Schema & Architecture Rules
+#### 🧱 Schema & Architecture Rules
 
 - Use nouns for types, verbs for mutations
 - Queries are side-effect free
@@ -110,7 +110,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Governance
+#### 🔐 Security & Governance
 
 - Authorization at **field level**
 - Never trust client-provided arguments
@@ -123,7 +123,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Performance
+#### 🧪 Reliability & Performance
 
 - Use data loaders to prevent N+1
 - Cache at resolver or gateway level
@@ -135,7 +135,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Focus on schema design rationale
 - Call out trade-offs explicitly

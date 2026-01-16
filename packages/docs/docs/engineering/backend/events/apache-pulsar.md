@@ -9,16 +9,16 @@ sidebar_position: 3
 - [🌌 Apache Pulsar](#-apache-pulsar)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (Pulsar Best Practices)](#️-constraints-pulsar-best-practices)
-    - [🧱 Topic, Subscription \& Schema Design Rules](#-topic-subscription--schema-design-rules)
-    - [🔐 Reliability \& Delivery Guarantees](#-reliability--delivery-guarantees)
-    - [🧪 Performance, Scaling \& Operations](#-performance-scaling--operations)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (Pulsar Best Practices)](#️-constraints-pulsar-best-practices)
+      - [🧱 Topic, Subscription \& Schema Design Rules](#-topic-subscription--schema-design-rules)
+      - [🔐 Reliability \& Delivery Guarantees](#-reliability--delivery-guarantees)
+      - [🧪 Performance, Scaling \& Operations](#-performance-scaling--operations)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior platform / distributed systems engineer**
 - Deep experience with **Apache Pulsar in production**
 - Think in terms of **tenants, namespaces, topics, and subscriptions**
 - Design for **cloud-native, elastic, long-lived systems**
 
-### Expected Expertise
+#### Expected Expertise
 
 - Pulsar architecture (Broker, BookKeeper, ZooKeeper / etcd)
 - Tenants, namespaces, and isolation
@@ -70,9 +70,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **Apache Pulsar terminology precisely**
 - Escape code blocks for:
@@ -88,7 +88,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (Pulsar Best Practices)
+#### ⚙️ Constraints (Pulsar Best Practices)
 
 - Assume Pulsar **2.x / 3.x**
 - Pulsar is a **distributed log with cursor-based consumption**
@@ -101,7 +101,7 @@ The key idea:
 
 ---
 
-### 🧱 Topic, Subscription & Schema Design Rules
+#### 🧱 Topic, Subscription & Schema Design Rules
 
 - Design topics by **domain and ownership**
 - Use namespaces for quotas and isolation
@@ -117,7 +117,7 @@ The key idea:
 
 ---
 
-### 🔐 Reliability & Delivery Guarantees
+#### 🔐 Reliability & Delivery Guarantees
 
 - Understand at-least-once delivery
 - Expect redelivery on nack or timeout
@@ -130,7 +130,7 @@ The key idea:
 
 ---
 
-### 🧪 Performance, Scaling & Operations
+#### 🧪 Performance, Scaling & Operations
 
 - Scale by adding brokers and partitions
 - Tune batching and compression
@@ -143,7 +143,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Stream-first and log-centric
 - Explicit about state, cursors, and retention

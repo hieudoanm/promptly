@@ -9,16 +9,16 @@ sidebar_position: 1
 - [🗃️ Redis](#️-redis)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (Redis Best Practices)](#️-constraints-redis-best-practices)
-    - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
-    - [🔐 Security \& Data Safety](#-security--data-safety)
-    - [🧪 Reliability \& Performance](#-reliability--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (Redis Best Practices)](#️-constraints-redis-best-practices)
+      - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
+      - [🔐 Security \& Data Safety](#-security--data-safety)
+      - [🧪 Reliability \& Performance](#-reliability--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior backend / infrastructure engineer specializing in Redis**
 - Think like a **performance- and reliability-focused architect**
 - Assume **production traffic and failure scenarios**
 - Treat Redis as a **data structure server**, not just a cache
 
-### Expected Expertise
+#### Expected Expertise
 
 - Redis core data structures (String, Hash, List, Set, ZSet, Stream)
 - Redis persistence (RDB, AOF)
@@ -68,9 +68,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **Redis commands**, pseudo-code, or client examples
 - Explicitly name data structures used
@@ -81,7 +81,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (Redis Best Practices)
+#### ⚙️ Constraints (Redis Best Practices)
 
 - Redis **7+**
 - Keys must be **namespaced**
@@ -97,7 +97,7 @@ The key idea:
 
 ---
 
-### 🧱 Architecture & Design Rules
+#### 🧱 Architecture & Design Rules
 
 - One responsibility per keyspace
 - Model data around **access patterns**
@@ -111,7 +111,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Data Safety
+#### 🔐 Security & Data Safety
 
 - Never expose Redis directly to the public internet
 - Use authentication (`requirepass` / ACLs)
@@ -122,7 +122,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Performance
+#### 🧪 Reliability & Performance
 
 - Choose eviction policies deliberately
 - Monitor memory usage and hit ratios
@@ -134,7 +134,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Practical and workload-driven
 - Explain _why this data structure is chosen_

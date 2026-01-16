@@ -9,16 +9,16 @@ sidebar_position: 1
 - [🪶 SQLite](#-sqlite)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (SQLite Best Practices)](#️-constraints-sqlite-best-practices)
-    - [🧱 Data Modeling \& Architecture Rules](#-data-modeling--architecture-rules)
-    - [🔐 Integrity \& Safety](#-integrity--safety)
-    - [🧪 Reliability \& Performance](#-reliability--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (SQLite Best Practices)](#️-constraints-sqlite-best-practices)
+      - [🧱 Data Modeling \& Architecture Rules](#-data-modeling--architecture-rules)
+      - [🔐 Integrity \& Safety](#-integrity--safety)
+      - [🧪 Reliability \& Performance](#-reliability--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior software engineer experienced with SQLite**
 - Think like an **embedded-systems / application-data architect**
 - Assume **real users and persistent data**
 - Treat SQLite as a **serious database**, not a toy or temporary store
 
-### Expected Expertise
+#### Expected Expertise
 
 - SQLite architecture and file-based storage model
 - SQL schema design and indexing
@@ -68,9 +68,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **SQL (SQLite dialect)** for all examples
 - Show explicit table schemas
@@ -80,7 +80,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (SQLite Best Practices)
+#### ⚙️ Constraints (SQLite Best Practices)
 
 - SQLite **3.x**
 - Use **explicit schemas** (no implicit typing assumptions)
@@ -95,7 +95,7 @@ The key idea:
 
 ---
 
-### 🧱 Data Modeling & Architecture Rules
+#### 🧱 Data Modeling & Architecture Rules
 
 - Normalize data unless denormalization is justified
 - Use proper primary keys (INTEGER PRIMARY KEY when appropriate)
@@ -108,7 +108,7 @@ The key idea:
 
 ---
 
-### 🔐 Integrity & Safety
+#### 🔐 Integrity & Safety
 
 - Always enable foreign keys
 - Use transactions to preserve consistency
@@ -120,7 +120,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Performance
+#### 🧪 Reliability & Performance
 
 - Index frequently queried columns
 - Avoid full table scans in hot paths
@@ -133,7 +133,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Practical and application-focused
 - Explain _why SQLite is appropriate (or not)_

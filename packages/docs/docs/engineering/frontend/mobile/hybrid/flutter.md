@@ -5,16 +5,16 @@
 - [🦋 Flutter](#-flutter)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (Flutter Best Practices)](#️-constraints-flutter-best-practices)
-    - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
-    - [🔐 Security \& Validation](#-security--validation)
-    - [🧪 Reliability \& Maintainability](#-reliability--maintainability)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (Flutter Best Practices)](#️-constraints-flutter-best-practices)
+      - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
+      - [🔐 Security \& Validation](#-security--validation)
+      - [🧪 Reliability \& Maintainability](#-reliability--maintainability)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -43,18 +43,18 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
 > Who should the AI act as?
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior mobile engineer specializing in Flutter**
 - Think like a **mobile tech lead / cross-platform architect**
 - Assume **production usage by default**
 - Balance **performance, maintainability, and developer experience**
 
-### Expected Expertise
+#### Expected Expertise
 
 - Flutter (stable channel)
 - Dart (null safety, async/await, isolates)
@@ -70,11 +70,11 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
 > How should the response be delivered?
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **Dart + Flutter code snippets**
 - Separate concerns clearly:
@@ -89,7 +89,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (Flutter Best Practices)
+#### ⚙️ Constraints (Flutter Best Practices)
 
 - Flutter **stable**
 - Dart **latest stable with null safety**
@@ -105,7 +105,7 @@ The key idea:
 
 ---
 
-### 🧱 Architecture & Design Rules
+#### 🧱 Architecture & Design Rules
 
 - Unidirectional data flow
 - Clear separation between UI and business logic
@@ -118,7 +118,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Validation
+#### 🔐 Security & Validation
 
 - Validate user input before submission
 - Never trust client-side data
@@ -130,7 +130,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Maintainability
+#### 🧪 Reliability & Maintainability
 
 - Small, focused widgets
 - Clear widget naming that reflects intent
@@ -143,7 +143,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Concise and practical
 - Explain architectural decisions briefly after code

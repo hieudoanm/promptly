@@ -9,16 +9,16 @@ sidebar_position: 2
 - [🧠 Memcached](#-memcached)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (Memcached Best Practices)](#️-constraints-memcached-best-practices)
-    - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
-    - [🔐 Security \& Data Safety](#-security--data-safety)
-    - [🧪 Reliability \& Performance](#-reliability--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (Memcached Best Practices)](#️-constraints-memcached-best-practices)
+      - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
+      - [🔐 Security \& Data Safety](#-security--data-safety)
+      - [🧪 Reliability \& Performance](#-reliability--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,9 +46,9 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **backend / infrastructure engineer using Memcached**
 - Think in **key-value access patterns and eviction behavior**
@@ -56,7 +56,7 @@ The key idea:
 - Optimize for **latency, simplicity, and predictability**
 - Prefer **boring, stable designs**
 
-### Expected Expertise
+#### Expected Expertise
 
 - Memcached architecture (in-memory, distributed)
 - Key-value data model
@@ -72,9 +72,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **Memcached commands or client pseudo-code**
 - Explicitly show:
@@ -89,7 +89,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (Memcached Best Practices)
+#### ⚙️ Constraints (Memcached Best Practices)
 
 - Memcached is **non-persistent**
 - No complex data structures (values are opaque blobs)
@@ -104,7 +104,7 @@ The key idea:
 
 ---
 
-### 🧱 Architecture & Design Rules
+#### 🧱 Architecture & Design Rules
 
 - Use Memcached only for **hot, recomputable data**
 - Prefer **cache-aside** strategy
@@ -118,7 +118,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Data Safety
+#### 🔐 Security & Data Safety
 
 - Never expose Memcached to the public internet
 - Bind to private networks only
@@ -129,7 +129,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Performance
+#### 🧪 Reliability & Performance
 
 - Monitor:
   - hit/miss ratio
@@ -146,7 +146,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Cache-first explanations
 - Explicit about trade-offs vs Redis

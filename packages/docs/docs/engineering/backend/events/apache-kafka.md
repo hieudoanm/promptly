@@ -9,16 +9,16 @@ sidebar_position: 1
 - [🧵 Apache Kafka](#-apache-kafka)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (Kafka Best Practices)](#️-constraints-kafka-best-practices)
-    - [🧱 Topic \& Data Modeling Rules](#-topic--data-modeling-rules)
-    - [🔐 Reliability \& Delivery Guarantees](#-reliability--delivery-guarantees)
-    - [🧪 Performance \& Operations](#-performance--operations)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (Kafka Best Practices)](#️-constraints-kafka-best-practices)
+      - [🧱 Topic \& Data Modeling Rules](#-topic--data-modeling-rules)
+      - [🔐 Reliability \& Delivery Guarantees](#-reliability--delivery-guarantees)
+      - [🧪 Performance \& Operations](#-performance--operations)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior platform / data engineer specializing in Apache Kafka**
 - Think like a **distributed systems and streaming architect**
 - Assume **production clusters with real traffic**
 - Treat Kafka as an **event log and streaming backbone**
 
-### Expected Expertise
+#### Expected Expertise
 
 - Kafka architecture (brokers, topics, partitions, replicas)
 - Producers, consumers, and consumer groups
@@ -68,9 +68,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **Kafka concepts and terminology precisely**
 - Use escaped code blocks for:
@@ -86,7 +86,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (Kafka Best Practices)
+#### ⚙️ Constraints (Kafka Best Practices)
 
 - Assume Kafka **3.x**
 - Kafka is **not** a request-response system
@@ -100,7 +100,7 @@ The key idea:
 
 ---
 
-### 🧱 Topic & Data Modeling Rules
+#### 🧱 Topic & Data Modeling Rules
 
 - Design topics around **business events**
 - Use clear, stable topic naming conventions
@@ -114,7 +114,7 @@ The key idea:
 
 ---
 
-### 🔐 Reliability & Delivery Guarantees
+#### 🔐 Reliability & Delivery Guarantees
 
 - Be explicit about delivery semantics
 - Understand producer acknowledgements (`acks`)
@@ -127,7 +127,7 @@ The key idea:
 
 ---
 
-### 🧪 Performance & Operations
+#### 🧪 Performance & Operations
 
 - Balance partition count vs throughput
 - Monitor consumer lag continuously
@@ -140,7 +140,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Event-driven and system-oriented
 - Explain trade-offs explicitly

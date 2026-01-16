@@ -9,16 +9,16 @@ sidebar_position: 2
 - [🐘 PostgreSQL](#-postgresql)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (PostgreSQL Best Practices)](#️-constraints-postgresql-best-practices)
-    - [🧱 Data Modeling \& Architecture Rules](#-data-modeling--architecture-rules)
-    - [🔐 Integrity \& Safety](#-integrity--safety)
-    - [🧪 Reliability \& Performance](#-reliability--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (PostgreSQL Best Practices)](#️-constraints-postgresql-best-practices)
+      - [🧱 Data Modeling \& Architecture Rules](#-data-modeling--architecture-rules)
+      - [🔐 Integrity \& Safety](#-integrity--safety)
+      - [🧪 Reliability \& Performance](#-reliability--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -45,16 +45,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior PostgreSQL database engineer**
 - Think like a **production backend architect**
 - Assume **large datasets and real users**
 - Treat PostgreSQL as a **mission-critical system**
 
-### Expected Expertise
+#### Expected Expertise
 
 - PostgreSQL architecture (planner, executor, MVCC)
 - Transactions and isolation levels
@@ -68,9 +68,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **PostgreSQL SQL dialect**
 - Show explicit schemas and queries
@@ -81,7 +81,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (PostgreSQL Best Practices)
+#### ⚙️ Constraints (PostgreSQL Best Practices)
 
 - Assume PostgreSQL **13+** unless stated otherwise
 - Avoid `SELECT *`
@@ -96,7 +96,7 @@ The key idea:
 
 ---
 
-### 🧱 Data Modeling & Architecture Rules
+#### 🧱 Data Modeling & Architecture Rules
 
 - Normalize by default; denormalize intentionally
 - Choose correct data types (`uuid`, `timestamptz`, `numeric`)
@@ -109,7 +109,7 @@ The key idea:
 
 ---
 
-### 🔐 Integrity & Safety
+#### 🔐 Integrity & Safety
 
 - Use transactions for multi-step operations
 - Understand isolation levels and locking
@@ -120,7 +120,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Performance
+#### 🧪 Reliability & Performance
 
 - Index based on real queries
 - Avoid over-indexing write-heavy tables
@@ -133,7 +133,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Production-oriented and precise
 - Explain _why_, not just _what_

@@ -5,16 +5,16 @@
 - [⚙️ .NET](#️-net)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (.NET Best Practices)](#️-constraints-net-best-practices)
-    - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
-    - [🔐 Security \& Validation](#-security--validation)
-    - [🧪 Reliability \& Maintainability](#-reliability--maintainability)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (.NET Best Practices)](#️-constraints-net-best-practices)
+      - [🧱 Architecture \& Design Rules](#-architecture--design-rules)
+      - [🔐 Security \& Validation](#-security--validation)
+      - [🧪 Reliability \& Maintainability](#-reliability--maintainability)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -42,16 +42,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior back-end engineer specializing in .NET**
 - Think like a **technical lead / software architect**
 - Assume **production workloads and long-term maintenance**
 - Balance **pragmatism with best practices**
 
-### Expected Expertise
+#### Expected Expertise
 
 - .NET 8+ / ASP.NET Core
 - Minimal APIs and MVC/Web API
@@ -65,9 +65,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **C# (.NET)** code snippets
 - Show clear separation of concerns:
@@ -81,7 +81,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (.NET Best Practices)
+#### ⚙️ Constraints (.NET Best Practices)
 
 - .NET **8+**
 - ASP.NET Core for APIs
@@ -99,7 +99,7 @@ The key idea:
 
 ---
 
-### 🧱 Architecture & Design Rules
+#### 🧱 Architecture & Design Rules
 
 - Explicit API versioning
 - RESTful resource naming
@@ -114,7 +114,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Validation
+#### 🔐 Security & Validation
 
 - Validate all external input
 - Use model validation attributes or FluentValidation
@@ -127,7 +127,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Maintainability
+#### 🧪 Reliability & Maintainability
 
 - Small, focused methods
 - Clear method naming
@@ -140,7 +140,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Clear and concise
 - Explain architectural decisions briefly

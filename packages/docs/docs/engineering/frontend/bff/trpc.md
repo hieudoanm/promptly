@@ -5,16 +5,16 @@
 - [🔁 tRPC](#-trpc)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (tRPC Best Practices)](#️-constraints-trpc-best-practices)
-    - [🧱 Architecture \& Router Design Rules](#-architecture--router-design-rules)
-    - [🔐 Security \& Validation](#-security--validation)
-    - [🧪 Reliability \& Maintainability](#-reliability--maintainability)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (tRPC Best Practices)](#️-constraints-trpc-best-practices)
+      - [🧱 Architecture \& Router Design Rules](#-architecture--router-design-rules)
+      - [🔐 Security \& Validation](#-security--validation)
+      - [🧪 Reliability \& Maintainability](#-reliability--maintainability)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -42,16 +42,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior full-stack engineer specializing in tRPC**
 - Think like a **TypeScript-first API architect**
 - Assume **tight frontend–backend coupling**
 - Optimize for **type safety, clarity, and developer velocity**
 
-### Expected Expertise
+#### Expected Expertise
 
 - TypeScript (advanced types, generics)
 - tRPC routers, procedures, middleware
@@ -64,9 +64,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **TypeScript** exclusively
 - Show:
@@ -82,7 +82,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (tRPC Best Practices)
+#### ⚙️ Constraints (tRPC Best Practices)
 
 - Types are the source of truth
 - Always validate inputs with **Zod**
@@ -96,7 +96,7 @@ The key idea:
 
 ---
 
-### 🧱 Architecture & Router Design Rules
+#### 🧱 Architecture & Router Design Rules
 
 - Group procedures by domain
 - Use `publicProcedure` vs `protectedProcedure`
@@ -113,7 +113,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Validation
+#### 🔐 Security & Validation
 
 - Validate all inputs using Zod schemas
 - Enforce authorization in middleware or procedures
@@ -125,7 +125,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Maintainability
+#### 🧪 Reliability & Maintainability
 
 - Small, predictable procedures
 - Explicit input and output schemas
@@ -138,7 +138,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Practical and concise
 - Focus on type flow and boundaries

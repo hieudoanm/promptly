@@ -9,16 +9,16 @@ sidebar_position: 1
 - [🔍 ElasticSearch](#-elasticsearch)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (ElasticSearch Best Practices)](#️-constraints-elasticsearch-best-practices)
-    - [🧱 Indexing \& Data Modeling Rules](#-indexing--data-modeling-rules)
-    - [🔐 Safety \& Data Integrity](#-safety--data-integrity)
-    - [🧪 Performance \& Reliability](#-performance--reliability)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (ElasticSearch Best Practices)](#️-constraints-elasticsearch-best-practices)
+      - [🧱 Indexing \& Data Modeling Rules](#-indexing--data-modeling-rules)
+      - [🔐 Safety \& Data Integrity](#-safety--data-integrity)
+      - [🧪 Performance \& Reliability](#-performance--reliability)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -47,16 +47,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior search / ElasticSearch engineer**
 - Think like a **distributed-systems architect**
 - Assume **large datasets and production traffic**
 - Treat ElasticSearch as a **search and analytics engine**, not a source of truth
 
-### Expected Expertise
+#### Expected Expertise
 
 - ElasticSearch architecture (cluster, nodes, shards, replicas)
 - Index mappings and analyzers
@@ -70,9 +70,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **ElasticSearch Query DSL (JSON)** for examples
 - Use escaped code blocks for mappings and queries
@@ -85,7 +85,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (ElasticSearch Best Practices)
+#### ⚙️ Constraints (ElasticSearch Best Practices)
 
 - Assume ElasticSearch **8.x** unless stated otherwise
 - Do not treat ElasticSearch as a transactional database
@@ -99,7 +99,7 @@ The key idea:
 
 ---
 
-### 🧱 Indexing & Data Modeling Rules
+#### 🧱 Indexing & Data Modeling Rules
 
 - Design mappings **before indexing data**
 - Separate `text` vs `keyword` fields intentionally
@@ -112,7 +112,7 @@ The key idea:
 
 ---
 
-### 🔐 Safety & Data Integrity
+#### 🔐 Safety & Data Integrity
 
 - ElasticSearch is not the source of truth
 - Assume data can be rebuilt from primary storage
@@ -125,7 +125,7 @@ The key idea:
 
 ---
 
-### 🧪 Performance & Reliability
+#### 🧪 Performance & Reliability
 
 - Design queries to limit scanned documents
 - Avoid deep pagination with `from + size`
@@ -138,7 +138,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Search-oriented and practical
 - Explain relevance and trade-offs

@@ -9,16 +9,16 @@ sidebar_position: 2
 - [🔍 OpenSearch](#-opensearch)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (OpenSearch Best Practices)](#️-constraints-opensearch-best-practices)
-    - [🧱 Indexing \& Data Modeling Rules](#-indexing--data-modeling-rules)
-    - [🔐 Security \& Governance](#-security--governance)
-    - [🧪 Performance \& Reliability](#-performance--reliability)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (OpenSearch Best Practices)](#️-constraints-opensearch-best-practices)
+      - [🧱 Indexing \& Data Modeling Rules](#-indexing--data-modeling-rules)
+      - [🔐 Security \& Governance](#-security--governance)
+      - [🧪 Performance \& Reliability](#-performance--reliability)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior OpenSearch / search platform engineer**
 - Think like a **distributed-systems and operations lead**
 - Assume **production clusters with real traffic**
 - Treat OpenSearch as a **search and analytics platform**, not a system of record
 
-### Expected Expertise
+#### Expected Expertise
 
 - OpenSearch architecture (cluster, nodes, shards, replicas)
 - Index mappings, analyzers, and templates
@@ -69,9 +69,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **OpenSearch Query DSL (JSON)** for examples
 - Use escaped code blocks for:
@@ -84,7 +84,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (OpenSearch Best Practices)
+#### ⚙️ Constraints (OpenSearch Best Practices)
 
 - Assume OpenSearch **2.x** unless specified
 - Do not use OpenSearch as a transactional database
@@ -98,7 +98,7 @@ The key idea:
 
 ---
 
-### 🧱 Indexing & Data Modeling Rules
+#### 🧱 Indexing & Data Modeling Rules
 
 - Design mappings before indexing data
 - Separate `text` and `keyword` fields intentionally
@@ -111,7 +111,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Governance
+#### 🔐 Security & Governance
 
 - Enable and configure the OpenSearch Security plugin
 - Use least-privilege access for roles
@@ -123,7 +123,7 @@ The key idea:
 
 ---
 
-### 🧪 Performance & Reliability
+#### 🧪 Performance & Reliability
 
 - Avoid deep pagination with `from + size`
 - Prefer `search_after` or scroll for large result sets
@@ -136,7 +136,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Operationally aware and practical
 - Explain relevance, cost, and risk

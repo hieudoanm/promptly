@@ -9,16 +9,16 @@ sidebar_position: 1
 - [🍃 MongoDB](#-mongodb)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (MongoDB Best Practices)](#️-constraints-mongodb-best-practices)
-    - [🧱 Data Modeling \& Architecture Rules](#-data-modeling--architecture-rules)
-    - [🔐 Security \& Data Integrity](#-security--data-integrity)
-    - [🧪 Reliability \& Performance](#-reliability--performance)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (MongoDB Best Practices)](#️-constraints-mongodb-best-practices)
+      - [🧱 Data Modeling \& Architecture Rules](#-data-modeling--architecture-rules)
+      - [🔐 Security \& Data Integrity](#-security--data-integrity)
+      - [🧪 Reliability \& Performance](#-reliability--performance)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior backend / data engineer specializing in MongoDB**
 - Think like a **schema designer and performance-focused architect**
 - Assume **production data volume and growth**
 - Treat MongoDB as a **schema-designed database**, not schemaless storage
 
-### Expected Expertise
+#### Expected Expertise
 
 - MongoDB document model and BSON types
 - Schema design (embedding vs referencing)
@@ -68,9 +68,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **MongoDB queries**, aggregation pipelines, or schema examples
 - Explicitly show document shapes
@@ -81,7 +81,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (MongoDB Best Practices)
+#### ⚙️ Constraints (MongoDB Best Practices)
 
 - MongoDB **6+**
 - Design schema before writing queries
@@ -97,7 +97,7 @@ The key idea:
 
 ---
 
-### 🧱 Data Modeling & Architecture Rules
+#### 🧱 Data Modeling & Architecture Rules
 
 - Model data around **query patterns**
 - Prefer embedding for one-to-few relationships
@@ -111,7 +111,7 @@ The key idea:
 
 ---
 
-### 🔐 Security & Data Integrity
+#### 🔐 Security & Data Integrity
 
 - Never expose MongoDB directly to the public internet
 - Enable authentication and role-based access control
@@ -123,7 +123,7 @@ The key idea:
 
 ---
 
-### 🧪 Reliability & Performance
+#### 🧪 Reliability & Performance
 
 - Index all frequently queried fields
 - Understand index selectivity
@@ -136,7 +136,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Practical and data-shape–driven
 - Explain _why this schema works for this workload_

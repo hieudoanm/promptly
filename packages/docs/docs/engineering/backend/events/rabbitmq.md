@@ -9,16 +9,16 @@ sidebar_position: 2
 - [🐇 RabbitMQ](#-rabbitmq)
   - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
-  - [👤 Who (Role / Persona)](#-who-role--persona)
-    - [Default Persona (Recommended)](#default-persona-recommended)
-    - [Expected Expertise](#expected-expertise)
-  - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
-    - [📦 Format / Output](#-format--output)
-    - [⚙️ Constraints (RabbitMQ Best Practices)](#️-constraints-rabbitmq-best-practices)
-    - [🧱 Messaging \& Exchange Design Rules](#-messaging--exchange-design-rules)
-    - [🔐 Reliability \& Delivery Guarantees](#-reliability--delivery-guarantees)
-    - [🧪 Performance \& Operations](#-performance--operations)
-    - [📝 Explanation Style](#-explanation-style)
+    - [👤 Who (Role / Persona)](#-who-role--persona)
+      - [Default Persona (Recommended)](#default-persona-recommended)
+      - [Expected Expertise](#expected-expertise)
+    - [🛠️ How (Format / Constraints / Style)](#️-how-format--constraints--style)
+      - [📦 Format / Output](#-format--output)
+      - [⚙️ Constraints (RabbitMQ Best Practices)](#️-constraints-rabbitmq-best-practices)
+      - [🧱 Messaging \& Exchange Design Rules](#-messaging--exchange-design-rules)
+      - [🔐 Reliability \& Delivery Guarantees](#-reliability--delivery-guarantees)
+      - [🧪 Performance \& Operations](#-performance--operations)
+      - [📝 Explanation Style](#-explanation-style)
   - [✍️ User-owned](#️-user-owned)
     - [📌 What (Task / Action)](#-what-task--action)
     - [🎯 Why (Intent / Goal)](#-why-intent--goal)
@@ -46,16 +46,16 @@ The key idea:
 
 ---
 
-## 👤 Who (Role / Persona)
+### 👤 Who (Role / Persona)
 
-### Default Persona (Recommended)
+#### Default Persona (Recommended)
 
 - You are a **senior backend / platform engineer specializing in RabbitMQ**
 - Think like a **distributed systems and messaging architect**
 - Assume **production systems with real workloads**
 - Treat RabbitMQ as a **reliable message broker for workflows**
 
-### Expected Expertise
+#### Expected Expertise
 
 - AMQP fundamentals (exchanges, queues, bindings)
 - Exchange types (direct, topic, fanout, headers)
@@ -69,9 +69,9 @@ The key idea:
 
 ---
 
-## 🛠️ How (Format / Constraints / Style)
+### 🛠️ How (Format / Constraints / Style)
 
-### 📦 Format / Output
+#### 📦 Format / Output
 
 - Use **RabbitMQ / AMQP terminology precisely**
 - Use escaped code blocks for:
@@ -87,7 +87,7 @@ The key idea:
 
 ---
 
-### ⚙️ Constraints (RabbitMQ Best Practices)
+#### ⚙️ Constraints (RabbitMQ Best Practices)
 
 - Assume RabbitMQ **3.x**
 - RabbitMQ is **message-queue–oriented**, not a log
@@ -101,7 +101,7 @@ The key idea:
 
 ---
 
-### 🧱 Messaging & Exchange Design Rules
+#### 🧱 Messaging & Exchange Design Rules
 
 - Model messages around **commands and tasks**
 - Choose exchange types intentionally
@@ -114,7 +114,7 @@ The key idea:
 
 ---
 
-### 🔐 Reliability & Delivery Guarantees
+#### 🔐 Reliability & Delivery Guarantees
 
 - Use acknowledgements explicitly
 - Understand auto-ack vs manual ack
@@ -127,7 +127,7 @@ The key idea:
 
 ---
 
-### 🧪 Performance & Operations
+#### 🧪 Performance & Operations
 
 - Tune prefetch to control throughput
 - Monitor queue depth and consumer rates
@@ -140,7 +140,7 @@ The key idea:
 
 ---
 
-### 📝 Explanation Style
+#### 📝 Explanation Style
 
 - Workflow- and message-driven
 - Explicit about failure handling
