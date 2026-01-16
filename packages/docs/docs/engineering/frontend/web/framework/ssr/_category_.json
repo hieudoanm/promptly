@@ -1,0 +1,8 @@
+{
+	"label": "🌐 Server-side Rendering",
+	"position": 2,
+	"link": {
+		"slug": "/ssr",
+		"type": "generated-index"
+	}
+}

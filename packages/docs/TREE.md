@@ -36,6 +36,9 @@
 |  |  |  |  |-- fastapi.md
 |  |  |  |-- typescript
 |  |  |  |  |-- express.md
+|  |-- cli
+|  |  |-- cobra.md
+|  |  |-- oclif.md
 |  |-- data
 |  |  |-- analyst
 |  |  |  |-- matplotlib.md
@@ -78,11 +81,18 @@
 |  |  |  |  |-- ios.md
 |  |  |-- web
 |  |  |  |-- framework
-|  |  |  |  |-- angular.md
-|  |  |  |  |-- react.md
-|  |  |  |  |-- solid.md
-|  |  |  |  |-- svelte.md
-|  |  |  |  |-- vue.md
+|  |  |  |  |-- csr
+|  |  |  |  |  |-- angular.md
+|  |  |  |  |  |-- react.md
+|  |  |  |  |  |-- solid.md
+|  |  |  |  |  |-- svelte.md
+|  |  |  |  |  |-- vue.md
+|  |  |  |  |-- ssr
+|  |  |  |  |  |-- angular-ssr.md
+|  |  |  |  |  |-- next.md
+|  |  |  |  |  |-- nuxt.md
+|  |  |  |  |  |-- solid-start.md
+|  |  |  |  |  |-- svelte-kit.md
 |  |  |  |-- styling
 |  |  |  |  |-- css-in-js
 |  |  |  |  |  |-- emotion.md
@@ -97,6 +107,9 @@
 |  |  |  |  |-- unit
 |  |  |  |  |  |-- jest.md
 |  |  |  |  |  |-- vitest.md
+|  |-- solution
+|  |  |-- architect.md
+|  |  |-- design.md
 |-- intro.md
 |-- marketing
 |  |-- copy-writer
