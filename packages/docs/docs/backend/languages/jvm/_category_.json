@@ -1,0 +1,8 @@
+{
+	"label": "⚙️ Java Virtual Machine",
+	"position": 3,
+	"link": {
+		"slug": "/jvm",
+		"type": "generated-index"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"label": "☕ Java",
+	"position": 1,
+	"link": {
+		"slug": "/java",
+		"type": "generated-index"
+	}
+}
