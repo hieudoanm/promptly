@@ -1,0 +1,8 @@
+{
+	"label": "🔁 End-to-End",
+	"position": 2,
+	"link": {
+		"slug": "/e2e",
+		"type": "generated-index"
+	}
+}

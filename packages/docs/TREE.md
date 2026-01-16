@@ -61,6 +61,9 @@
 |  |  |-- container
 |  |  |  |-- docker.md
 |  |  |  |-- kubernetes.md
+|  |  |-- iac
+|  |  |  |-- aws-cloudformation.md
+|  |  |  |-- terraform.md
 |  |-- frontend
 |  |  |-- bff
 |  |  |  |-- graphql.md
@@ -87,6 +90,13 @@
 |  |  |  |  |-- css-utilities
 |  |  |  |  |  |-- tailwindcss.md
 |  |  |  |  |  |-- unocss.md
+|  |  |  |-- testing
+|  |  |  |  |-- e2e
+|  |  |  |  |  |-- cypress.md
+|  |  |  |  |  |-- playwright.md
+|  |  |  |  |-- unit
+|  |  |  |  |  |-- jest.md
+|  |  |  |  |  |-- vitest.md
 |-- intro.md
 |-- marketing
 |  |-- copy-writer
