@@ -4,7 +4,10 @@ sidebar_position: 1
 
 # 🔍 ElasticSearch
 
+## 📚 Table of Contents
+
 - [🔍 ElasticSearch](#-elasticsearch)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
   - [👤 Who (Role / Persona)](#-who-role--persona)
     - [Default Persona (Recommended)](#default-persona-recommended)

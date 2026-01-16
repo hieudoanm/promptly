@@ -4,7 +4,10 @@ sidebar_position: 1
 
 # 🧵 Apache Kafka
 
+## 📚 Table of Contents
+
 - [🧵 Apache Kafka](#-apache-kafka)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
   - [👤 Who (Role / Persona)](#-who-role--persona)
     - [Default Persona (Recommended)](#default-persona-recommended)

@@ -4,7 +4,10 @@ sidebar_position: 2
 
 # 🍃 MongoDB
 
+## 📚 Table of Contents
+
 - [🍃 MongoDB](#-mongodb)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
   - [👤 Who (Role / Persona)](#-who-role--persona)
     - [Default Persona (Recommended)](#default-persona-recommended)
