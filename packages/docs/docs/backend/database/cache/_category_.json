@@ -1,8 +1,8 @@
 {
-	"label": "🗂️ NoSQL",
+	"label": "💾 Cache",
 	"position": 1,
 	"link": {
-		"slug": "/nosql",
+		"slug": "/cache",
 		"type": "generated-index"
 	}
 }
