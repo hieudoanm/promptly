@@ -1,9 +1,9 @@
 # ⚡ Ktor
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [⚡ Ktor](#-ktor)
-  - [Table of Contents](#table-of-contents)
+  - [📚 Table of Contents](#-table-of-contents)
   - [🏗️ Context-owned](#️-context-owned)
     - [👤 Who (Role / Persona)](#-who-role--persona)
       - [Default Persona (Recommended)](#default-persona-recommended)
