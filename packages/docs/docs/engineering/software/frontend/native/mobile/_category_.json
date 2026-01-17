@@ -1,0 +1,8 @@
+{
+	"label": "📱 Mobile",
+	"position": 1,
+	"link": {
+		"slug": "/mobile",
+		"type": "generated-index"
+	}
+}

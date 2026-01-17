@@ -11,17 +11,20 @@
 
 ## Rules
 
-Total of 104 Rules for Indie/Solo Developers
+Total of 112 Rules for Indie/Solo Developers
 
 ```shell
 |-- engineering
 |  |-- data
 |  |  |-- analyst
-|  |  |  |-- matplotlib.md
-|  |  |  |-- numpy.md
-|  |  |  |-- pandas.md
-|  |  |  |-- powerbi.md
-|  |  |  |-- statsmodels.md
+|  |  |  |-- non-technical
+|  |  |  |  |-- powerbi.md
+|  |  |  |  |-- tableau.md
+|  |  |  |-- technical
+|  |  |  |  |-- matplotlib.md
+|  |  |  |  |-- numpy.md
+|  |  |  |  |-- pandas.md
+|  |  |  |  |-- statsmodels.md
 |  |  |-- engineer
 |  |  |  |-- apache-airflow.md
 |  |  |  |-- apache-iceberg.md
@@ -123,14 +126,22 @@ Total of 104 Rules for Indie/Solo Developers
 |  |  |  |-- bff
 |  |  |  |  |-- graphql.md
 |  |  |  |  |-- trpc.md
-|  |  |  |-- mobile
-|  |  |  |  |-- hybrid
-|  |  |  |  |  |-- flutter.md
-|  |  |  |  |  |-- ionic.md
-|  |  |  |  |  |-- react-native.md
-|  |  |  |  |-- native
+|  |  |  |-- hybrid
+|  |  |  |  |-- flutter.md
+|  |  |  |  |-- ionic.md
+|  |  |  |  |-- react-native.md
+|  |  |  |  |-- tauri.md
+|  |  |  |-- native
+|  |  |  |  |-- desktop
+|  |  |  |  |  |-- arch-linux.md
+|  |  |  |  |  |-- macos.md
+|  |  |  |  |  |-- ubuntu.md
+|  |  |  |  |  |-- windows.md
+|  |  |  |  |-- mobile
 |  |  |  |  |  |-- android.md
 |  |  |  |  |  |-- ios.md
+|  |  |  |  |  |-- kaios.md
+|  |  |  |  |  |-- ubuntu-touch.md
 |  |  |  |-- web
 |  |  |  |  |-- framework
 |  |  |  |  |  |-- csr

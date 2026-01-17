@@ -1,6 +1,6 @@
 {
-	"label": "🔀 Backend-for-Frontend",
-	"position": 3,
+	"label": "🔀 BFF",
+	"position": 4,
 	"link": {
 		"slug": "/bff",
 		"type": "generated-index"

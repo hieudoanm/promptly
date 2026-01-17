@@ -1,0 +1,8 @@
+{
+	"label": "📱 Desktop",
+	"position": 2,
+	"link": {
+		"slug": "/desktop",
+		"type": "generated-index"
+	}
+}
