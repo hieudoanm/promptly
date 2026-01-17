@@ -1,0 +1,8 @@
+{
+	"label": "💻 Software",
+	"position": 2,
+	"link": {
+		"slug": "/software",
+		"type": "generated-index"
+	}
+}
