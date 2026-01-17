@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of 112 Rules for Indie/Solo Developers
+Total of 122 Rules for Indie/Solo Developers
 
 ```shell
 |-- engineering
@@ -37,6 +37,10 @@ Total of 112 Rules for Indie/Solo Developers
 |  |  |  |-- tensorflow.md
 |  |  |  |-- xgboost.md
 |  |-- developer-tools
+|  |  |-- api-clients
+|  |  |  |-- bruno.md
+|  |  |  |-- insomnia.md
+|  |  |  |-- postman.md
 |  |  |-- code-editors
 |  |  |  |-- cursor.md
 |  |  |  |-- vscode.md
@@ -125,6 +129,10 @@ Total of 112 Rules for Indie/Solo Developers
 |  |  |  |  |  |-- fastapi.md
 |  |  |  |  |-- typescript
 |  |  |  |  |  |-- express.md
+|  |  |  |-- security
+|  |  |  |  |-- jwt.md
+|  |  |  |  |-- oauth2.md
+|  |  |  |  |-- oidc.md
 |  |  |-- cli
 |  |  |  |-- cobra.md
 |  |  |  |-- oclif.md
