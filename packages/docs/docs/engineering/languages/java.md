@@ -84,7 +84,7 @@ The key idea:
   - Immutable objects
   - Clear interfaces at boundaries
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

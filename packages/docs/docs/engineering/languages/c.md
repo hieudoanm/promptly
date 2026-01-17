@@ -82,7 +82,7 @@ The key idea:
   - Explicit types
   - Clear function contracts
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

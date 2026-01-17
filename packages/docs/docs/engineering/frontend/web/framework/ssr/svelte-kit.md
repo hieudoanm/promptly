@@ -86,7 +86,7 @@ The key idea:
   - `load` functions for data
   - Form actions over client-only mutations
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs
 

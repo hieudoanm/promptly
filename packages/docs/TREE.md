@@ -107,6 +107,17 @@
 |  |  |  |  |-- unit
 |  |  |  |  |  |-- jest.md
 |  |  |  |  |  |-- vitest.md
+|  |-- languages
+|  |  |-- c.md
+|  |  |-- cplusplus.md
+|  |  |-- csharp.md
+|  |  |-- go.md
+|  |  |-- java.md
+|  |  |-- kotlin.md
+|  |  |-- python.md
+|  |  |-- scala.md
+|  |  |-- swift.md
+|  |  |-- typescript.md
 |  |-- solution
 |  |  |-- architect.md
 |  |  |-- design.md

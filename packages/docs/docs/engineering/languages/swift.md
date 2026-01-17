@@ -84,7 +84,7 @@ The key idea:
   - Value types (`struct`) over classes
   - Explicit APIs
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

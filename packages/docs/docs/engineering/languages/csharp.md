@@ -84,7 +84,7 @@ The key idea:
   - Explicit types over `var` in public APIs
   - Immutable objects where practical
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

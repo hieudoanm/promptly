@@ -83,7 +83,7 @@ The key idea:
   - Small interfaces
   - Explicit dependencies
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

@@ -86,7 +86,7 @@ The key idea:
   - `<script setup>`
   - Composables over mixins
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for rendering trade-offs
 

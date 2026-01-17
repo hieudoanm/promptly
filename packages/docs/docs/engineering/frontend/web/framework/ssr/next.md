@@ -86,7 +86,7 @@ The key idea:
   - Server Components
   - Client Components (`"use client"`)
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for rendering trade-offs
 

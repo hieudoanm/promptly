@@ -84,7 +84,7 @@ The key idea:
   - Explicit code over clever tricks
   - Small, composable functions
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

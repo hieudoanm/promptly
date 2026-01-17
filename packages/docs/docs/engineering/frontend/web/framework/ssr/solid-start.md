@@ -85,7 +85,7 @@ The key idea:
   - Signals, memos, resources
   - Server Functions over REST when appropriate
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-off analysis
 

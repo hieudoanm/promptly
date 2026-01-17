@@ -84,7 +84,7 @@ The key idea:
   - Explicit types at boundaries
   - Inference inside implementations
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

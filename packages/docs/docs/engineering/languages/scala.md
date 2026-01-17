@@ -84,7 +84,7 @@ The key idea:
   - Immutable data
   - Expression-oriented code
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 

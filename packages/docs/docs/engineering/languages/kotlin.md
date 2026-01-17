@@ -84,7 +84,7 @@ The key idea:
   - Immutable data (`val` over `var`)
   - Expression-style code
 - Use:
-  - Escaped code blocks (`\`\`\``)
+  - Code blocks (\`\`\`)
   - Bullet points for explanations
   - Tables for trade-offs when relevant
 
