@@ -26,7 +26,7 @@
 		"start": "docusaurus start",
 		"prebuild": "rimraf ../../docs .docusaurus",
 		"build": "docusaurus build --out-dir ../../docs",
-		"postbuild": "touch ../../docs/.nojekyll",
+		"postbuild": "touch ../../docs/.nojekyll && ./scripts/postbuild.sh",
 		"swizzle": "docusaurus swizzle",
 		"deploy": "docusaurus deploy",
 		"clear": "docusaurus clear",
