@@ -67,6 +67,12 @@ Total of 112 Rules for Indie/Solo Developers
 |  |  |  |-- azure-key-vault.md
 |  |  |  |-- hashicorp-vault.md
 |  |  |  |-- kubernetes-secrets.md
+|  |-- game
+|  |  |-- engines
+|  |  |  |-- cocos.md
+|  |  |  |-- godot.md
+|  |  |  |-- unity.md
+|  |  |  |-- unreal.md
 |  |-- languages
 |  |  |-- c.md
 |  |  |-- cplusplus.md

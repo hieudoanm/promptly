@@ -1,0 +1,8 @@
+{
+	"label": "🎮 Games",
+	"position": 4,
+	"link": {
+		"slug": "/games",
+		"type": "generated-index"
+	}
+}

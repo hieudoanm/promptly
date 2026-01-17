@@ -1,6 +1,6 @@
 {
 	"label": "📊 Data",
-	"position": 4,
+	"position": 5,
 	"link": {
 		"slug": "/data",
 		"type": "generated-index"
