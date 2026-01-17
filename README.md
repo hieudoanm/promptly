@@ -41,6 +41,11 @@
 |  |  |-- iac
 |  |  |  |-- aws-cloudformation.md
 |  |  |  |-- terraform.md
+|  |  |-- secrets
+|  |  |  |-- aws-secrets-manager.md
+|  |  |  |-- azure-key-vault.md
+|  |  |  |-- hashicorp-vault.md
+|  |  |  |-- kubernetes-secrets.md
 |  |-- languages
 |  |  |-- c.md
 |  |  |-- cplusplus.md
