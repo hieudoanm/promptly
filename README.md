@@ -7,9 +7,11 @@
 
 ## Demo
 
-[Chat](https://hieudoanm-promptly.vercel.app)
+[Promptly - Chat](https://hieudoanm-promptly.vercel.app)
 
 ## Agents
+
+Total of 96 Agents
 
 ```shell
 |-- engineering
@@ -46,6 +48,11 @@
 |  |  |  |-- azure-key-vault.md
 |  |  |  |-- hashicorp-vault.md
 |  |  |  |-- kubernetes-secrets.md
+|  |-- ide
+|  |  |-- cursor.md
+|  |  |-- idea.md
+|  |  |-- vscode.md
+|  |  |-- windsurf.md
 |  |-- languages
 |  |  |-- c.md
 |  |  |-- cplusplus.md
