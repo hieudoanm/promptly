@@ -8,6 +8,11 @@ if [ ! -d "$DOCS_DIR" ]; then
   exit 1
 fi
 
+# 🔥 Clean slate
+if [ -d "$RULES_DIR" ]; then
+  rm -rf "$RULES_DIR"
+fi
+
 mkdir -p "$RULES_DIR"
 
 # ----------------------------
