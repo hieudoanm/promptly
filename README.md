@@ -2,16 +2,16 @@
 
 - [Promptly](#promptly)
   - [Demo](#demo)
-  - [Agents](#agents)
+  - [Rules](#rules)
   - [Models](#models)
 
 ## Demo
 
 [Promptly - Chat](https://hieudoanm-promptly.vercel.app)
 
-## Agents
+## Rules
 
-Total of 96 Agents
+Total of 104 Rules for Indie/Solo Developers
 
 ```shell
 |-- engineering
@@ -33,6 +33,17 @@ Total of 96 Agents
 |  |  |  |-- scikit-learn.md
 |  |  |  |-- tensorflow.md
 |  |  |  |-- xgboost.md
+|  |-- developer-tools
+|  |  |-- code-editors
+|  |  |  |-- cursor.md
+|  |  |  |-- vscode.md
+|  |  |  |-- vscodium.md
+|  |  |  |-- windsurf.md
+|  |  |-- ide
+|  |  |  |-- android-studio.md
+|  |  |  |-- idea.md
+|  |  |  |-- visual-studio.md
+|  |  |  |-- xcode.md
 |  |-- devops
 |  |  |-- ci-cd
 |  |  |  |-- harness.md
@@ -43,16 +54,16 @@ Total of 96 Agents
 |  |  |-- iac
 |  |  |  |-- aws-cloudformation.md
 |  |  |  |-- terraform.md
+|  |  |-- observability
+|  |  |  |-- aws-cloudwatch.md
+|  |  |  |-- datadog.md
+|  |  |  |-- grafana.md
+|  |  |  |-- splunk.md
 |  |  |-- secrets
 |  |  |  |-- aws-secrets-manager.md
 |  |  |  |-- azure-key-vault.md
 |  |  |  |-- hashicorp-vault.md
 |  |  |  |-- kubernetes-secrets.md
-|  |-- ide
-|  |  |-- cursor.md
-|  |  |-- idea.md
-|  |  |-- vscode.md
-|  |  |-- windsurf.md
 |  |-- languages
 |  |  |-- c.md
 |  |  |-- cplusplus.md

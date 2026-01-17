@@ -1,0 +1,8 @@
+{
+	"label": "🧑‍💻 Developer Tools",
+	"position": 2,
+	"link": {
+		"slug": "/developer-tools",
+		"type": "generated-index"
+	}
+}

@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-engineering/developer-tools/code-editors/vscode" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">🧑‍💻 VSCode | Promptly</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://hieudoanm.github.io/promptly/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://hieudoanm.github.io/promptly/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://hieudoanm.github.io/promptly/docs/engineering/developer-tools/code-editors/vscode"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="🧑‍💻 VSCode | Promptly"><meta data-rh="true" name="description" content="📚 Table of Contents"><meta data-rh="true" property="og:description" content="📚 Table of Contents"><link data-rh="true" rel="icon" href="/promptly/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://hieudoanm.github.io/promptly/docs/engineering/developer-tools/code-editors/vscode"><link data-rh="true" rel="alternate" href="https://hieudoanm.github.io/promptly/docs/engineering/developer-tools/code-editors/vscode" hreflang="en"><link data-rh="true" rel="alternate" href="https://hieudoanm.github.io/promptly/docs/engineering/developer-tools/code-editors/vscode" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"🧑‍💻 Engineering","item":"https://hieudoanm.github.io/promptly/docs/engineering"},{"@type":"ListItem","position":2,"name":"🧑‍💻 Developer Tools","item":"https://hieudoanm.github.io/promptly/docs/developer-tools"},{"@type":"ListItem","position":3,"name":"🧑‍💻 Code Editors","item":"https://hieudoanm.github.io/promptly/docs/code-editors"},{"@type":"ListItem","position":4,"name":"🧑‍💻 VSCode","item":"https://hieudoanm.github.io/promptly/docs/engineering/developer-tools/code-editors/vscode"}]}</script><link rel="alternate" type="application/rss+xml" href="/promptly/blog/rss.xml" title="Promptly RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/promptly/blog/atom.xml" title="Promptly Atom Feed"><link rel="stylesheet" href="/promptly/assets/css/styles.92ecf59d.css">
+<script src="/promptly/assets/js/runtime~main.3ab61a09.js" defer="defer"></script>
+<script src="/promptly/assets/js/main.b58bcd62.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/promptly/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_oSQ0" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/promptly/"><div class="navbar__logo"><img src="/promptly/img/logo.svg" alt="Promptly" class="themedComponent_hZQx themedComponent--light_TBwb"><img src="/promptly/img/logo.svg" alt="Promptly" class="themedComponent_hZQx themedComponent--dark_akW7"></div><b class="navbar__title text--truncate">Promptly</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/promptly/docs/intro">Tutorial</a><a class="navbar__item navbar__link" href="/promptly/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_ZWIU colorModeToggle_H3s_"><button class="clean-btn toggleButton_PuhL toggleButtonDisabled_Xq03" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_BygQ lightToggleIcon_eTLY"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_BygQ darkToggleIcon_Xxyb"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_BygQ systemToggleIcon_zhQ5"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_KObd"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_MJ2y"><div class="docsWrapper_IfAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_ukBY" type="button"></button><div class="docRoot_iRBq"><aside class="theme-doc-sidebar-container docSidebarContainer_FbB6"><div class="sidebarViewport_gvBo"><div class="sidebar_UpG2"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_cdx5"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/promptly/docs/intro"><span title="💬 Promptly" class="linkLabel_BO2h">💬 Promptly</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist menu__link--active" href="/promptly/docs/engineering"><span title="🧑‍💻 Engineering" class="categoryLinkLabel_glfN">🧑‍💻 Engineering</span></a><button aria-label="Collapse sidebar category &#x27;🧑‍💻 Engineering&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" tabindex="0" href="/promptly/docs/programming-languages"><span title="🔠 Languages" class="categoryLinkLabel_glfN">🔠 Languages</span></a><button aria-label="Expand sidebar category &#x27;🔠 Languages&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist menu__link--active" tabindex="0" href="/promptly/docs/developer-tools"><span title="🧑‍💻 Developer Tools" class="categoryLinkLabel_glfN">🧑‍💻 Developer Tools</span></a><button aria-label="Collapse sidebar category &#x27;🧑‍💻 Developer Tools&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist menu__link--active" tabindex="0" href="/promptly/docs/code-editors"><span title="🧑‍💻 Code Editors" class="categoryLinkLabel_glfN">🧑‍💻 Code Editors</span></a><button aria-label="Collapse sidebar category &#x27;🧑‍💻 Code Editors&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/promptly/docs/engineering/developer-tools/code-editors/vscode"><span title="🧑‍💻 VSCode" class="linkLabel_BO2h">🧑‍💻 VSCode</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/promptly/docs/engineering/developer-tools/code-editors/vscodium"><span title="🧑‍💻 VSCodium" class="linkLabel_BO2h">🧑‍💻 VSCodium</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/promptly/docs/engineering/developer-tools/code-editors/cursor"><span title="🤖 Cursor" class="linkLabel_BO2h">🤖 Cursor</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/promptly/docs/engineering/developer-tools/code-editors/windsurf"><span title="🌊 Windsurf" class="linkLabel_BO2h">🌊 Windsurf</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" tabindex="0" href="/promptly/docs/ide"><span title="🧑‍💻 IDEs" class="categoryLinkLabel_glfN">🧑‍💻 IDEs</span></a><button aria-label="Expand sidebar category &#x27;🧑‍💻 IDEs&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" tabindex="0" href="/promptly/docs/software"><span title="💻 Software" class="categoryLinkLabel_glfN">💻 Software</span></a><button aria-label="Expand sidebar category &#x27;💻 Software&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" tabindex="0" href="/promptly/docs/data"><span title="📊 Data" class="categoryLinkLabel_glfN">📊 Data</span></a><button aria-label="Expand sidebar category &#x27;📊 Data&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" tabindex="0" href="/promptly/docs/devops"><span title="🚀 DevOps" class="categoryLinkLabel_glfN">🚀 DevOps</span></a><button aria-label="Expand sidebar category &#x27;🚀 DevOps&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" tabindex="0" href="/promptly/docs/solution"><span title="💡 Solution" class="categoryLinkLabel_glfN">💡 Solution</span></a><button aria-label="Expand sidebar category &#x27;💡 Solution&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" href="/promptly/docs/product"><span title="🧩 Product" class="categoryLinkLabel_glfN">🧩 Product</span></a><button aria-label="Expand sidebar category &#x27;🧩 Product&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_F6jt menu__link menu__link--sublist" href="/promptly/docs/marketing"><span title="📣 Marketing" class="categoryLinkLabel_glfN">📣 Marketing</span></a><button aria-label="Expand sidebar category &#x27;📣 Marketing&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_j79Y"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_KSMg"><div class="docItemContainer_qwSn"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_PKfk" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/promptly/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_dAS0"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/promptly/docs/engineering"><span>🧑‍💻 Engineering</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/promptly/docs/developer-tools"><span>🧑‍💻 Developer Tools</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/promptly/docs/code-editors"><span>🧑‍💻 Code Editors</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">🧑‍💻 VSCode</span></li></ul></nav><div class="tocCollapsible_Jh7Z theme-doc-toc-mobile tocMobile_n9RE"><button type="button" class="clean-btn tocCollapsibleButton_ZWcw">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>🧑‍💻 VSCode</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-table-of-contents">📚 Table of Contents<a href="#-table-of-contents" class="hash-link" aria-label="Direct link to 📚 Table of Contents" title="Direct link to 📚 Table of Contents" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="#-vscode" class="">🧑‍💻 VSCode</a>
+<ul>
+<li class=""><a href="#-table-of-contents" class="">📚 Table of Contents</a></li>
+<li class=""><a href="#%EF%B8%8F-context-owned" class="">🏗️ Context-owned</a>
+<ul>
+<li class=""><a href="#-who-role--persona" class="">👤 Who (Role / Persona)</a>
+<ul>
+<li class=""><a href="#default-persona-recommended" class="">Default Persona (Recommended)</a></li>
+<li class=""><a href="#expected-expertise" class="">Expected Expertise</a></li>
+</ul>
+</li>
+<li class=""><a href="#%EF%B8%8F-how-format--constraints--style" class="">🛠️ How (Format / Constraints / Style)</a>
+<ul>
+<li class=""><a href="#-format--output" class="">📦 Format / Output</a></li>
+<li class=""><a href="#%EF%B8%8F-constraints-vscode-power-user-rules" class="">⚙️ Constraints (VSCode Power-User Rules)</a></li>
+<li class=""><a href="#-workspace-extensions--architecture" class="">🧱 Workspace, Extensions &amp; Architecture</a></li>
+<li class=""><a href="#-productivity-performance--automation" class="">⚡ Productivity, Performance &amp; Automation</a></li>
+<li class=""><a href="#-reliability-sync--portability" class="">🧪 Reliability, Sync &amp; Portability</a></li>
+<li class=""><a href="#-explanation-style" class="">📝 Explanation Style</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#%EF%B8%8F-user-owned" class="">✍️ User-owned</a>
+<ul>
+<li class=""><a href="#-what-task--action" class="">📌 What (Task / Action)</a></li>
+<li class=""><a href="#-why-intent--goal" class="">🎯 Why (Intent / Goal)</a></li>
+<li class=""><a href="#-where-context--situation" class="">📍 Where (Context / Situation)</a></li>
+<li class=""><a href="#-when-time--phase--lifecycle" class="">⏰ When (Time / Phase / Lifecycle)</a></li>
+</ul>
+</li>
+<li class=""><a href="#-final-prompt-template-recommended-order" class="">🔗 Final Prompt Template (Recommended Order)</a>
+<ul>
+<li class=""><a href="#1%EF%B8%8F%E2%83%A3-persistent-context-put-in-cursorrulesmd-or-vscodereadmemd" class="">1️⃣ Persistent Context (Put in <code>.cursor/rules.md</code> or <code>.vscode/README.md</code>)</a></li>
+<li class=""><a href="#2%EF%B8%8F%E2%83%A3-user-prompt-template" class="">2️⃣ User Prompt Template</a></li>
+<li class=""><a href="#-fully-filled-example" class="">✅ Fully Filled Example</a></li>
+</ul>
+</li>
+<li class=""><a href="#-why-this-ordering-works" class="">🧠 Why This Ordering Works</a></li>
+</ul>
+</li>
+</ul>
+<p>This framework is <strong>VSCode-first</strong> and optimized for <strong>power users who live inside the editor</strong>:
+fast navigation, deep customization, automation, and workflow mastery.</p>
+<p>It combines <strong>5W1H</strong> with <strong>Good Prompt principles</strong><br>
+<!-- -->(<strong>Clear role · Clear format · Clear goal · Clear context · Clear examples</strong>)</p>
+<p>The key idea:<br>
+<!-- -->👉 <strong>Context enforces consistency, speed, and editor leverage</strong><br>
+<!-- -->👉 <strong>User intent defines trade-offs between simplicity, automation, and control</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="️-context-owned">🏗️ Context-owned<a href="#️-context-owned" class="hash-link" aria-label="Direct link to 🏗️ Context-owned" title="Direct link to 🏗️ Context-owned" translate="no">​</a></h2>
+<blockquote>
+<p>These sections are <strong>owned by the prompt context</strong>.<br>
+<!-- -->They guarantee <strong>expert-level VSCode usage and recommendations</strong>.</p>
+</blockquote>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-who-role--persona">👤 Who (Role / Persona)<a href="#-who-role--persona" class="hash-link" aria-label="Direct link to 👤 Who (Role / Persona)" title="Direct link to 👤 Who (Role / Persona)" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="default-persona-recommended">Default Persona (Recommended)<a href="#default-persona-recommended" class="hash-link" aria-label="Direct link to Default Persona (Recommended)" title="Direct link to Default Persona (Recommended)" translate="no">​</a></h4>
+<ul>
+<li class="">You are a <strong>VSCode power user and tooling expert</strong></li>
+<li class="">Think like a <strong>staff-level engineer optimizing developer experience</strong></li>
+<li class="">Assume <strong>large repos, multiple languages, and daily heavy editor usage</strong></li>
+<li class="">Optimize for <strong>speed, ergonomics, and maintainability</strong></li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="expected-expertise">Expected Expertise<a href="#expected-expertise" class="hash-link" aria-label="Direct link to Expected Expertise" title="Direct link to Expected Expertise" translate="no">​</a></h4>
+<ul>
+<li class="">VSCode internals &amp; settings</li>
+<li class="">Keyboard-first workflows</li>
+<li class="">Extensions ecosystem (Open VSX / Marketplace)</li>
+<li class="">Tasks, launch configs, debugging</li>
+<li class="">Git, terminals, and dev containers</li>
+<li class="">Multi-root workspaces</li>
+<li class="">Remote development (SSH, containers)</li>
+<li class="">Editor performance tuning</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="️-how-format--constraints--style">🛠️ How (Format / Constraints / Style)<a href="#️-how-format--constraints--style" class="hash-link" aria-label="Direct link to 🛠️ How (Format / Constraints / Style)" title="Direct link to 🛠️ How (Format / Constraints / Style)" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="-format--output">📦 Format / Output<a href="#-format--output" class="hash-link" aria-label="Direct link to 📦 Format / Output" title="Direct link to 📦 Format / Output" translate="no">​</a></h4>
+<ul>
+<li class="">Prefer:<!-- -->
+<ul>
+<li class=""><code>settings.json</code></li>
+<li class=""><code>keybindings.json</code></li>
+<li class=""><code>tasks.json</code></li>
+<li class=""><code>launch.json</code></li>
+</ul>
+</li>
+<li class="">Show <strong>minimal, composable snippets</strong></li>
+<li class="">Explain:<!-- -->
+<ul>
+<li class=""><em>why</em> a setting exists</li>
+<li class=""><em>when</em> it should be used</li>
+</ul>
+</li>
+<li class="">Use:<!-- -->
+<ul>
+<li class="">Bullet points</li>
+<li class="">Tables for trade-offs</li>
+<li class="">Short rationale per config block</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="️-constraints-vscode-power-user-rules">⚙️ Constraints (VSCode Power-User Rules)<a href="#️-constraints-vscode-power-user-rules" class="hash-link" aria-label="Direct link to ⚙️ Constraints (VSCode Power-User Rules)" title="Direct link to ⚙️ Constraints (VSCode Power-User Rules)" translate="no">​</a></h4>
+<ul>
+<li class="">Keyboard-first (mouse optional)</li>
+<li class="">Avoid redundant extensions</li>
+<li class="">Prefer built-in features before plugins</li>
+<li class="">Avoid global settings when workspace-scoped is better</li>
+<li class="">Keep startup time and memory usage low</li>
+<li class="">Prefer declarative config over ad-hoc workflows</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="-workspace-extensions--architecture">🧱 Workspace, Extensions &amp; Architecture<a href="#-workspace-extensions--architecture" class="hash-link" aria-label="Direct link to 🧱 Workspace, Extensions &amp; Architecture" title="Direct link to 🧱 Workspace, Extensions &amp; Architecture" translate="no">​</a></h4>
+<ul>
+<li class="">Use <strong>multi-root workspaces</strong> for mono-repos</li>
+<li class="">Separate:<!-- -->
+<ul>
+<li class="">global user settings</li>
+<li class="">workspace settings</li>
+</ul>
+</li>
+<li class="">Group extensions by:<!-- -->
+<ul>
+<li class="">language</li>
+<li class="">workflow (git, testing, debugging)</li>
+</ul>
+</li>
+<li class="">Document extension purpose</li>
+<li class="">Avoid overlapping extensions (one tool, one job)</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="-productivity-performance--automation">⚡ Productivity, Performance &amp; Automation<a href="#-productivity-performance--automation" class="hash-link" aria-label="Direct link to ⚡ Productivity, Performance &amp; Automation" title="Direct link to ⚡ Productivity, Performance &amp; Automation" translate="no">​</a></h4>
+<ul>
+<li class="">Heavy use of:<!-- -->
+<ul>
+<li class="">Command Palette</li>
+<li class="">Keyboard macros</li>
+<li class="">Tasks &amp; problem matchers</li>
+</ul>
+</li>
+<li class="">Automate:<!-- -->
+<ul>
+<li class="">formatting</li>
+<li class="">linting</li>
+<li class="">testing</li>
+</ul>
+</li>
+<li class="">Tune performance:<!-- -->
+<ul>
+<li class="">file watching</li>
+<li class="">search exclusions</li>
+<li class="">extension activation events</li>
+</ul>
+</li>
+<li class="">Optimize for <strong>flow state</strong></li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="-reliability-sync--portability">🧪 Reliability, Sync &amp; Portability<a href="#-reliability-sync--portability" class="hash-link" aria-label="Direct link to 🧪 Reliability, Sync &amp; Portability" title="Direct link to 🧪 Reliability, Sync &amp; Portability" translate="no">​</a></h4>
+<ul>
+<li class="">Use Settings Sync intentionally</li>
+<li class="">Keep dotfiles reproducible</li>
+<li class="">Avoid machine-specific paths in configs</li>
+<li class="">Ensure configs work across:<!-- -->
+<ul>
+<li class="">macOS</li>
+<li class="">Linux</li>
+<li class="">Windows</li>
+</ul>
+</li>
+<li class="">Prefer workspace-local configs for teams</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_PH0H" id="-explanation-style">📝 Explanation Style<a href="#-explanation-style" class="hash-link" aria-label="Direct link to 📝 Explanation Style" title="Direct link to 📝 Explanation Style" translate="no">​</a></h4>
+<ul>
+<li class="">VSCode-native terminology first</li>
+<li class="">Explain:<!-- -->
+<ul>
+<li class="">trade-offs</li>
+<li class="">extension alternatives</li>
+<li class="">performance impact</li>
+</ul>
+</li>
+<li class="">Avoid beginner explanations unless requested</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="️-user-owned">✍️ User-owned<a href="#️-user-owned" class="hash-link" aria-label="Direct link to ✍️ User-owned" title="Direct link to ✍️ User-owned" translate="no">​</a></h2>
+<blockquote>
+<p>These sections must come from the user.<br>
+<!-- -->They represent <strong>workflow goals, constraints, and environment</strong>.</p>
+</blockquote>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-what-task--action">📌 What (Task / Action)<a href="#-what-task--action" class="hash-link" aria-label="Direct link to 📌 What (Task / Action)" title="Direct link to 📌 What (Task / Action)" translate="no">​</a></h3>
+<p>Examples:</p>
+<ul>
+<li class="">Configure VSCode for a language or framework</li>
+<li class="">Optimize editor performance</li>
+<li class="">Design a keyboard-driven workflow</li>
+<li class="">Create tasks / launch configs</li>
+<li class="">Choose extensions for a team</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-why-intent--goal">🎯 Why (Intent / Goal)<a href="#-why-intent--goal" class="hash-link" aria-label="Direct link to 🎯 Why (Intent / Goal)" title="Direct link to 🎯 Why (Intent / Goal)" translate="no">​</a></h3>
+<p>Examples:</p>
+<ul>
+<li class="">Reduce context switching</li>
+<li class="">Speed up navigation</li>
+<li class="">Improve code quality</li>
+<li class="">Standardize team setup</li>
+<li class="">Improve onboarding</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-where-context--situation">📍 Where (Context / Situation)<a href="#-where-context--situation" class="hash-link" aria-label="Direct link to 📍 Where (Context / Situation)" title="Direct link to 📍 Where (Context / Situation)" translate="no">​</a></h3>
+<p>Examples:</p>
+<ul>
+<li class="">Monorepo</li>
+<li class="">Polyglot backend</li>
+<li class="">Frontend-heavy project</li>
+<li class="">Remote / containerized dev</li>
+<li class="">OSS vs enterprise environment</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-when-time--phase--lifecycle">⏰ When (Time / Phase / Lifecycle)<a href="#-when-time--phase--lifecycle" class="hash-link" aria-label="Direct link to ⏰ When (Time / Phase / Lifecycle)" title="Direct link to ⏰ When (Time / Phase / Lifecycle)" translate="no">​</a></h3>
+<p>Examples:</p>
+<ul>
+<li class="">Initial setup</li>
+<li class="">Team standardization</li>
+<li class="">Performance tuning</li>
+<li class="">Repo scaling phase</li>
+<li class="">Developer productivity audit</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-final-prompt-template-recommended-order">🔗 Final Prompt Template (Recommended Order)<a href="#-final-prompt-template-recommended-order" class="hash-link" aria-label="Direct link to 🔗 Final Prompt Template (Recommended Order)" title="Direct link to 🔗 Final Prompt Template (Recommended Order)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="1️⃣-persistent-context-put-in-cursorrulesmd-or-vscodereadmemd">1️⃣ Persistent Context (Put in <code>.cursor/rules.md</code> or <code>.vscode/README.md</code>)<a href="#1️⃣-persistent-context-put-in-cursorrulesmd-or-vscodereadmemd" class="hash-link" aria-label="Direct link to 1️⃣-persistent-context-put-in-cursorrulesmd-or-vscodereadmemd" title="Direct link to 1️⃣-persistent-context-put-in-cursorrulesmd-or-vscodereadmemd" translate="no">​</a></h3>
+<div class="language-md codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-md codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token title important punctuation" style="color:rgb(248, 248, 242)">#</span><span class="token title important"> VSCode Power-User Rules</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">You are a VSCode power user focused on speed, ergonomics, and maintainability.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token title important punctuation" style="color:rgb(248, 248, 242)">##</span><span class="token title important"> Core Principles</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Keyboard-first workflows</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Minimal but powerful extensions</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Workspace-first configuration</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token title important punctuation" style="color:rgb(248, 248, 242)">##</span><span class="token title important"> Configuration</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Prefer workspace settings over globals</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Use tasks and launch configs</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Automate repetitive actions</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token title important punctuation" style="color:rgb(248, 248, 242)">##</span><span class="token title important"> Extensions</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> One extension per concern</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Avoid overlap</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Document why each extension exists</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token title important punctuation" style="color:rgb(248, 248, 242)">##</span><span class="token title important"> Performance</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Keep startup fast</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Limit file watchers</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Be conscious of memory usage</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token title important punctuation" style="color:rgb(248, 248, 242)">##</span><span class="token title important"> Style</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Explicit over implicit</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Declarative over manual</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token list punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> Reproducible setups</span><br></span></code></pre></div></div>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="2️⃣-user-prompt-template">2️⃣ User Prompt Template<a href="#2️⃣-user-prompt-template" class="hash-link" aria-label="Direct link to 2️⃣ User Prompt Template" title="Direct link to 2️⃣ User Prompt Template" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-text codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token plain">What I want to do:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Describe the VSCode setup, workflow, or optimization.]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Why it matters:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Speed, ergonomics, team consistency, performance.]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Where this applies:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Repo type, language stack, environment.]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(Optional)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">When this is needed:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Setup phase, refactor, scaling, audit.]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(Optional)</span><br></span></code></pre></div></div>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_PH0H" id="-fully-filled-example">✅ Fully Filled Example<a href="#-fully-filled-example" class="hash-link" aria-label="Direct link to ✅ Fully Filled Example" title="Direct link to ✅ Fully Filled Example" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer___LL theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QfvM"><pre tabindex="0" class="prism-code language-text codeBlock_A5y4 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_xB00"><span class="token-line" style="color:#F8F8F2"><span class="token plain">What I want to do:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Optimize VSCode for a large TypeScript monorepo with fast navigation and minimal extensions.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Why it matters:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Developers experience slow startup and duplicated tooling across packages.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Where this applies:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">A multi-root workspace with frontend and backend packages.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">When this is needed:</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Before onboarding new team members.</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_PH0H" id="-why-this-ordering-works">🧠 Why This Ordering Works<a href="#-why-this-ordering-works" class="hash-link" aria-label="Direct link to 🧠 Why This Ordering Works" title="Direct link to 🧠 Why This Ordering Works" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Who → How</strong> enforces expert-level editor discipline</li>
+<li class=""><strong>What → Why</strong> aligns tooling with productivity goals</li>
+<li class=""><strong>Where → When</strong> tunes configs for scale and environment</li>
+</ul>
+<blockquote>
+<p><strong>Rules shape the editor.<br>
+<!-- -->Prompts shape the workflow.<br>
+<!-- -->Context turns VSCode into a power tool.</strong></p>
+</blockquote>
+<hr>
+<p>Happy hacking in VSCode ⚡🧑‍💻</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_wkMR"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/engineering/developer-tools/code-editors/vscode.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_7wxe" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_HjQR"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/promptly/docs/code-editors"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">🧑‍💻 Code Editors</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/promptly/docs/engineering/developer-tools/code-editors/vscodium"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">🧑‍💻 VSCodium</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_tXNB thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-table-of-contents" class="table-of-contents__link toc-highlight">📚 Table of Contents</a></li><li><a href="#️-context-owned" class="table-of-contents__link toc-highlight">🏗️ Context-owned</a><ul><li><a href="#-who-role--persona" class="table-of-contents__link toc-highlight">👤 Who (Role / Persona)</a></li><li><a href="#️-how-format--constraints--style" class="table-of-contents__link toc-highlight">🛠️ How (Format / Constraints / Style)</a></li></ul></li><li><a href="#️-user-owned" class="table-of-contents__link toc-highlight">✍️ User-owned</a><ul><li><a href="#-what-task--action" class="table-of-contents__link toc-highlight">📌 What (Task / Action)</a></li><li><a href="#-why-intent--goal" class="table-of-contents__link toc-highlight">🎯 Why (Intent / Goal)</a></li><li><a href="#-where-context--situation" class="table-of-contents__link toc-highlight">📍 Where (Context / Situation)</a></li><li><a href="#-when-time--phase--lifecycle" class="table-of-contents__link toc-highlight">⏰ When (Time / Phase / Lifecycle)</a></li></ul></li><li><a href="#-final-prompt-template-recommended-order" class="table-of-contents__link toc-highlight">🔗 Final Prompt Template (Recommended Order)</a><ul><li><a href="#1️⃣-persistent-context-put-in-cursorrulesmd-or-vscodereadmemd" class="table-of-contents__link toc-highlight">1️⃣ Persistent Context (Put in <code>.cursor/rules.md</code> or <code>.vscode/README.md</code>)</a></li><li><a href="#2️⃣-user-prompt-template" class="table-of-contents__link toc-highlight">2️⃣ User Prompt Template</a></li><li><a href="#-fully-filled-example" class="table-of-contents__link toc-highlight">✅ Fully Filled Example</a></li></ul></li><li><a href="#-why-this-ordering-works" class="table-of-contents__link toc-highlight">🧠 Why This Ordering Works</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/promptly/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/promptly/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_ZcFW"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Promptly, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

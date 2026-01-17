@@ -1,0 +1,8 @@
+{
+	"label": "👀 Observability",
+	"position": 5,
+	"link": {
+		"slug": "/observability",
+		"type": "generated-index"
+	}
+}
