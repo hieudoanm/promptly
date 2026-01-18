@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of 128 Rules for Indie/Solo Developers
+Total of **132** Cursor Rules for Indie/Solo Developers.
 
 ```shell
 |-- engineering
@@ -84,7 +84,9 @@ Total of 128 Rules for Indie/Solo Developers
 |  |  |-- go.md
 |  |  |-- java.md
 |  |  |-- kotlin.md
+|  |  |-- php.md
 |  |  |-- python.md
+|  |  |-- ruby.md
 |  |  |-- scala.md
 |  |  |-- swift.md
 |  |  |-- typescript.md
@@ -125,8 +127,12 @@ Total of 128 Rules for Indie/Solo Developers
 |  |  |  |  |  |  |-- ktor.md
 |  |  |  |  |  |-- scala
 |  |  |  |  |  |  |-- play.md
+|  |  |  |  |-- php
+|  |  |  |  |  |-- laravel.md
 |  |  |  |  |-- python
 |  |  |  |  |  |-- fastapi.md
+|  |  |  |  |-- ruby
+|  |  |  |  |  |-- rails.md
 |  |  |  |  |-- typescript
 |  |  |  |  |  |-- express.md
 |  |  |  |-- security
