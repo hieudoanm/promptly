@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of **156** Cursor Rules for Indie/Solo Developers.
+Total of **158** Cursor Rules for Indie/Solo Developers.
 
 ```shell
 |-- engineering
@@ -92,6 +92,7 @@ Total of **156** Cursor Rules for Indie/Solo Developers.
 |  |  |  |-- go.md
 |  |  |  |-- rust.md
 |  |  |-- data
+|  |  |  |-- matlab.md
 |  |  |  |-- python.md
 |  |  |  |-- r.md
 |  |  |-- full-stack
@@ -225,6 +226,8 @@ Total of **156** Cursor Rules for Indie/Solo Developers.
 |  |  |  |  |  |-- e2e
 |  |  |  |  |  |  |-- cypress.md
 |  |  |  |  |  |  |-- playwright.md
+|  |  |  |  |  |  |-- puppeteer.md
+|  |  |  |  |  |  |-- selenium.md
 |  |  |  |  |  |-- unit
 |  |  |  |  |  |  |-- jest.md
 |  |  |  |  |  |  |-- vitest.md

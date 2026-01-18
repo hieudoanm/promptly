@@ -2,7 +2,7 @@
 	"label": "💼 Business",
 	"position": 1,
 	"link": {
-		"slug": "/business",
+		"slug": "/product/business",
 		"type": "generated-index"
 	}
 }

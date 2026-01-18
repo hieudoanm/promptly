@@ -2,7 +2,7 @@
 	"label": "👥 Roles",
 	"position": 7,
 	"link": {
-		"slug": "/roles",
+		"slug": "/engineering/roles",
 		"type": "generated-index"
 	}
 }

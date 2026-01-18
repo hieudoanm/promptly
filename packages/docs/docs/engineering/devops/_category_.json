@@ -2,7 +2,7 @@
 	"label": "🚀 DevOps",
 	"position": 6,
 	"link": {
-		"slug": "/devops",
+		"slug": "/engineering/devops",
 		"type": "generated-index"
 	}
 }

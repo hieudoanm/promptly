@@ -2,7 +2,7 @@
 	"label": "🧑‍💻 Developer Tools",
 	"position": 2,
 	"link": {
-		"slug": "/developer-tools",
+		"slug": "/engineering/developer-tools",
 		"type": "generated-index"
 	}
 }

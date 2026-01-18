@@ -2,7 +2,7 @@
 	"label": "🧩 Unit",
 	"position": 1,
 	"link": {
-		"slug": "/unit",
+		"slug": "/engineering/software/frontend/web/testing/unit",
 		"type": "generated-index"
 	}
 }

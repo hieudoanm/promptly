@@ -2,7 +2,7 @@
 	"label": "📊 Data",
 	"position": 5,
 	"link": {
-		"slug": "/data",
+		"slug": "/engineering/data",
 		"type": "generated-index"
 	}
 }

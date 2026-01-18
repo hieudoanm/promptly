@@ -79,6 +79,7 @@
 |  |  |  |-- go.md
 |  |  |  |-- rust.md
 |  |  |-- data
+|  |  |  |-- matlab.md
 |  |  |  |-- python.md
 |  |  |  |-- r.md
 |  |  |-- full-stack
@@ -212,6 +213,8 @@
 |  |  |  |  |  |-- e2e
 |  |  |  |  |  |  |-- cypress.md
 |  |  |  |  |  |  |-- playwright.md
+|  |  |  |  |  |  |-- puppeteer.md
+|  |  |  |  |  |  |-- selenium.md
 |  |  |  |  |  |-- unit
 |  |  |  |  |  |  |-- jest.md
 |  |  |  |  |  |  |-- vitest.md

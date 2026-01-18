@@ -2,7 +2,7 @@
 	"label": "🎮 Games",
 	"position": 4,
 	"link": {
-		"slug": "/games",
+		"slug": "/engineering/games",
 		"type": "generated-index"
 	}
 }

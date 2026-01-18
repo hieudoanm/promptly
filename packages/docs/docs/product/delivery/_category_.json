@@ -2,7 +2,7 @@
 	"label": "💼 Delivery",
 	"position": 2,
 	"link": {
-		"slug": "/delivery",
+		"slug": "/product/delivery",
 		"type": "generated-index"
 	}
 }
