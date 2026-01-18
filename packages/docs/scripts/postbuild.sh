@@ -54,11 +54,20 @@ echo "📁 Creating local '$RULES_DIR'"
 mkdir -p "$RULES_DIR"
 
 # ----------------------------
-# 1) PRINT TREE
+# 1) PRINT TREE → TREE.md
 # ----------------------------
+TREE_FILE="./TREE.md"
+
 echo
-echo "📜 Markdown tree:"
+echo "📜 Writing Markdown tree to $TREE_FILE"
 echo
+
+# Reset TREE.md
+{
+  echo "# 📂 Docs Tree"
+  echo
+  echo "\`\`\`shell"
+} > "$TREE_FILE"
 
 find "$DOCS_DIR" -name "*.md" -print \
 | sed "s|^$DOCS_DIR/||" \
@@ -81,11 +90,16 @@ function prefix(d) {
   }
   print prefix(depth) "-- " parts[depth]
 }
-'
+' >> "$TREE_FILE"
 
-echo "|"
-echo "|-- extracting rules"
-echo "|"
+{
+  echo "|"
+  echo "|-- extracting rules"
+  echo "|"
+  echo "\`\`\`"
+} >> "$TREE_FILE"
+
+echo "✅ Tree written to $TREE_FILE"
 
 # ----------------------------
 # 2) EXTRACT PERSISTENT CONTEXT
@@ -179,7 +193,7 @@ echo "✅ Rules extracted : $EXTRACTED"
 echo "➖ Files skipped   : $SKIPPED"
 echo "📁 Local rules     : $(find "$RULES_DIR" -type f | wc -l | tr -d ' ') files"
 echo "📁 Cursor rules    : $(find "$CURSOR_RULES_DIR" -type f | wc -l | tr -d ' ') files"
-echo "🗜️ Zip archive     : $ZIP_PATH"
+echo "🗜️  Zip archive     : $ZIP_PATH"
 echo "📦 Zip size        : $ZIP_SIZE_HUMAN ($ZIP_SIZE_BYTES bytes)"
 echo "======================================="
 echo "✨ Cursor rules successfully updated"

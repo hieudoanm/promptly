@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of **132** Cursor Rules for Indie/Solo Developers.
+Total of **142** Cursor Rules for Indie/Solo Developers.
 
 ```shell
 |-- engineering
@@ -48,7 +48,15 @@ Total of **132** Cursor Rules for Indie/Solo Developers.
 |  |  |  |-- windsurf.md
 |  |  |-- ide
 |  |  |  |-- android-studio.md
-|  |  |  |-- idea.md
+|  |  |  |-- jetbrains
+|  |  |  |  |-- clion.md
+|  |  |  |  |-- intellij-idea.md
+|  |  |  |  |-- php-storm.md
+|  |  |  |  |-- py-charm.md
+|  |  |  |  |-- rider.md
+|  |  |  |  |-- ruby-mine.md
+|  |  |  |  |-- rust-rover.md
+|  |  |  |  |-- web-storm.md
 |  |  |  |-- visual-studio.md
 |  |  |  |-- xcode.md
 |  |-- devops
@@ -87,6 +95,7 @@ Total of **132** Cursor Rules for Indie/Solo Developers.
 |  |  |-- php.md
 |  |  |-- python.md
 |  |  |-- ruby.md
+|  |  |-- rust.md
 |  |  |-- scala.md
 |  |  |-- swift.md
 |  |  |-- typescript.md
@@ -210,8 +219,12 @@ Total of **132** Cursor Rules for Indie/Solo Developers.
 |  |  |-- canva.md
 |  |  |-- figma.md
 |-- product
-|  |-- business-analyst.md
-|  |-- product-owner.md
+|  |-- business
+|  |  |-- business-analyst.md
+|  |  |-- product-owner.md
+|  |-- delivery
+|  |  |-- release-train-engineer.md
+|  |  |-- scrum-master.md
 ```
 
 ## Models
