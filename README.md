@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of **142** Cursor Rules for Indie/Solo Developers.
+Total of **148** Cursor Rules for Indie/Solo Developers.
 
 ```shell
 |-- engineering
@@ -86,19 +86,30 @@ Total of **142** Cursor Rules for Indie/Solo Developers.
 |  |  |  |-- unity.md
 |  |  |  |-- unreal.md
 |  |-- languages
-|  |  |-- c.md
-|  |  |-- cplusplus.md
-|  |  |-- csharp.md
-|  |  |-- go.md
-|  |  |-- java.md
-|  |  |-- kotlin.md
-|  |  |-- php.md
-|  |  |-- python.md
-|  |  |-- ruby.md
-|  |  |-- rust.md
-|  |  |-- scala.md
-|  |  |-- swift.md
-|  |  |-- typescript.md
+|  |  |-- compiled
+|  |  |  |-- c.md
+|  |  |  |-- cplusplus.md
+|  |  |  |-- go.md
+|  |  |  |-- rust.md
+|  |  |-- data
+|  |  |  |-- python.md
+|  |  |  |-- r.md
+|  |  |-- full-stack
+|  |  |  |-- dart.md
+|  |  |  |-- php.md
+|  |  |  |-- ruby.md
+|  |  |  |-- typescript.md
+|  |  |-- jvm
+|  |  |  |-- groovy.md
+|  |  |  |-- java.md
+|  |  |  |-- kotlin.md
+|  |  |  |-- scala.md
+|  |  |-- native
+|  |  |  |-- csharp.md
+|  |  |  |-- swift.md
+|  |  |-- terminal
+|  |  |  |-- bash.md
+|  |  |  |-- power-shell.md
 |  |-- software
 |  |  |-- backend
 |  |  |  |-- architecture
@@ -162,9 +173,11 @@ Total of **142** Cursor Rules for Indie/Solo Developers.
 |  |  |  |  |-- tauri.md
 |  |  |  |-- native
 |  |  |  |  |-- desktop
-|  |  |  |  |  |-- arch-linux.md
+|  |  |  |  |  |-- linux
+|  |  |  |  |  |  |-- arch-linux.md
+|  |  |  |  |  |  |-- mint.md
+|  |  |  |  |  |  |-- ubuntu.md
 |  |  |  |  |  |-- macos.md
-|  |  |  |  |  |-- ubuntu.md
 |  |  |  |  |  |-- windows.md
 |  |  |  |  |-- mobile
 |  |  |  |  |  |-- android.md

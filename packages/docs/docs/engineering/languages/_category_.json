@@ -2,7 +2,7 @@
 	"label": "🔠 Languages",
 	"position": 1,
 	"link": {
-		"slug": "/programming-languages",
+		"slug": "/engineering/languages",
 		"type": "generated-index"
 	}
 }

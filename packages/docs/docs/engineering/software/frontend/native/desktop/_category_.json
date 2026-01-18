@@ -2,7 +2,7 @@
 	"label": "📱 Desktop",
 	"position": 2,
 	"link": {
-		"slug": "/desktop",
+		"slug": "/engineering/software/frontend/native/desktop",
 		"type": "generated-index"
 	}
 }
