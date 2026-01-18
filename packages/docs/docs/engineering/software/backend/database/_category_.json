@@ -2,7 +2,7 @@
 	"label": "🗄️ Database",
 	"position": 3,
 	"link": {
-		"slug": "/database",
+		"slug": "/engineering/software/backend/database",
 		"type": "generated-index"
 	}
 }

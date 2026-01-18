@@ -24,7 +24,7 @@ const HomepageHeader: React.FC = () => {
 					<Link
 						className="button button--secondary button--lg"
 						to="/docs/intro">
-						Prompts Templates - 10min ⏱️
+						Contexts and Templates - 10min ⏱️
 					</Link>
 				</div>
 			</div>

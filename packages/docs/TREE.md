@@ -47,15 +47,23 @@
 |  |  |  |-- visual-studio.md
 |  |  |  |-- xcode.md
 |  |-- devops
-|  |  |-- ci-cd
-|  |  |  |-- harness.md
-|  |  |  |-- jenkins.md
 |  |  |-- container
-|  |  |  |-- docker.md
-|  |  |  |-- kubernetes.md
-|  |  |-- iac
-|  |  |  |-- aws-cloudformation.md
-|  |  |  |-- terraform.md
+|  |  |  |-- orchestration
+|  |  |  |  |-- kubernetes.md
+|  |  |  |  |-- nomad.md
+|  |  |  |-- runtimes
+|  |  |  |  |-- containerd.md
+|  |  |  |  |-- docker.md
+|  |  |  |  |-- podman.md
+|  |  |-- delivery
+|  |  |  |-- ci-cd
+|  |  |  |  |-- github-actions.md
+|  |  |  |  |-- gitlab-ci.md
+|  |  |  |  |-- harness.md
+|  |  |  |  |-- jenkins.md
+|  |  |  |-- iac
+|  |  |  |  |-- aws-cloudformation.md
+|  |  |  |  |-- terraform.md
 |  |  |-- observability
 |  |  |  |-- aws-cloudwatch.md
 |  |  |  |-- datadog.md
@@ -116,22 +124,33 @@
 |  |  |  |  |-- microservices.md
 |  |  |  |  |-- monolith.md
 |  |  |  |-- database
-|  |  |  |  |-- cache
-|  |  |  |  |  |-- memcached.md
-|  |  |  |  |  |-- redis.md
-|  |  |  |  |-- nosql
-|  |  |  |  |  |-- dynamodb.md
-|  |  |  |  |  |-- mongodb.md
-|  |  |  |  |-- search
-|  |  |  |  |  |-- elasticsearch.md
-|  |  |  |  |  |-- opensearch.md
-|  |  |  |  |-- sql
-|  |  |  |  |  |-- postgresql.md
-|  |  |  |  |  |-- sqlite.md
+|  |  |  |  |-- orm
+|  |  |  |  |  |-- drizzle.md
+|  |  |  |  |  |-- prisma.md
+|  |  |  |  |-- paradigms
+|  |  |  |  |  |-- cache
+|  |  |  |  |  |  |-- memcached.md
+|  |  |  |  |  |  |-- redis.md
+|  |  |  |  |  |-- nosql
+|  |  |  |  |  |  |-- dynamodb.md
+|  |  |  |  |  |  |-- mongodb.md
+|  |  |  |  |  |-- search
+|  |  |  |  |  |  |-- elasticsearch.md
+|  |  |  |  |  |  |-- opensearch.md
+|  |  |  |  |  |-- sql
+|  |  |  |  |  |  |-- cockroachdb.md
+|  |  |  |  |  |  |-- libsql.md
+|  |  |  |  |  |  |-- mariadb.md
+|  |  |  |  |  |  |-- mysql.md
+|  |  |  |  |  |  |-- postgresql.md
+|  |  |  |  |  |  |-- sqlite.md
 |  |  |  |-- events
-|  |  |  |  |-- apache-kafka.md
-|  |  |  |  |-- apache-pulsar.md
-|  |  |  |  |-- rabbitmq.md
+|  |  |  |  |-- queue
+|  |  |  |  |  |-- activemq.md
+|  |  |  |  |  |-- rabbitmq.md
+|  |  |  |  |-- streaming
+|  |  |  |  |  |-- apache-kafka.md
+|  |  |  |  |  |-- apache-pulsar.md
 |  |  |  |-- languages
 |  |  |  |  |-- csharp
 |  |  |  |  |  |-- dotnet.md

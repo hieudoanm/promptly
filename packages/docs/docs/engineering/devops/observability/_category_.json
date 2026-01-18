@@ -2,7 +2,7 @@
 	"label": "👀 Observability",
 	"position": 5,
 	"link": {
-		"slug": "/observability",
+		"slug": "/engineering/devops/observability",
 		"type": "generated-index"
 	}
 }

@@ -2,7 +2,7 @@
 	"label": "✉️ Events",
 	"position": 4,
 	"link": {
-		"slug": "/events",
+		"slug": "/engineering/software/backend/events",
 		"type": "generated-index"
 	}
 }

@@ -1,0 +1,8 @@
+{
+	"label": "✉️ Queue",
+	"position": 2,
+	"link": {
+		"slug": "/engineering/software/backend/events/queue",
+		"type": "generated-index"
+	}
+}
