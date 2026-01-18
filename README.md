@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of 126 Rules for Indie/Solo Developers
+Total of 128 Rules for Indie/Solo Developers
 
 ```shell
 |-- engineering

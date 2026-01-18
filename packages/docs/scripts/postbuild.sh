@@ -8,6 +8,9 @@ DOCS_DIR="docs"
 RULES_DIR="rules"
 CURSOR_DIR="../../.cursor"
 CURSOR_RULES_DIR="$CURSOR_DIR/rules"
+ZIP_OUTPUT_DIR="$CURSOR_DIR"
+ZIP_NAME="rules.zip"
+ZIP_PATH="$ZIP_OUTPUT_DIR/$ZIP_NAME"
 
 START_TIME=$(date +"%Y-%m-%d %H:%M:%S")
 
@@ -134,6 +137,33 @@ echo "📁 Copying new rules → $CURSOR_RULES_DIR"
 cp -R "$RULES_DIR" "$CURSOR_RULES_DIR"
 
 # ----------------------------
+# 4) ZIP CURSOR RULES
+# ----------------------------
+echo
+echo "📦 Zipping Cursor rules"
+
+if ! command -v zip >/dev/null 2>&1; then
+  echo "❌ Error: 'zip' command not found"
+  exit 1
+fi
+
+# 🧹 Remove existing zip if present
+if [ -f "$ZIP_PATH" ]; then
+  echo "🧹 Removing existing zip: $ZIP_PATH"
+  rm -f "$ZIP_PATH"
+fi
+
+(
+  cd "$CURSOR_DIR" || exit 1
+  zip -r "$ZIP_NAME" "rules" >/dev/null
+)
+
+ZIP_SIZE_BYTES=$(stat -c%s "$ZIP_PATH" 2>/dev/null || stat -f%z "$ZIP_PATH")
+ZIP_SIZE_HUMAN=$(du -h "$ZIP_PATH" | awk '{print $1}')
+
+echo "✅ Rules zipped to: $ZIP_PATH"
+
+# ----------------------------
 # SUMMARY
 # ----------------------------
 END_TIME=$(date +"%Y-%m-%d %H:%M:%S")
@@ -149,5 +179,7 @@ echo "✅ Rules extracted : $EXTRACTED"
 echo "➖ Files skipped   : $SKIPPED"
 echo "📁 Local rules     : $(find "$RULES_DIR" -type f | wc -l | tr -d ' ') files"
 echo "📁 Cursor rules    : $(find "$CURSOR_RULES_DIR" -type f | wc -l | tr -d ' ') files"
+echo "🗜️ Zip archive     : $ZIP_PATH"
+echo "📦 Zip size        : $ZIP_SIZE_HUMAN ($ZIP_SIZE_BYTES bytes)"
 echo "======================================="
 echo "✨ Cursor rules successfully updated"
