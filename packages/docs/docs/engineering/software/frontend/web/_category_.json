@@ -2,7 +2,7 @@
 	"label": "🌐 Web",
 	"position": 1,
 	"link": {
-		"slug": "/web",
+		"slug": "/engineering/software/frontend/web",
 		"type": "generated-index"
 	}
 }

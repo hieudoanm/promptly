@@ -2,7 +2,7 @@
 	"label": "🔀 BFF",
 	"position": 4,
 	"link": {
-		"slug": "/bff",
+		"slug": "/engineering/software/frontend/bff",
 		"type": "generated-index"
 	}
 }

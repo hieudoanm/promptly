@@ -2,7 +2,7 @@
 	"label": "💻 Software",
 	"position": 3,
 	"link": {
-		"slug": "/software",
+		"slug": "/engineering/software",
 		"type": "generated-index"
 	}
 }

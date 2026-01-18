@@ -2,7 +2,7 @@
 	"label": "🖥️ Frontend",
 	"position": 2,
 	"link": {
-		"slug": "/frontend",
+		"slug": "/engineering/software/frontend",
 		"type": "generated-index"
 	}
 }

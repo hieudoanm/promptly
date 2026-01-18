@@ -2,7 +2,7 @@
 	"label": "📱 Mobile",
 	"position": 1,
 	"link": {
-		"slug": "/mobile",
+		"slug": "/engineering/software/frontend/native/mobile",
 		"type": "generated-index"
 	}
 }

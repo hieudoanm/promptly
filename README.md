@@ -176,10 +176,13 @@ Total of **152** Cursor Rules for Indie/Solo Developers.
 |  |  |  |  |-- graphql.md
 |  |  |  |  |-- trpc.md
 |  |  |  |-- hybrid
+|  |  |  |  |-- desktop
+|  |  |  |  |  |-- electron.md
+|  |  |  |  |  |-- tauri.md
 |  |  |  |  |-- flutter.md
-|  |  |  |  |-- ionic.md
-|  |  |  |  |-- react-native.md
-|  |  |  |  |-- tauri.md
+|  |  |  |  |-- mobile
+|  |  |  |  |  |-- ionic.md
+|  |  |  |  |  |-- react-native.md
 |  |  |  |-- native
 |  |  |  |  |-- desktop
 |  |  |  |  |  |-- linux
@@ -201,6 +204,9 @@ Total of **152** Cursor Rules for Indie/Solo Developers.
 |  |  |  |  |  |  |-- solid.md
 |  |  |  |  |  |  |-- svelte.md
 |  |  |  |  |  |  |-- vue.md
+|  |  |  |  |  |-- ssg
+|  |  |  |  |  |  |-- astro.md
+|  |  |  |  |  |  |-- gatsby.md
 |  |  |  |  |  |-- ssr
 |  |  |  |  |  |  |-- angular-ssr.md
 |  |  |  |  |  |  |-- next.md
@@ -244,9 +250,6 @@ Total of **152** Cursor Rules for Indie/Solo Developers.
 |  |-- delivery
 |  |  |-- release-train-engineer.md
 |  |  |-- scrum-master.md
-|
-|-- extracting rules
-|
 ```
 
 ## Models

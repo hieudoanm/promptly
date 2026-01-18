@@ -163,10 +163,13 @@
 |  |  |  |  |-- graphql.md
 |  |  |  |  |-- trpc.md
 |  |  |  |-- hybrid
+|  |  |  |  |-- desktop
+|  |  |  |  |  |-- electron.md
+|  |  |  |  |  |-- tauri.md
 |  |  |  |  |-- flutter.md
-|  |  |  |  |-- ionic.md
-|  |  |  |  |-- react-native.md
-|  |  |  |  |-- tauri.md
+|  |  |  |  |-- mobile
+|  |  |  |  |  |-- ionic.md
+|  |  |  |  |  |-- react-native.md
 |  |  |  |-- native
 |  |  |  |  |-- desktop
 |  |  |  |  |  |-- linux
@@ -188,6 +191,9 @@
 |  |  |  |  |  |  |-- solid.md
 |  |  |  |  |  |  |-- svelte.md
 |  |  |  |  |  |  |-- vue.md
+|  |  |  |  |  |-- ssg
+|  |  |  |  |  |  |-- astro.md
+|  |  |  |  |  |  |-- gatsby.md
 |  |  |  |  |  |-- ssr
 |  |  |  |  |  |  |-- angular-ssr.md
 |  |  |  |  |  |  |-- next.md
