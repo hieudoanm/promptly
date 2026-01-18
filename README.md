@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of **152** Cursor Rules for Indie/Solo Developers.
+Total of **156** Cursor Rules for Indie/Solo Developers.
 
 ```shell
 |-- engineering
@@ -207,6 +207,7 @@ Total of **152** Cursor Rules for Indie/Solo Developers.
 |  |  |  |  |  |-- ssg
 |  |  |  |  |  |  |-- astro.md
 |  |  |  |  |  |  |-- gatsby.md
+|  |  |  |  |  |  |-- vuepress.md
 |  |  |  |  |  |-- ssr
 |  |  |  |  |  |  |-- angular-ssr.md
 |  |  |  |  |  |  |-- next.md

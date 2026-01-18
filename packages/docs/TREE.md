@@ -194,6 +194,7 @@
 |  |  |  |  |  |-- ssg
 |  |  |  |  |  |  |-- astro.md
 |  |  |  |  |  |  |-- gatsby.md
+|  |  |  |  |  |  |-- vuepress.md
 |  |  |  |  |  |-- ssr
 |  |  |  |  |  |  |-- angular-ssr.md
 |  |  |  |  |  |  |-- next.md
