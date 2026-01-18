@@ -1,0 +1,8 @@
+{
+	"label": "✍️ Websites",
+	"position": 2,
+	"link": {
+		"slug": "/websites",
+		"type": "generated-index"
+	}
+}

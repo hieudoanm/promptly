@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of 122 Rules for Indie/Solo Developers
+Total of 126 Rules for Indie/Solo Developers
 
 ```shell
 |-- engineering
@@ -190,8 +190,14 @@ Total of 122 Rules for Indie/Solo Developers
 |-- intro.md
 |-- marketing
 |  |-- copy-writer
-|  |  |-- linkedin.md
-|  |  |-- twitter.md
+|  |  |-- sites
+|  |  |  |-- hacker-news.md
+|  |  |  |-- indie-hackers.md
+|  |  |  |-- product-hunt.md
+|  |  |-- social
+|  |  |  |-- linkedin.md
+|  |  |  |-- reddit.md
+|  |  |  |-- twitter.md
 |  |-- ui-ux-designer
 |  |  |-- canva.md
 |  |  |-- figma.md
