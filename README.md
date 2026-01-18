@@ -191,10 +191,12 @@ Total of 128 Rules for Indie/Solo Developers
 |-- marketing
 |  |-- copy-writer
 |  |  |-- sites
+|  |  |  |-- acquire.md
 |  |  |  |-- hacker-news.md
 |  |  |  |-- indie-hackers.md
 |  |  |  |-- product-hunt.md
 |  |  |-- social
+|  |  |  |-- github.md
 |  |  |  |-- linkedin.md
 |  |  |  |-- reddit.md
 |  |  |  |-- twitter.md
