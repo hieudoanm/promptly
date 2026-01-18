@@ -11,7 +11,7 @@
 
 ## Rules
 
-Total of **148** Cursor Rules for Indie/Solo Developers.
+Total of **152** Cursor Rules for Indie/Solo Developers.
 
 ```shell
 |-- engineering
@@ -110,6 +110,15 @@ Total of **148** Cursor Rules for Indie/Solo Developers.
 |  |  |-- terminal
 |  |  |  |-- bash.md
 |  |  |  |-- power-shell.md
+|  |-- roles
+|  |  |-- engineer
+|  |  |  |-- distinguished.md
+|  |  |  |-- lead.md
+|  |  |  |-- manager.md
+|  |  |  |-- principal.md
+|  |  |-- solution
+|  |  |  |-- architect.md
+|  |  |  |-- design.md
 |  |-- software
 |  |  |-- backend
 |  |  |  |-- architecture
@@ -212,9 +221,6 @@ Total of **148** Cursor Rules for Indie/Solo Developers.
 |  |  |  |  |  |-- unit
 |  |  |  |  |  |  |-- jest.md
 |  |  |  |  |  |  |-- vitest.md
-|  |-- solution
-|  |  |-- architect.md
-|  |  |-- design.md
 |-- intro.md
 |-- marketing
 |  |-- copy-writer
@@ -238,6 +244,9 @@ Total of **148** Cursor Rules for Indie/Solo Developers.
 |  |-- delivery
 |  |  |-- release-train-engineer.md
 |  |  |-- scrum-master.md
+|
+|-- extracting rules
+|
 ```
 
 ## Models

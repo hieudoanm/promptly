@@ -1,8 +1,8 @@
 {
 	"label": "💡 Solution",
-	"position": 7,
+	"position": 2,
 	"link": {
-		"slug": "/solution",
+		"slug": "/engineering/roles/solution",
 		"type": "generated-index"
 	}
 }

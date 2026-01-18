@@ -1,0 +1,8 @@
+{
+	"label": "👥 Roles",
+	"position": 7,
+	"link": {
+		"slug": "/roles",
+		"type": "generated-index"
+	}
+}

@@ -97,6 +97,15 @@
 |  |  |-- terminal
 |  |  |  |-- bash.md
 |  |  |  |-- power-shell.md
+|  |-- roles
+|  |  |-- engineer
+|  |  |  |-- distinguished.md
+|  |  |  |-- lead.md
+|  |  |  |-- manager.md
+|  |  |  |-- principal.md
+|  |  |-- solution
+|  |  |  |-- architect.md
+|  |  |  |-- design.md
 |  |-- software
 |  |  |-- backend
 |  |  |  |-- architecture
@@ -199,9 +208,6 @@
 |  |  |  |  |  |-- unit
 |  |  |  |  |  |  |-- jest.md
 |  |  |  |  |  |  |-- vitest.md
-|  |-- solution
-|  |  |-- architect.md
-|  |  |-- design.md
 |-- intro.md
 |-- marketing
 |  |-- copy-writer
