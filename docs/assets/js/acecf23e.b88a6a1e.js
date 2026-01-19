@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_promptly_docs=globalThis.webpackChunk_promptly_docs||[]).push([[81903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/promptly/blog","blogTitle":"Blog","authorsListPath":"/promptly/blog/authors"}')}}]);
