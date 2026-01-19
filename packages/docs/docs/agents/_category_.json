@@ -1,0 +1,8 @@
+{
+	"label": "📣 Agents",
+	"position": 4,
+	"link": {
+		"slug": "/agents",
+		"type": "generated-index"
+	}
+}

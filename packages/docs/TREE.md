@@ -1,6 +1,19 @@
 # 📂 Docs Tree
 
 ```shell
+|-- agents
+|  |-- images
+|  |  |-- midjourney.md
+|  |-- llm
+|  |  |-- chatgpt.md
+|  |  |-- claude.md
+|  |  |-- copilot.md
+|  |  |-- deepseek.md
+|  |  |-- gemini.md
+|  |  |-- grok.md
+|  |  |-- llama.md
+|  |  |-- perplexity.md
+|  |  |-- poe.md
 |-- engineering
 |  |-- data
 |  |  |-- analyst
