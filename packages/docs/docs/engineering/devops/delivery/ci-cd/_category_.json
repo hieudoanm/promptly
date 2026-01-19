@@ -2,7 +2,7 @@
 	"label": "🚰 CI/CD",
 	"position": 2,
 	"link": {
-		"slug": "/ci-cd",
+		"slug": "/engineering/devops/delivery/ci-cd",
 		"type": "generated-index"
 	}
 }

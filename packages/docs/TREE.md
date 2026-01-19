@@ -220,11 +220,17 @@
 |  |  |  |-- bash.md
 |  |  |  |-- power-shell.md
 |  |-- roles
+|  |  |-- delivery
+|  |  |  |-- release-train-engineer.md
+|  |  |  |-- scrum-master.md
 |  |  |-- engineer
 |  |  |  |-- distinguished.md
 |  |  |  |-- lead.md
 |  |  |  |-- manager.md
 |  |  |  |-- principal.md
+|  |  |-- product
+|  |  |  |-- business-analyst.md
+|  |  |  |-- product-owner.md
 |  |  |-- solution
 |  |  |  |-- architect.md
 |  |  |  |-- design.md
@@ -500,13 +506,10 @@
 |  |-- ui-ux-designer
 |  |  |-- canva.md
 |  |  |-- figma.md
-|-- product
-|  |-- business
-|  |  |-- business-analyst.md
-|  |  |-- product-owner.md
-|  |-- delivery
-|  |  |-- release-train-engineer.md
-|  |  |-- scrum-master.md
+|-- psychology
+|  |-- biology.md
+|  |-- cognitive.md
+|  |-- developmental.md
 |
 |-- extracting rules
 |

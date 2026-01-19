@@ -2,7 +2,7 @@
 	"label": "🎮 Engines",
 	"position": 1,
 	"link": {
-		"slug": "/engines",
+		"slug": "/engineering/game/engines",
 		"type": "generated-index"
 	}
 }

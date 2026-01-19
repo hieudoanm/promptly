@@ -2,7 +2,7 @@
 	"label": "🐘 PHP",
 	"position": 4,
 	"link": {
-		"slug": "/php",
+		"slug": "/engineering/software/backend/languages/php",
 		"type": "generated-index"
 	}
 }
