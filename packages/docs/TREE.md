@@ -387,6 +387,7 @@
 |  |  |  |  |  |-- windows.md
 |  |  |  |  |-- mobile
 |  |  |  |  |  |-- android.md
+|  |  |  |  |  |-- harmonyos.md
 |  |  |  |  |  |-- ios.md
 |  |  |  |  |  |-- kaios.md
 |  |  |  |  |  |-- ubuntu-touch.md
@@ -455,6 +456,7 @@
 |  |  |  |  |-- testing
 |  |  |  |  |  |-- e2e
 |  |  |  |  |  |  |-- cypress.md
+|  |  |  |  |  |  |-- karma.md
 |  |  |  |  |  |  |-- playwright.md
 |  |  |  |  |  |  |-- puppeteer.md
 |  |  |  |  |  |  |-- selenium.md
@@ -519,10 +521,33 @@
 |  |-- ui-ux-designer
 |  |  |-- canva.md
 |  |  |-- figma.md
+|-- productivity
+|  |-- google
+|  |  |-- calendar.md
+|  |  |-- chat.md
+|  |  |-- docs.md
+|  |  |-- drive.md
+|  |  |-- gmail.md
+|  |  |-- keep.md
+|  |  |-- meet.md
+|  |  |-- sheets.md
+|  |  |-- slides.md
+|  |-- microsoft
+|  |  |-- calendar.md
+|  |  |-- excel.md
+|  |  |-- one-drive.md
+|  |  |-- one-note.md
+|  |  |-- outlook.md
+|  |  |-- power-point.md
+|  |  |-- teams.md
+|  |  |-- word.md
 |-- psychology
-|  |-- biology.md
-|  |-- cognitive.md
-|  |-- developmental.md
+|  |-- paradigms
+|  |  |-- biology.md
+|  |  |-- cognitive.md
+|  |  |-- developmental.md
+|  |-- practices
+|  |  |-- journaling.md
 |
 |-- extracting rules
 |
