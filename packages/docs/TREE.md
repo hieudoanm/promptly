@@ -316,7 +316,11 @@
 |  |  |  |  |-- csharp
 |  |  |  |  |  |-- dotnet.md
 |  |  |  |  |-- go
+|  |  |  |  |  |-- beego.md
+|  |  |  |  |  |-- chi.md
+|  |  |  |  |  |-- echo.md
 |  |  |  |  |  |-- gin.md
+|  |  |  |  |  |-- gorilla.md
 |  |  |  |  |-- jvm
 |  |  |  |  |  |-- java
 |  |  |  |  |  |  |-- spring-boot.md
