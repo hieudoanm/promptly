@@ -334,6 +334,12 @@
 |  |  |  |  |  |-- fastapi.md
 |  |  |  |  |-- ruby
 |  |  |  |  |  |-- rails.md
+|  |  |  |  |-- rust
+|  |  |  |  |  |-- actix.md
+|  |  |  |  |  |-- gotham.md
+|  |  |  |  |  |-- hyper.md
+|  |  |  |  |  |-- rocket.md
+|  |  |  |  |  |-- wrap.md
 |  |  |  |  |-- typescript
 |  |  |  |  |  |-- general
 |  |  |  |  |  |  |-- express.js.md
