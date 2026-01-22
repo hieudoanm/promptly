@@ -327,6 +327,8 @@
 |  |  |  |  |  |-- kotlin
 |  |  |  |  |  |  |-- ktor.md
 |  |  |  |  |  |-- scala
+|  |  |  |  |  |  |-- akka.md
+|  |  |  |  |  |  |-- http4s.md
 |  |  |  |  |  |  |-- play.md
 |  |  |  |  |-- php
 |  |  |  |  |  |-- laravel.md
