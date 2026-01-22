@@ -362,6 +362,10 @@
 |  |  |  |  |  |  |-- garph.md
 |  |  |  |  |  |  |-- mercurius.md
 |  |  |  |  |  |  |-- yoga.md
+|  |  |  |  |  |-- native
+|  |  |  |  |  |  |-- bun.http.md
+|  |  |  |  |  |  |-- deno.http.md
+|  |  |  |  |  |  |-- node.http.md
 |  |  |  |  |  |-- web-socket
 |  |  |  |  |  |  |-- sock.js.md
 |  |  |  |  |  |  |-- socket.io.md
