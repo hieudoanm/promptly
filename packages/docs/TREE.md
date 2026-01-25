@@ -286,13 +286,25 @@
 |  |  |  |  |  |  |-- type-orm.md
 |  |  |  |  |-- paradigms
 |  |  |  |  |  |-- cache
+|  |  |  |  |  |  |-- badger.md
+|  |  |  |  |  |  |-- leveldb.md
 |  |  |  |  |  |  |-- memcached.md
 |  |  |  |  |  |  |-- redis.md
+|  |  |  |  |  |  |-- rocksdb.md
 |  |  |  |  |  |  |-- valkey.md
+|  |  |  |  |  |-- graph
+|  |  |  |  |  |  |-- dgraph.md
+|  |  |  |  |  |  |-- neo4j.md
+|  |  |  |  |  |-- multi
+|  |  |  |  |  |  |-- fauna.md
 |  |  |  |  |  |-- nosql
+|  |  |  |  |  |  |-- couchbase.md
+|  |  |  |  |  |  |-- couchdb.md
 |  |  |  |  |  |  |-- dynamodb.md
 |  |  |  |  |  |  |-- mongodb.md
+|  |  |  |  |  |  |-- rethinkdb.md
 |  |  |  |  |  |-- search
+|  |  |  |  |  |  |-- apache-solr.md
 |  |  |  |  |  |  |-- elasticsearch.md
 |  |  |  |  |  |  |-- opensearch.md
 |  |  |  |  |  |-- sql
@@ -418,6 +430,7 @@
 |  |  |  |  |  |  |-- arch-linux.md
 |  |  |  |  |  |  |-- chromeos.md
 |  |  |  |  |  |  |-- debian.md
+|  |  |  |  |  |  |-- fedora.md
 |  |  |  |  |  |  |-- mint.md
 |  |  |  |  |  |  |-- ubuntu.md
 |  |  |  |  |  |-- macos.md
@@ -521,6 +534,7 @@
 |  |  |  |-- payment
 |  |  |  |  |-- braintree.md
 |  |  |  |  |-- dodopayments.md
+|  |  |  |  |-- klarna.md
 |  |  |  |  |-- lemonsqueezy.md
 |  |  |  |  |-- paddle.md
 |  |  |  |  |-- paypal.md
