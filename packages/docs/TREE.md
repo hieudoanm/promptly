@@ -428,11 +428,17 @@
 |  |  |  |-- native
 |  |  |  |  |-- desktop
 |  |  |  |  |  |-- linux
+|  |  |  |  |  |  |-- alpine-linux.md
 |  |  |  |  |  |  |-- arch-linux.md
 |  |  |  |  |  |  |-- chromeos.md
 |  |  |  |  |  |  |-- debian.md
 |  |  |  |  |  |  |-- fedora.md
+|  |  |  |  |  |  |-- freebsd.md
+|  |  |  |  |  |  |-- kali.md
+|  |  |  |  |  |  |-- kernel.md
+|  |  |  |  |  |  |-- linux.md
 |  |  |  |  |  |  |-- mint.md
+|  |  |  |  |  |  |-- red-hat-enterprise-linux.md
 |  |  |  |  |  |  |-- ubuntu.md
 |  |  |  |  |  |-- macos.md
 |  |  |  |  |  |-- windows.md
