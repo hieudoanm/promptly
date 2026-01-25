@@ -378,7 +378,14 @@
 |  |  |  |  |-- httpd.md
 |  |  |  |  |-- nginx.md
 |  |  |-- cli
-|  |  |  |-- cobra.md
+|  |  |  |-- go
+|  |  |  |  |-- cobra.md
+|  |  |  |-- python
+|  |  |  |  |-- argparse.md
+|  |  |  |  |-- click.md
+|  |  |  |-- rust
+|  |  |  |  |-- argh.md
+|  |  |  |  |-- clap.md
 |  |  |  |-- typescript
 |  |  |  |  |-- commander.md
 |  |  |  |  |-- oclif.md
