@@ -1,0 +1,8 @@
+{
+	"label": "💻 Hardware",
+	"position": 3,
+	"link": {
+		"slug": "/engineering/hardware",
+		"type": "generated-index"
+	}
+}

@@ -205,6 +205,8 @@
 |  |  |  |-- godot.md
 |  |  |  |-- unity.md
 |  |  |  |-- unreal.md
+|  |-- hardware
+|  |  |-- raspberry-pi.md
 |  |-- languages
 |  |  |-- compiled
 |  |  |  |-- c.md
@@ -420,11 +422,16 @@
 |  |  |  |  |  |-- wails.md
 |  |  |  |  |-- flutter.md
 |  |  |  |  |-- mobile
-|  |  |  |  |  |-- capacitor.js.md
-|  |  |  |  |  |-- expo.md
-|  |  |  |  |  |-- ionic.md
-|  |  |  |  |  |-- lynx.md
-|  |  |  |  |  |-- react-native.md
+|  |  |  |  |  |-- frameworks
+|  |  |  |  |  |  |-- capacitor.js.md
+|  |  |  |  |  |  |-- expo.md
+|  |  |  |  |  |  |-- ionic.md
+|  |  |  |  |  |  |-- lynx.md
+|  |  |  |  |  |  |-- native-script.md
+|  |  |  |  |  |  |-- react-native.md
+|  |  |  |  |  |  |-- svelte-native.md
+|  |  |  |  |  |-- styling
+|  |  |  |  |  |  |-- nativewind.md
 |  |  |  |-- native
 |  |  |  |  |-- desktop
 |  |  |  |  |  |-- linux
@@ -443,15 +450,30 @@
 |  |  |  |  |  |-- macos.md
 |  |  |  |  |  |-- windows.md
 |  |  |  |  |-- mobile
-|  |  |  |  |  |-- android.md
-|  |  |  |  |  |-- harmonyos.md
-|  |  |  |  |  |-- ios.md
-|  |  |  |  |  |-- kaios.md
-|  |  |  |  |  |-- ubuntu-touch.md
+|  |  |  |  |  |-- operating-systems
+|  |  |  |  |  |  |-- android.md
+|  |  |  |  |  |  |-- harmonyos.md
+|  |  |  |  |  |  |-- ios.md
+|  |  |  |  |  |  |-- kaios.md
+|  |  |  |  |  |  |-- ubuntu-touch.md
+|  |  |  |  |  |-- styling
+|  |  |  |  |  |  |-- material3.md
+|  |  |  |  |  |  |-- swift-ui.md
 |  |  |  |-- web
 |  |  |  |  |-- authentication
 |  |  |  |  |  |-- auth.js.md
 |  |  |  |  |  |-- better-auth.md
+|  |  |  |  |-- build-tools
+|  |  |  |  |  |-- bundler
+|  |  |  |  |  |  |-- esbuild.md
+|  |  |  |  |  |  |-- parcel.js.md
+|  |  |  |  |  |  |-- rollup.js.md
+|  |  |  |  |  |  |-- rspack.md
+|  |  |  |  |  |  |-- webpack.js.md
+|  |  |  |  |  |-- compiler
+|  |  |  |  |  |  |-- babel.js.md
+|  |  |  |  |  |  |-- swc.md
+|  |  |  |  |  |-- vite.md
 |  |  |  |  |-- framework
 |  |  |  |  |  |-- csr
 |  |  |  |  |  |  |-- angular.md
@@ -507,12 +529,15 @@
 |  |  |  |  |  |  |  |-- bulma.md
 |  |  |  |  |  |  |  |-- daisyui.md
 |  |  |  |  |  |  |  |-- materializecss.md
+|  |  |  |  |  |  |  |-- tailwindcss-plus.md
 |  |  |  |  |  |  |  |-- uikit.md
 |  |  |  |  |  |  |-- react
 |  |  |  |  |  |  |  |-- ant-design.md
 |  |  |  |  |  |  |  |-- charka-ui.md
+|  |  |  |  |  |  |  |-- hero-ui.md
 |  |  |  |  |  |  |  |-- mui.md
 |  |  |  |  |  |  |  |-- shadcn-ui.md
+|  |  |  |  |  |  |  |-- theme-ui.md
 |  |  |  |  |-- testing
 |  |  |  |  |  |-- e2e
 |  |  |  |  |  |  |-- cypress.md
