@@ -316,11 +316,14 @@
 |  |  |  |  |-- csharp
 |  |  |  |  |  |-- dotnet.md
 |  |  |  |  |-- go
-|  |  |  |  |  |-- beego.md
-|  |  |  |  |  |-- chi.md
-|  |  |  |  |  |-- echo.md
-|  |  |  |  |  |-- gin.md
-|  |  |  |  |  |-- gorilla.md
+|  |  |  |  |  |-- frameworks
+|  |  |  |  |  |  |-- beego.md
+|  |  |  |  |  |  |-- chi.md
+|  |  |  |  |  |  |-- echo.md
+|  |  |  |  |  |  |-- gin.md
+|  |  |  |  |  |  |-- gorilla.md
+|  |  |  |  |  |-- graphql
+|  |  |  |  |  |  |-- graphql-go.md
 |  |  |  |  |-- jvm
 |  |  |  |  |  |-- java
 |  |  |  |  |  |  |-- helidon.md
@@ -350,7 +353,7 @@
 |  |  |  |  |  |-- rocket.md
 |  |  |  |  |  |-- wrap.md
 |  |  |  |  |-- typescript
-|  |  |  |  |  |-- general
+|  |  |  |  |  |-- frameworks
 |  |  |  |  |  |  |-- express.js.md
 |  |  |  |  |  |  |-- fastify.js.md
 |  |  |  |  |  |  |-- hapi.js.md
