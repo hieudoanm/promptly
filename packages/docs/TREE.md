@@ -420,6 +420,7 @@
 |  |  |  |  |  |-- wails.md
 |  |  |  |  |-- flutter.md
 |  |  |  |  |-- mobile
+|  |  |  |  |  |-- capacitor.js.md
 |  |  |  |  |  |-- expo.md
 |  |  |  |  |  |-- ionic.md
 |  |  |  |  |  |-- lynx.md
@@ -442,6 +443,9 @@
 |  |  |  |  |  |-- kaios.md
 |  |  |  |  |  |-- ubuntu-touch.md
 |  |  |  |-- web
+|  |  |  |  |-- authentication
+|  |  |  |  |  |-- auth.js.md
+|  |  |  |  |  |-- better-auth.md
 |  |  |  |  |-- framework
 |  |  |  |  |  |-- csr
 |  |  |  |  |  |  |-- angular.md
