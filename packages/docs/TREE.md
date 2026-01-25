@@ -288,6 +288,7 @@
 |  |  |  |  |  |-- cache
 |  |  |  |  |  |  |-- memcached.md
 |  |  |  |  |  |  |-- redis.md
+|  |  |  |  |  |  |-- valkey.md
 |  |  |  |  |  |-- nosql
 |  |  |  |  |  |  |-- dynamodb.md
 |  |  |  |  |  |  |-- mongodb.md
@@ -302,6 +303,9 @@
 |  |  |  |  |  |  |-- mysql.md
 |  |  |  |  |  |  |-- postgresql.md
 |  |  |  |  |  |  |-- sqlite.md
+|  |  |  |  |  |-- wide-column
+|  |  |  |  |  |  |-- apache-cassandra.md
+|  |  |  |  |  |  |-- apache-hbase.md
 |  |  |  |-- events
 |  |  |  |  |-- pub-sub
 |  |  |  |  |  |-- mqtt.md
