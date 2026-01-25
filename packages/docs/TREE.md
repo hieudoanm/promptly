@@ -206,11 +206,24 @@
 |  |  |  |-- unity.md
 |  |  |  |-- unreal.md
 |  |-- hardware
+|  |  |-- chip
+|  |  |  |-- apple
+|  |  |  |  |-- a-series.md
+|  |  |  |  |-- m-series.md
+|  |  |  |-- snapdragon.md
+|  |  |-- cpu
+|  |  |  |-- amd.md
+|  |  |  |-- intel.md
+|  |  |-- gpu
+|  |  |  |-- amd.md
+|  |  |  |-- nvidia.md
 |  |  |-- microcontroller
 |  |  |  |-- arduino.md
 |  |  |  |-- esp32.md
 |  |  |  |-- raspberry-pi-pico.md
 |  |  |-- raspberry-pi.md
+|  |  |-- tpu
+|  |  |  |-- google.md
 |  |-- languages
 |  |  |-- compiled
 |  |  |  |-- c.md
@@ -482,7 +495,16 @@
 |  |  |  |  |  |  |-- swc.md
 |  |  |  |  |  |-- storybook.md
 |  |  |  |  |  |-- vite.md
-|  |  |  |  |-- framework
+|  |  |  |  |-- charts
+|  |  |  |  |  |-- chart.js.md
+|  |  |  |  |  |-- chartist.md
+|  |  |  |  |  |-- d3.js.md
+|  |  |  |  |  |-- google-charts.md
+|  |  |  |  |  |-- highcharts.md
+|  |  |  |  |  |-- plotly.md
+|  |  |  |  |  |-- recharts.md
+|  |  |  |  |  |-- tanstack-charts.md
+|  |  |  |  |-- frameworks
 |  |  |  |  |  |-- csr
 |  |  |  |  |  |  |-- angular.md
 |  |  |  |  |  |  |-- backbone.md
