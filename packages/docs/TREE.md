@@ -83,12 +83,18 @@
 |  |  |  |-- visual-studio.md
 |  |  |  |-- xcode.md
 |  |  |-- languages
+|  |  |  |-- go
+|  |  |  |  |-- tools
+|  |  |  |  |  |-- gofmt.md
 |  |  |  |-- python
 |  |  |  |  |-- tools
 |  |  |  |  |  |-- black.md
 |  |  |  |  |  |-- flake8.md
 |  |  |  |  |  |-- pylint.md
 |  |  |  |  |  |-- ruff.md
+|  |  |  |-- shell
+|  |  |  |  |-- tools
+|  |  |  |  |  |-- shell-check.md
 |  |  |  |-- typescript
 |  |  |  |  |-- engines
 |  |  |  |  |  |-- hermes.md
@@ -145,6 +151,7 @@
 |  |  |  |-- runtimes
 |  |  |  |  |-- containerd.md
 |  |  |  |  |-- docker.md
+|  |  |  |  |-- hadolint.md
 |  |  |  |  |-- podman.md
 |  |  |-- delivery
 |  |  |  |-- ci-cd
