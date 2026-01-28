@@ -83,6 +83,9 @@
 |  |  |  |-- visual-studio.md
 |  |  |  |-- xcode.md
 |  |  |-- languages
+|  |  |  |-- c
+|  |  |  |  |-- tools
+|  |  |  |  |  |-- clang-format.md
 |  |  |  |-- go
 |  |  |  |  |-- tools
 |  |  |  |  |  |-- gofmt.md
@@ -513,6 +516,7 @@
 |  |  |  |  |  |-- tanstack-charts.md
 |  |  |  |  |-- frameworks
 |  |  |  |  |  |-- csr
+|  |  |  |  |  |  |-- angular.js.md
 |  |  |  |  |  |  |-- angular.md
 |  |  |  |  |  |  |-- backbone.md
 |  |  |  |  |  |  |-- ember.md
