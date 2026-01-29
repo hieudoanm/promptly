@@ -45,8 +45,8 @@ importers:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       openai:
-        specifier: 6.16.0
-        version: 6.16.0(ws@8.19.0)(zod@4.3.6)
+        specifier: 6.17.0
+        version: 6.17.0(ws@8.19.0)(zod@4.3.6)
       pino:
         specifier: 10.3.0
         version: 10.3.0
@@ -5965,8 +5965,8 @@ packages:
     resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
     engines: {node: '>=12'}
 
-  openai@6.16.0:
-    resolution: {integrity: sha512-fZ1uBqjFUjXzbGc35fFtYKEOxd20kd9fDpFeqWtsOZWiubY8CZ1NAlXHW3iathaFvqmNtCWMIsosCuyeI7Joxg==}
+  openai@6.17.0:
+    resolution: {integrity: sha512-NHRpPEUPzAvFOAFs9+9pC6+HCw/iWsYsKCMPXH5Kw7BpMxqd8g/A07/1o7Gx2TWtCnzevVRyKMRFqyiHyAlqcA==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -15584,7 +15584,7 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openai@6.16.0(ws@8.19.0)(zod@4.3.6):
+  openai@6.17.0(ws@8.19.0)(zod@4.3.6):
     optionalDependencies:
       ws: 8.19.0
       zod: 4.3.6
